@@ -1,12 +1,46 @@
-Lovely Composer Docs (ラブリーコンポーザ説明書) - ver.1.2.0 
+Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0 
 #################################################################
 
+.. image:: img/header.png
 
 概要
 ============
-これはLovely Composer(ラブリーコンポーザ)の公式説明書です。
+これは個人開発の音楽ソフト『Lovely Composer(ラブリーコンポーザ)』の公式説明書です。
 
-音楽ソフトですが、ゲーム『ダンジョンウィッチーズ』シリーズの続編となっていて、そのキャラクターなども登場します。
+Lovely Composer（愛称: ラビコン）は、8bitゲーム機風の音楽や効果音を手軽に楽しく作れることを目指したツールです。
+
+説明書の内容は大きく分けて
+
+* 機能説明
+* チュートリアル（入門編）
+
+に分かれています。
+
+
+このソフトは音楽ソフトですが、ゲーム『`ダンジョンウィッチーズ - 少女の帰宅 - <https://1oogames.booth.pm/items/2263636>`_』の続編となっていて、そのキャラクターなども登場します。
+
+
+サポート・バグ報告や要望の受付等は
+
+* 各種DL販売サイト
+ 
+  * BOOTH - https://1oogames.booth.pm/items/3006558
+  * itch.io https://1oogames.itch.io/lovely-composer
+  * DLsite https://www.dlsite.com/home/work/=/product_id/RJ331224.html
+
+* 公式twitterアカウント https://twitter.com/1oo_games
+* 公式Discord https://discord.gg/96GhPwjQnE
+
+で行っています。
+
+
+
+* 概要
+* ストーリー
+* 各画面説明
+* チュートリアル
+* よくある質問
+* 基本仕様
 
 
 ストーリー
@@ -26,6 +60,5 @@ Lovely Composer Docs (ラブリーコンポーザ説明書) - ver.1.2.0
 
 魔女たちは魔法の楽器「ラブリーコンポーザ」を使って、
 音楽の力でトーマスを改心させて、食料と生活を取り戻すことにしました!
-
 
 

@@ -12,7 +12,7 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 説明書の内容は大きく分けて
 
 * 機能説明 .. _a link: https://domain.invalid/
-* チュートリアル（入門編） `チュートリアル（入門編） <tutorial.rst>`_ 
+* `チュートリアル（入門編） <tutorial.rst>`_ 
 
 に分かれています。
 

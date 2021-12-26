@@ -146,7 +146,7 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 表示オプション
 -------------------------------------------------------------------------------------
 
-.. image:: display_settings.png
+.. image:: img/display_settings.png
 
   楽譜の表示設定を変更することができます。上から
 
@@ -156,7 +156,7 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 * パートのレイヤー表示方法の切り替え（レイヤー透過表示、全レイヤー通常表示、選択レイヤーのみ表示）
 * 背景カラー設定　以下のウィンドウで色や画面全体のパレットカラーを指定します。
 
-.. image:: color_settings.png
+.. image:: img/color_settings.png
 
 
 Proモード

@@ -133,6 +133,8 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 
 .. image:: img/basic_function.png
 
+曲選択ボタンの隣にあります。
+
 左から順に
 
 * 曲のファイル保存

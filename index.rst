@@ -108,7 +108,7 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 .. image:: img/tempo_slider_unlink.png
 
 
-曲のページ移動は再生ボタンの下側にある画像スクロールバーでも可能です。
+曲のページ移動は再生ボタンの下側にある画像スクロールバーでも可能です。各色のドットは音符を表しています。
 
 .. image:: img/bitmap_scroll_bar.png
 

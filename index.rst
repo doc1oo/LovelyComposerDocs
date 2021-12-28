@@ -153,7 +153,7 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 
 .. image:: img/basic_edit_tool.png
 
-曲選択ボタン、曲保存ボタンの右にあります。
+曲の保存ボタンの右にあります。
 
 左から順に
 

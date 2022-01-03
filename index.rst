@@ -18,7 +18,7 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 
 サポート・バグ報告や要望の受付等は
 
-* 各種DL販売サイト
+* 各種ダウンロード販売サイト
  
   * BOOTH - https://1oogames.booth.pm/items/3006558
   * itch.io https://1oogames.itch.io/lovely-composer

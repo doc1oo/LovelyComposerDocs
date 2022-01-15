@@ -49,7 +49,7 @@ So, the witches decided to use the magical instrument "Lovely Composer" to bring
 Overview of Music Editor
 ==============================================================================
 
-.. image:: img/about_nonpro.png
+.. image:: img/about_nonpro_en.png
 
 基本的な画面レイアウトは上の画像のようになります。
 それぞれの部分については後で説明します。

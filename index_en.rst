@@ -39,7 +39,7 @@ The witches should not be found by outsiders. Only the delicious food delivered 
 
 But one day Thomas suddenly changed. Not only he don't bringing food, but also beating witch's house strongly.
 
-He was brainwashed to defeat witches by the "Chant" of the "Grizzlia Choir"!
+He was brainwashed to defeat witches by the "Holy song" of the "Grizzlia Choir"!
 
 The house is protected by magic, so it's okay, but the witches will soon be unable to eat food.
 

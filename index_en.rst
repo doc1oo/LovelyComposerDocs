@@ -46,9 +46,8 @@ The house is protected by magic, so it's okay, but the witches will soon be unab
 So, the witches decided to use the magical instrument "Lovely Composer" to bring Thomas back with the power of music, to regain food and life!
 
 
-作曲画面の概要
+Overview of Music Editor
 ==============================================================================
-
 
 .. image:: img/about_nonpro.png
 

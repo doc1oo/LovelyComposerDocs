@@ -11,52 +11,39 @@ Lovely composer is a tool that aims to make music and sound effects like 8-bit g
 
 The content may differ from the latest version, but in that case, please read as appropriate.
 
+This software is a music software, but it is also a sequel to the game `Dungeon Witches - Girls Back Home - <https://1oogames.booth.pm/items/2263636>`_, and its characters will also appear.
 
-このソフトは音楽ソフトですが、ゲーム『`ダンジョンウィッチーズ - 少女の帰宅 - <https://1oogames.booth.pm/items/2263636>`_』の続編ともなっていて、そのキャラクターなども登場します。
+Support, bug reports and requests are accepted at the following.
 
-
-サポート・バグ報告や要望の受付等は
-
-* 各種ダウンロード販売サイト
+* download sales sites
  
-  * BOOTH - https://1oogames.booth.pm/items/3006558
   * itch.io https://1oogames.itch.io/lovely-composer
-  * DLsite https://www.dlsite.com/home/work/=/product_id/RJ331224.html
 
-* 公式twitterアカウント https://twitter.com/1oo_games
-* 公式Discord https://discord.gg/96GhPwjQnE
-
-で行っています。
+* Official twitter account https://twitter.com/1oo_games
+* Official Discord https://discord.gg/96GhPwjQnE
 
 
-
-もくじ
+Table of contents
 ===============================================================================
 
 .. contents::
 
 
 
-ストーリー
+Story
 ==============================================================================
 
+In a certain forest ... Witches lived quietly in a small house.
 
+The witches should not be found by outsiders. Only the delicious food delivered by the villager Thomas is relied on.
 
-とある森の中…… 小さな家に魔女たちがひっそりと暮らしていました。
+But one day Thomas suddenly changed. Not only he don't bringing food, but also beating witch's house strongly.
 
-魔女たちは外の人間に見つかってはいけない存在でした。
-村人のトーマスが届けてくれる、おいしい食べ物だけが頼りです。
+He was brainwashed to defeat witches by the "Chant" of the "Grizzlia Choir"!
 
-ところがある日、トーマスはとつぜん豹変し、
-食べ物を持ってこないばかりか家を乱暴にたたくようになります。
+The house is protected by magic, so it's okay, but the witches will soon be unable to eat food.
 
-なんと彼は『グリズリア聖歌隊』の"聖歌"によって、
-魔女を倒すように洗脳されてしまったのです。
-
-家は頑丈なので心配ありませんが、このままではご飯が食べられません。
-
-魔女たちは魔法の楽器「ラブリーコンポーザ」を使って、
-音楽の力でトーマスを改心させて、食料と生活を取り戻すことにしました!
+The witches decided to use the magical instrument "Lovely Composer" to bring Thomas back with the power of music, to regain food and life!
 
 
 作曲画面の概要

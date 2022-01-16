@@ -15,7 +15,7 @@ This software is a music software, but it is also a sequel to the game `Dungeon 
 
 Support, bug reports and requests are accepted at the following.
 
-* download sales sites
+* Marketplace 
  
   * itch.io https://1oogames.itch.io/lovely-composer
 
@@ -84,13 +84,23 @@ You can also moves current page with the bitmap scrollbar below the play button.
 .. image:: img/bitmap_scroll_bar.png
 
 
-
-曲の選択
+Music selection
 ========================================================================
 
 .. image:: img/music_selector.png
 
-画面の左上に曲選択ボタンがあります。
+There is a music selection button at the top left of the screen.
+
+The numbers display the currently open song numbers.
+You can open the next music by pressing the **+** button and the previous song by pressing the **-** button.
+You can select the song number from 0 to 31. (* Plans to increase in the future)
+
+You can select a folder by pressing the folder icon on the far left.
+A folder for users (LC_USER) and a folder for sample songs (LC_SAMPLE) are prepared from the beginning.
+
+When the sample song folder is open, the song number is displayed in red as shown in the image below, and the file cannot be saved. please note.
+
+If you have created a song in a write-protected state, use the song copy function to copy it to another song number.
 
 数字は現在開いている曲番号を表しています。+ボタンを押すと次の曲、-ボタンを押すと前の曲を開くことができます。曲番号は0～31番まで選べます。（※将来的に増える予定です）
 

@@ -93,22 +93,15 @@ There is a music selection button at the top left of the screen.
 
 The numbers display the currently open song numbers.
 You can open the next music by pressing the **"+"** button and the previous song by pressing the **"-"** button.
-You can select the song number from 0 to 31. (* Plans to increase in the future)
+You can select the music number from 0 to 31. (* Plans to increase in the future)
 
 You can select a folder by pressing the folder icon on the far left.
-A folder for users (LC_USER) and a folder for sample songs (LC_SAMPLE) are prepared from the beginning.
+A folder for users (LC_USER) and a folder for sample songs (LC_SAMPLE) are prepared in the default. (Also "_SFX" folders is prepared for sound effects.)
 
-When the sample song folder is open, the song number is displayed in red as shown in the image below, and the file cannot be saved. please note.
+When the sample music folder is open, the music number is displayed in red as shown in the below image, and the file cannot be saved. please note.
 
-If you have created a song in a write-protected state, use the song copy function to copy it to another song number.
+  If you have created a music in a write-protected state, use the music copy function to copy it to another music number.
 
-数字は現在開いている曲番号を表しています。+ボタンを押すと次の曲、-ボタンを押すと前の曲を開くことができます。曲番号は0～31番まで選べます。（※将来的に増える予定です）
-
-左端のフォルダアイコンを押すとフォルダ選択ができます。ユーザ用フォルダ（LC_USER）やサンプル曲用フォルダ（LC_SAMPLE）が最初から用意されています。
-
-サンプル曲用フォルダを開いているとき等は、下画像のように曲番号が赤く表示され、ファイル保存ができません。ご注意ください。
-
-  書き込み禁止の状態で曲を作ってしまった場合は、曲コピー機能を使って別の曲番号へコピーしてください。
 
 .. image:: img/music_selector_red.png
 

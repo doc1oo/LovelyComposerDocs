@@ -191,7 +191,6 @@ Selection Tool
 
 You can select notes on the score.
 After the notes selecting, move the selection by dragging left or right, duplicate by Alt + dragging, and delete by pressing the Delete key.
-
 You can also change the pitch by dragging up and down. (Transpose)
 
   The operation is the same for volume and pan editing in Pro mode so far.

@@ -133,12 +133,7 @@ Lovely Composer uses an auto save method, and music data is automatically saved 
 Therefore, it is not always necessary to press the file save button, but if you press the button, the music data will be written to the file soon.
 So it is better to press it for avoid the data lost by abnormal termination of the application etc.
 
-The actual music data is saved in the Lovely Composer folder / music / selection folder / song number.jsonl file.
-
-
-そのため、ファイル保存ボタンを押す必要は必ずしもありませんが、ボタンを押した場合はその場で曲データがファイルに書き込まれますので、アプリの異常終了などの万一の事態のために押しておいた方が安心かもしれません。
-
-  実際の曲データは、LovelyComposerのフォルダ / music / 選択フォルダ / 曲番号.jsonlファイルに保存されます。
+  The actual music data is saved in the *"Lovely Composer folder / music / selected folder / music number.jsonl"* file.
 
 
 基本編集ツール

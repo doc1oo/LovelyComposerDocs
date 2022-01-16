@@ -136,27 +136,26 @@ So it is better to press it for avoid the data lost by abnormal termination of t
   The actual music data is saved in the *"Lovely Composer folder / music / selected folder / music number.jsonl"* file.
 
 
-基本編集ツール
+Basic editing tools
 ============================================================================
 
 .. image:: img/basic_edit_tool.png
 
-曲の保存ボタンの右にあります。
+It's to the right of the save music button.
 
-左から順に
+The functions are as follows in order from left to right.
 
-* ペン
-* 消しゴム
-* ブラシ
-* 範囲選択
+* Pen Tool
+* Eraser Tool
+* Brush Tool
+* Selection Tool
 
-* 切り取り
-* コピー
-* ペースト
+* Cut
+* Copy
+* Paste
 * 範囲選択の操作対象レイヤー指定（選択中のパートのみ / 全パート）
 * 範囲選択の透過コピー指定（通常コピー / 透過コピー）
 
-となっています。
 
 
 ペン

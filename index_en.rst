@@ -46,21 +46,19 @@ The house is protected by magic, so it's okay, but the witches will soon be unab
 So, the witches decided to use the magical instrument "Lovely Composer" to bring Thomas back with the power of music, to regain food and life!
 
 
-Overview of Music Editor
+Overview of music editor
 ==============================================================================
 
 .. image:: img/about_nonpro_en.png
 
-基本的な画面レイアウトは上の画像のようになります。
-それぞれの部分については後で説明します。
+The basic screen layout looks like the image above.
+Each part will be explained later.
 
-  * 画面左下の？マークが赤い時は、吹き出し式のヘルプがマウスカーソル横に表示されます。
-  * マウスカーソルのある部分についての説明が、画面下部にテキスト表示されます。（吹き出しでの表示より多少詳しいです。）
-
-
+  * When the question mark is red at the bottom left of the screen, balloon help is displayed neighbour to the mouse cursor.
+  * A text description of the area where the mouse cursor is located is displayed at the bottom of the screen. (It is a more detailed than the display in the balloon.)
 
 
-再生コントロール
+Play control
 ========================================================================
 
 .. image:: img/play_control.png

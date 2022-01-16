@@ -105,32 +105,36 @@ When the sample music folder is open, the music number is displayed in red as sh
 
 .. image:: img/music_selector_red.png
 
-
-フォルダ選択画面は以下のようになっています。
+The folder selection screen is as follows.
 
 .. image:: img/folder_select.png
 
-フォルダ名を選択してOPENを押すと、フォルダを開くことができます。
+You can open the folder by selecting the folder name and pressing OPEN.
 
-左下のフォルダオープンアイコンを押すと、曲データが格納されている実際のフォルダがOS側のエクスプローラ等で開かれます。
+If you press the folder open icon at the bottom left, the actual folder containing the music data will be opened with Explorer on the OS side.
 
 
-曲の保存・アンドゥ
+Save music / Undo
 ============================================================================
 
 .. image:: img/basic_function.png
 
-曲選択ボタンの右隣にあります。
+It is to the right of the music selection button.
 
-左から順に
+The functions are as follows in order from left to right.
 
-* 曲のファイル保存
-* アンドゥ（元に戻す）
-* リドゥ（やり直し）
+* Save music file
+* Undo
+* Redo
 
-となっています。
 
-ラビコンはオートセーブ式となっていて、曲移動時やアプリの終了時に曲データが自動的にファイルに保存されるようになっています。
+Lovely Composer uses an auto save method, and music data is automatically saved in a file when moving music or closing the application.
+
+Therefore, it is not always necessary to press the file save button, but if you press the button, the music data will be written to the file soon.
+So it is better to press it for avoid the data lost by abnormal termination of the application etc.
+
+The actual music data is saved in the Lovely Composer folder / music / selection folder / song number.jsonl file.
+
 
 そのため、ファイル保存ボタンを押す必要は必ずしもありませんが、ボタンを押した場合はその場で曲データがファイルに書き込まれますので、アプリの異常終了などの万一の事態のために押しておいた方が安心かもしれません。
 

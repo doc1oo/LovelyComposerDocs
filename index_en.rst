@@ -92,7 +92,7 @@ Music selection
 There is a music selection button at the top left of the screen.
 
 The numbers display the currently open song numbers.
-You can open the next music by pressing the *+* button and the previous song by pressing the **-** button.
+You can open the next music by pressing the **"+"** button and the previous song by pressing the **-** button.
 You can select the song number from 0 to 31. (* Plans to increase in the future)
 
 You can select a folder by pressing the folder icon on the far left.

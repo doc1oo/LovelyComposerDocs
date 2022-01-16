@@ -153,35 +153,38 @@ The functions are as follows in order from left to right.
 * Cut
 * Copy
 * Paste
-* 範囲選択の操作対象レイヤー指定（選択中のパートのみ / 全パート）
-* 範囲選択の透過コピー指定（通常コピー / 透過コピー）
+* Specify the layer to be operated for selection tool (only the selected part / all parts)
+* Transparent copy specification for selection tool (normal copy / transparent copy)
 
 
-
-ペン
+Pen Tool
 -----------------------------
 
-楽譜上で左クリックで音符の入力、右クリックで選択中の音色の試聴ができます。音符の上で右クリックするとその音色を選択（スポイト）することができます。
+Left-click on the score to enter notes, and right-click to audition the selected tone.
+You can select the tone by right-clicking on the note.
 
-Shiftキーを押している間は、カーソルを水平移動に固定できます。
+Also You can lock the cursor to horizontal movement while holding down the Shift key.
 
-  Proモードのボリューム入力では、音量を指定できます。パン編集では音の左右を指定できます。
+  Volume input in Pro mode allows you to specify the volume. You can specify the left and right of the sound in pan editing.
 
-消しゴム
+
+Eraser Tool
 -----------------------------
 
 楽譜上で左クリック、ドラッグで音符の削除ができます。
 
   Proモードの音量編集では、音量指定の削除またはデフォルト値に戻します。またパン編集では、パン指定を削除します。
 
-ブラシ
+
+Brush Tool
 -----------------------------
 
 楽譜上で左クリックで現在開いているページの音符の音色を、すべて他の音色に変えることができます。音符の上でクリックすると同じ音色の音だけを塗り替えます。ドラッグ操作でなぞった音符のみ塗ることもできます。
 
   Proモードの音量編集では、一括音量指定になります。またパン編集では、既存のパン指定の部分を塗りつぶします。
 
-選択範囲
+
+Selection Tool
 -----------------------------
 
 楽譜上の音符を選択します。選択後に選択範囲を左右ドラッグで移動、Alt+ドラッグでコピー、Deleteキーで削除します。また上下ドラッグで音程を変えられます。（トランスポーズ）

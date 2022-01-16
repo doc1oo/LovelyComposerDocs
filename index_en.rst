@@ -74,14 +74,12 @@ At the bottom of the screen, there are buttons for playing songs. The functions 
 * **Loop end** (Right side) ... Press the button to turn green to set the last part of the loop playback to the current page. The rest is the same as above.
 * **Tempo slider**  ...  You can set the playback speed of the music. The smaller the number (the cursor moves closer to the left), the faster the playback speed.
 
- 
-
     If the tempo is set to "Specify by page" in the music settings, a broken link icon will be displayed above the number. In this case, the tempo will be set separately for each page.
 
 .. image:: img/tempo_slider_unlink.png
 
 
-You can also page through songs with the bitmap scrollbar below the play button. The dots in each color represent musical notes. The currently selected page is displayed brightly, and the playback position is displayed as a white vertical line. The number on the upper right is the number of pages. The loop position is also displayed with an arrow icon.
+You can also moves current page with the bitmap scrollbar below the play button. The dots in each color represent musical notes. The currently selected page is displayed brightly, and the playback position is displayed as a white vertical line. The number on the upper right is the number of pages. The loop position is also displayed with an arrow icon.
 
 .. image:: img/bitmap_scroll_bar.png
 

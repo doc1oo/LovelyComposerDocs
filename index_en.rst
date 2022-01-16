@@ -171,25 +171,29 @@ Also You can lock the cursor to horizontal movement while holding down the Shift
 Eraser Tool
 -----------------------------
 
-楽譜上で左クリック、ドラッグで音符の削除ができます。
+You can delete notes by left-clicking and dragging on the score.
 
-  Proモードの音量編集では、音量指定の削除またはデフォルト値に戻します。またパン編集では、パン指定を削除します。
+  Volume editing in Pro mode removes the volume specification or restores the default value. Also, in pan editing, the pan specification is deleted.
 
 
 Brush Tool
 -----------------------------
 
-楽譜上で左クリックで現在開いているページの音符の音色を、すべて他の音色に変えることができます。音符の上でクリックすると同じ音色の音だけを塗り替えます。ドラッグ操作でなぞった音符のみ塗ることもできます。
+You can change all the tones of the notes on the currently open page to other tones by left-clicking on the score.
+Click on a note to repaint only the sound with the same tone.
+You can also paint only the notes you traced by dragging.
 
-  Proモードの音量編集では、一括音量指定になります。またパン編集では、既存のパン指定の部分を塗りつぶします。
+  When editing the volume in Pro mode, brush changes all notes volume with specified value. Also, in pan editing, the existing pan specificated notes is filled.
 
 
 Selection Tool
 -----------------------------
 
-楽譜上の音符を選択します。選択後に選択範囲を左右ドラッグで移動、Alt+ドラッグでコピー、Deleteキーで削除します。また上下ドラッグで音程を変えられます。（トランスポーズ）
+You can select notes on the score.
+After the notes selecting, move the selection by dragging left or right, duplicate by Alt + dragging, and delete by pressing the Delete key.
+You can also change the pitch by dragging up and down. (Transpose)
 
-  Proモードの音量・パン編集でも動作は今のところ同じです。
+  The operation is the same for volume and pan editing in Pro mode so far.
 
 
 曲単位編集ツール

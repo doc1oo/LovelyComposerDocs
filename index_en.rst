@@ -63,25 +63,23 @@ Play control
 
 .. image:: img/play_control.png
 
-画面の下側に、曲の再生に関するボタンがまとめられています。左から順に
+At the bottom of the screen, there are buttons for playing songs. The functions are as follows in order from left to right.
 
-* **停止ボタン** … 曲の再生を止めます。停止中に停止ボタンを押すと、曲の先頭に戻ります。（再生中にスペースキーを押しても停止できます。）
-* **再生ボタン** … 曲を再生します。（停止中にスペースキーを押しても再生できます。）
-* **1ページリピートボタン** （円形の矢印） … 押して緑色にすると、現在開いているページのみでループ再生されるようになります。（この設定は曲ごとに保存されない、一時的な再生設定です。）
-* **早送りボタン**  … 次のページに移動します。
-* **巻き戻しボタン**  … 前のページに移動します。
-* **ループスタートボタン** （左側） … 押して緑色にすると、ループ時の戻り先を現在のページに設定します。緑（オン）の状態でもう一度押すと、灰色（オフ）になり設定が解除されます。
-* **ループエンドボタン** （右側） … 押して緑色にすると、ループ再生の最後の部分を現在のページに設定します。あとは同様です。
-* **テンポ設定スライダー**  … 曲の再生速度が設定できます。数値が小さい（カーソルが左に近づく）ほど再生速度が速くなります。
+* **Stop** ... Stops playing the music. If you press the stop button while stopped, you will return to the beginning of the music. (You can also stop by pressing the space key during playback.)
+* **Play** ... Plays the music. (You can also play by pressing the space key while stopped.)
+* **1 page repeat** (circular arrow) ... Press the button to make it green so that loop playback is performed only on the currently open page. (This setting is a temporary playback setting that is not saved for each song.)
+* **Fast forward**  ... Moves to the next page.
+* **Rewind**  ... Moves to the previous page.
+* **Loop start** (Left side)) ... Press the button to turn green to set the return destination when looping to the current page. If you press it again in the green (on) state, it will turn gray (off) and the setting will be canceled.
+* **Loop end** (Right side) ... Press the button to turn green to set the last part of the loop playback to the current page. The rest is the same as above.
+* **Tempo slider**  ...  You can set the playback speed of the music. The smaller the number (the cursor moves closer to the left), the faster the playback speed.
 
-となっています。
-
-  曲設定でテンポが「ページごとに指定」となっている場合、下画像のようなリンク切れアイコンが数値の上に表示されます。この場合、テンポはページ単位でひとつずつ別々に設定することになります。
+  If the tempo is set to "Specify by page" in the music settings, a broken link icon will be displayed above the number. In this case, the tempo will be set separately for each page.
 
 .. image:: img/tempo_slider_unlink.png
 
 
-曲のページ移動は再生ボタンの下側にあるビットマップ式スクロールバーでもできます。各色のドットは音符を表しています。現在選択中のページが明るく表示され、再生位置は白い縦線で表示されます。右上の数字はページ数です。ループ位置も矢印アイコンで表示されます。
+You can also page through songs with the bitmap scrollbar below the play button. The dots in each color represent musical notes. The currently selected page is displayed brightly, and the playback position is displayed as a white vertical line. The number on the upper right is the number of pages. The loop position is also displayed with an arrow icon.
 
 .. image:: img/bitmap_scroll_bar.png
 
@@ -533,10 +531,10 @@ CLOSEボタンでウィンドウを閉じます。
 右のボタンはアルペジオの演奏速度（ページごとの小節数）です。x1は1ページに1小節、x2は1ページに2小節、x4は1ページに4小節のペースで演奏します。グレー表示時は曲設定の「ページあたりの小節数」の数値が使われます。
 
 その下のボタンは、左から
- … 
-* 上下矢印 … パターンの上下反転
-* L … アルペジオの長さ（L = Length … 音符単位）
-* O … オクターブ変化を加える（O = Octave … グレー時はオクターブ移動しない）
+ ... 
+* 上下矢印 ... パターンの上下反転
+* L ... アルペジオの長さ（L = Length ... 音符単位）
+* O ... オクターブ変化を加える（O = Octave ... グレー時はオクターブ移動しない）
 
 となっています。
 
@@ -565,9 +563,9 @@ CLOSEボタンでウィンドウを閉じます。
 
 現在再生されている音の波形をオシロスコープのように表示します。出力するすべての音の合成結果を表示するので、曲だけでなく効果音などにも反応します。
 
-* **MIX** … 左右のチャンネルの音を合算して表示します。
-* **L & R** … 左右のチャンネルの音を別々の色で同じ領域に重ねて表示します。
-* **L / R**  … 左右のチャンネルの音を別々の領域に分けて表示します。
+* **MIX** ... 左右のチャンネルの音を合算して表示します。
+* **L & R** ... 左右のチャンネルの音を別々の色で同じ領域に重ねて表示します。
+* **L / R**  ... 左右のチャンネルの音を別々の領域に分けて表示します。
 
 
 ボリューム
@@ -698,8 +696,8 @@ MIDI入力
 
 左から
 
-* **EDIT** … 作曲画面
-* **EXPORT** … エクスポート画面
+* **EDIT** ... 作曲画面
+* **EXPORT** ... エクスポート画面
 
 となっています。
 
@@ -720,9 +718,9 @@ MIDI入力
 
 .. image:: img/export_top_buttons.png
 
-* **ALL MUSIC / 1 MUSIC ボタン** … 全曲をファイル出力するか、選択した1曲のみ出力するかを選びます。1 MUSICを選択した場合は、右の曲番号セレクタで対象の曲を選べるようになります。（初期値は作曲画面で選んでいた曲の番号となります。）
-* **フォルダオープンアイコン** … エクスポート先フォルダをOS側のエクスプローラ等で開きます。
-* **AUTOボタン** … 有効時（カラー表示の場合）、エクスポート処理完了時に自動的にエクスポート先フォルダを開きます。
+* **ALL MUSIC / 1 MUSIC ボタン** ... 全曲をファイル出力するか、選択した1曲のみ出力するかを選びます。1 MUSICを選択した場合は、右の曲番号セレクタで対象の曲を選べるようになります。（初期値は作曲画面で選んでいた曲の番号となります。）
+* **フォルダオープンアイコン** ... エクスポート先フォルダをOS側のエクスプローラ等で開きます。
+* **AUTOボタン** ... 有効時（カラー表示の場合）、エクスポート処理完了時に自動的にエクスポート先フォルダを開きます。
 
   
 
@@ -732,16 +730,16 @@ Wave出力
 
 .. image:: img/export_wave_settings.png
 
-* **EXPORTボタン** … 現在の設定で、音声ファイル出力を実行します。
-* **LOOP** … ループ区間の再生をする回数を設定します。（1の場合は繰り返し再生になりません）
+* **EXPORTボタン** ... 現在の設定で、音声ファイル出力を実行します。
+* **LOOP** ... ループ区間の再生をする回数を設定します。（1の場合は繰り返し再生になりません）
 
-  * **by DATA** … 音声データを指定ループ回数分の長さで生成します。
-  * **by TAG** … 音声データにループ位置情報をテキストタグとして埋め込むことによって、RPGツクール等のループタグ対応ソフトでの切れ目のないイントロつき無限ループ再生などに対応させます。（ループ回数は指定できません。）
+  * **by DATA** ... 音声データを指定ループ回数分の長さで生成します。
+  * **by TAG** ... 音声データにループ位置情報をテキストタグとして埋め込むことによって、RPGツクール等のループタグ対応ソフトでの切れ目のないイントロつき無限ループ再生などに対応させます。（ループ回数は指定できません。）
 
-* **SAMPLING** … サンプリング周波数を指定します。22050Hzがデフォルトです。（現状では内部的に22050Hzで音を処理しており、44100Hzに設定してもデータ上の音質は向上しません。）
-* **CHANNEL** … ステレオ出力（2ch）かモノラル出力(1ch)かを指定します。ステレオ出力がデフォルトです。
-* **FORMAT** … 音声ファイル形式を選択します。WAVの場合非圧縮Wave形式ファイル、それ以外は圧縮音声形式となり、Waveファイルを出力した後に変換される仕様になっています。（Waveファイルも生成されます）
-* **QUALITY** … 圧縮音声の音質（圧縮レベル）を設定します。数値が大きい方が高音質ですが、ファイル容量は大きくなります。右側に変換パラメータがグレー表示されます。（FORMATでWAV以外を選択した場合以外のみ有効）
+* **SAMPLING** ... サンプリング周波数を指定します。22050Hzがデフォルトです。（現状では内部的に22050Hzで音を処理しており、44100Hzに設定してもデータ上の音質は向上しません。）
+* **CHANNEL** ... ステレオ出力（2ch）かモノラル出力(1ch)かを指定します。ステレオ出力がデフォルトです。
+* **FORMAT** ... 音声ファイル形式を選択します。WAVの場合非圧縮Wave形式ファイル、それ以外は圧縮音声形式となり、Waveファイルを出力した後に変換される仕様になっています。（Waveファイルも生成されます）
+* **QUALITY** ... 圧縮音声の音質（圧縮レベル）を設定します。数値が大きい方が高音質ですが、ファイル容量は大きくなります。右側に変換パラメータがグレー表示されます。（FORMATでWAV以外を選択した場合以外のみ有効）
 
 備考
 
@@ -758,13 +756,13 @@ MIDI出力
 
 .. image:: img/export_midi_settings.png
 
-* **EXPORTボタン** … 現在の設定で、MIDIファイル出力を実行します。
-* **LOOP** … ループ区間の再生をする回数を設定します。（1の場合は繰り返し再生になりません）
+* **EXPORTボタン** ... 現在の設定で、MIDIファイル出力を実行します。
+* **LOOP** ... ループ区間の再生をする回数を設定します。（1の場合は繰り返し再生になりません）
 
-  * **by DATA** … MIDIデータを指定ループ回数分の長さで生成します。
-  * **by TAG** … MIDIデータにループ位置情報をテキストタグとして埋め込むことによって、RPGツクール等のループタグ対応ソフトでの切れ目のないイントロつき無限ループ再生などに対応させます。（ループ回数は指定できません。）
-  * **PROG.CHG.** … プログラムチェンジ（音色変更）を出力するかどうかを指定します。（有効にしないとどの音も同じ音色になります。）
-  * **CONVERT** … AUTOを指定した場合、連続した音符をつなぐ等の処理をしたMIDIデータを出力します。（デフォルト設定）　RAWの場合、Lovely Composerの生データをそのままMIDIデータに置き変えて出力します。
+  * **by DATA** ... MIDIデータを指定ループ回数分の長さで生成します。
+  * **by TAG** ... MIDIデータにループ位置情報をテキストタグとして埋め込むことによって、RPGツクール等のループタグ対応ソフトでの切れ目のないイントロつき無限ループ再生などに対応させます。（ループ回数は指定できません。）
+  * **PROG.CHG.** ... プログラムチェンジ（音色変更）を出力するかどうかを指定します。（有効にしないとどの音も同じ音色になります。）
+  * **CONVERT** ... AUTOを指定した場合、連続した音符をつなぐ等の処理をしたMIDIデータを出力します。（デフォルト設定）　RAWの場合、Lovely Composerの生データをそのままMIDIデータに置き変えて出力します。
 
 
 環境設定ツール
@@ -785,7 +783,7 @@ MIDI出力
 Q&A
 ================================================
 
-起動ができない … セキュリティ警告が出た場合
+起動ができない ... セキュリティ警告が出た場合
 --------------------------------------------------------------
 
 .. image:: img/windows_security_alert.png
@@ -844,64 +842,64 @@ Q&A
 
 **一般的な操作**
 
-* ファイルの保存 … Ctrl + S
-* アンドゥ (元に戻す) … Ctrl + Z
-* リドゥ (進む) … Ctrl + Y
-* コピー … Ctrl + C
-* カット … Ctrl + X 
-* ペースト … Ctrl + V 
-* すべて選択 … Ctrl + A
-* 選択解除 … Esc
-* 選択したものを削除 … Delete
-* アプリケーションの終了 … F10
-* フルスクリーン化 … Alt + Enter
+* ファイルの保存 ... Ctrl + S
+* アンドゥ (元に戻す) ... Ctrl + Z
+* リドゥ (進む) ... Ctrl + Y
+* コピー ... Ctrl + C
+* カット ... Ctrl + X 
+* ペースト ... Ctrl + V 
+* すべて選択 ... Ctrl + A
+* 選択解除 ... Esc
+* 選択したものを削除 ... Delete
+* アプリケーションの終了 ... F10
+* フルスクリーン化 ... Alt + Enter
 
 
 **作曲画面**
 
-* 再生/停止 … スペース
-* 1ページループ設定 … O (オー)
-* 次のページに移動 … →　または　Shift + X
-* 前のページに移動 … ←　または　Shift + Z
-* パート選択 … 1,2,3,4,5
+* 再生/停止 ... スペース
+* 1ページループ設定 ... O (オー)
+* 次のページに移動 ... →　または　Shift + X
+* 前のページに移動 ... ←　または　Shift + Z
+* パート選択 ... 1,2,3,4,5
 
 * ツール切り替え
 
-  * ペン … Q
-  * 消しゴム … W
-  * ブラシ … E
-  * 範囲選択 … R
+  * ペン ... Q
+  * 消しゴム ... W
+  * ブラシ ... E
+  * 範囲選択 ... R
 
 * コード選択
 
-  * ミュート … Shift + A
-  * Major … Shift + S
-  * Minor … Shift + D
-  * Dim … Shift + F
-  * Aug … Shift + G
-  * SUS4 … Shift + H
-  * 7th … Shift + C
-  * 9th … Shift + V
-  * Power … Shift + B
+  * ミュート ... Shift + A
+  * Major ... Shift + S
+  * Minor ... Shift + D
+  * Dim ... Shift + F
+  * Aug ... Shift + G
+  * SUS4 ... Shift + H
+  * 7th ... Shift + C
+  * 9th ... Shift + V
+  * Power ... Shift + B
 
-* 次の音色一覧 … Ctrl + W
-* 前の音色一覧 … Ctrl + Q
-* 次の曲を開く … Ctrl + 2
-* 前の曲を開く … Ctrl + 1
-* カーソルの平行移動 … Shiftを押し続ける
-* 音符入力タブでボリューム入力 … Altを押し続けながらペンツール
-* 選択範囲の複製 … Altキーを押しながら選択範囲のドラッグ
-* リズムパターン設定のコピー … Alt + C
-* リズムパターン設定のペースト … Alt + V
+* 次の音色一覧 ... Ctrl + W
+* 前の音色一覧 ... Ctrl + Q
+* 次の曲を開く ... Ctrl + 2
+* 前の曲を開く ... Ctrl + 1
+* カーソルの平行移動 ... Shiftを押し続ける
+* 音符入力タブでボリューム入力 ... Altを押し続けながらペンツール
+* 選択範囲の複製 ... Altキーを押しながら選択範囲のドラッグ
+* リズムパターン設定のコピー ... Alt + C
+* リズムパターン設定のペースト ... Alt + V
 * ソフトウェアキーボード
   
-  * 演奏 … Aの行, Zの行でピアノ鍵盤の並び
-  * 1オクターブ上げる … Page Up
-  * 1オクターブ下げる … Page Down
-  * 臨時に1オクターブ上げる … ↑を押し続ながら
-  * 臨時に1オクターブ下げる … ↓を押し続ながら
+  * 演奏 ... Aの行, Zの行でピアノ鍵盤の並び
+  * 1オクターブ上げる ... Page Up
+  * 1オクターブ下げる ... Page Down
+  * 臨時に1オクターブ上げる ... ↑を押し続ながら
+  * 臨時に1オクターブ下げる ... ↓を押し続ながら
 
-* ファイルの書き込み禁止設定 … Ctrl + Alt + L
+* ファイルの書き込み禁止設定 ... Ctrl + Alt + L
 
 
 仕様

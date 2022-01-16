@@ -76,7 +76,7 @@ At the bottom of the screen, there are buttons for playing songs. The functions 
 
  
 
-  If the tempo is set to "Specify by page" in the music settings, a broken link icon will be displayed above the number. In this case, the tempo will be set separately for each page.
+    If the tempo is set to "Specify by page" in the music settings, a broken link icon will be displayed above the number. In this case, the tempo will be set separately for each page.
 
 .. image:: img/tempo_slider_unlink.png
 

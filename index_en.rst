@@ -70,9 +70,11 @@ At the bottom of the screen, there are buttons for playing songs. The functions 
 * **1 page repeat** (circular arrow) ... Press the button to make it green so that loop playback is performed only on the currently open page. (This setting is a temporary playback setting that is not saved for each song.)
 * **Fast forward**  ... Moves to the next page.
 * **Rewind**  ... Moves to the previous page.
-* **Loop start** (Left side)) ... Press the button to turn green to set the return destination when looping to the current page. If you press it again in the green (on) state, it will turn gray (off) and the setting will be canceled.
+* **Loop start** (Left side) ... Press the button to turn green to set the return destination when looping to the current page. If you press it again in the green (on) state, it will turn gray (off) and the setting will be canceled.
 * **Loop end** (Right side) ... Press the button to turn green to set the last part of the loop playback to the current page. The rest is the same as above.
 * **Tempo slider**  ...  You can set the playback speed of the music. The smaller the number (the cursor moves closer to the left), the faster the playback speed.
+
+ 
 
   If the tempo is set to "Specify by page" in the music settings, a broken link icon will be displayed above the number. In this case, the tempo will be set separately for each page.
 

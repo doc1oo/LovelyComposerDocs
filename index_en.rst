@@ -563,7 +563,7 @@ Editing tools for rhythm pattern
 The function are as follows in order from left to right.
 
 * Copy the current rhythm pattern
-* Paste rhythm pattern
+* Paste the rhythm pattern
 
     Using the page-based editing tool, you can also process multiple pages at once, which is convenient.
 

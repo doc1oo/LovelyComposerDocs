@@ -518,27 +518,40 @@ The button to the right of the 4th sub-pattern is the playing speed of the rhyth
 When grayed out, the value of "Number of bars per page" in the music settings is used.
 
 
-リズムパート設定
+Rhythm part setting
 --------------------------------------------------------------------------------
 
 .. image:: img/rhythm_pattern_mute.png
 
-リズムパターンの音の演奏は、4つのパートで構成されていて、画像左下のボタンでそれぞれの演奏を個別にオン/オフできます。
+The rhythm pattern sound performance consists of four parts, and each performance can be turned on / off individually with the button at the bottom left of the image.
 
-アイコンは左から
+The icons are as follows in order from left to right.
 
-* 和音、またはアルペジオ
-* ベース（低音部）
-* リズム、打楽器系
-* フリーパート（リズムパターンごとに自由な役割）
-
-となっています。
+* Chords or arpeggios
+* Bass (low pitch)
+* Rhythm and percussion
+* Free part (free role for each rhythm pattern)
 
 
-アルペジエーター
+Arpeggiator
 --------------------------------------------------------------------------------
 
 .. image:: img/rhythm_pattern_arpeggiator.png
+
+This function allows you to play the chord constituent sounds one by one (arpeggio) instead of playing them at the same time.
+
+This is a popular technique because the number of simultaneous pronunciations is very limited on 8-bit game consoles and it is difficult to play chords at the same time.
+If the icon image is in the state of three lines, it will be a chord (alpeggio OFF), and if you select one with several dots lined up, it will be an arpeggio. Plays the pitch of the arpeggio like a sequence of dots.
+
+The button on the right is the playing speed of the arpeggio (number of measures per page). x1 plays 1 bar per page, x2 plays 2 bars per page, and x4 plays 4 bars per page. When grayed out, the value of "Number of measures per page" in the song settings is used.
+
+The button below it is from the left
+…
+Up and down arrows ... Upside down pattern
+L… Arpeggio length (L = Length… note unit)
+O… Add an octave change (O = Octave… does not move an octave when gray)
+It has become.
+
 
 画像右上のボタン類は、コードの構成音（ドミソなど）を同時に鳴らすのではなく、一音ずつ順番に鳴らす（アルペジオ）ようにするための機能です。
 

@@ -498,13 +498,12 @@ When the normal part is displayed, it switches to the normal tone palette.
 Also when it is a chord part, it switches to the chord palette.
 
 
-リズムパターン
+Rhythm pattern
 ========================================================================
 
 .. image:: img/rhythm_pattern.png
 
-コードパートで入力したコードに、さまざまなリズムや伴奏をつけて演奏してくれる機能です。（そのためコードが何も入力されていないと、何も鳴らない＆機能しません。）
-
+It is a function that adds various rhythms and accompaniment to the chords entered in the chord part. (Therefore, if no chord is entered, nothing will sound.)
 
 
 .. image:: img/rhythm_pattern_main.png

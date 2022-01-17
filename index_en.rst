@@ -486,15 +486,16 @@ Tone palette tool
 
 .. image:: img/tone_palette.png
 
-よく使う音色をまとめておける便利ツールです。
+This is a convenient tool for collecting frequently used tones.
 
-ユーザが自由に選んだ音色が上側、最近使った音色が下側に表示されます。
-+ボタンを押すと現在選択している音色がパレットに追加されます。
+The tones freely selected by the user are displayed on the upper side, and the recently used tones are displayed on the lower side.
+Press the **"+"** button to add the currently selected tone to the palette.
 
-音色アイコンの上で左クリックすると音色を選択でき、右クリックで削除ができます。
-音色をすべて削除するにはクリアボタンを押します。ウィンドウを閉じるにはCLOSEボタンを押します。
+You can select a tone by left-clicking on the tone icon and delete it by right-clicking.
+Press the clear button to remove all tones. Press the **CLOSE** button to close the window.
 
-通常パートを表示しているときは通常の音色パレット、コードパートの場合はコードパレットに切り替わります。
+When the normal part is displayed, it switches to the normal tone palette.
+Also when it is a chord part, it switches to the chord palette.
 
 
 リズムパターン

@@ -363,22 +363,23 @@ The functions are as follows in order from left to right.
 .. image:: img/color_settings.png
 
 
-ページあたりの音符数の設定
+Setting the number of notes per page
 -----------------------------------------------------------------------------
 
 .. image:: img/note_per_page.png
 
-楽譜の右上の数字はページあたりの最大音符数を表しています。
+The number in the upper right corner of the score displays the maximum number of notes per page.
 
-* +ボタンを押すと1ずつ増やして最大32まで設定することができます。
-* -ボタンを押すと1ずつ減らして最小1に設定できます。
+* If you press the **"+"** button, you can increase it by 1 and set it up to 32.
+* If you press the **"-"** button, you can decrease by 1 and set to a minimum of 1.
 
-楽譜上にも最大音符数が縦線で位置表示されます。再生位置バーがこの縦線を越えると次のページに移動します。
+The maximum number of notes is also displayed as a vertical line on the score.
+When the playback position bar crosses this vertical line, it moves to the next page.
 
 
 .. image:: img/note_per_page_by_page.png
 
-曲設定で「ページごとに設定」にした場合、リンク切れアイコンが表示され、ページごとの音符数をひとつひとつ個別に設定できます。
+If you set "by page" in the music settings, the broken link icon is displayed and you can set the number of notes for each page individually.
 
 
 ページ単位編集ツール

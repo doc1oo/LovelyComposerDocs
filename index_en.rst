@@ -332,20 +332,9 @@ If you select the pan input tab in pro mode, you can specify the position of the
 
 **C** is center, **L** is left, and **R** is right.
 
-If you specify one place for bread, it will be carried over to subsequent notes.
+If you specify one place for pan, it will be carried over to after notes.
 
 You can change the currently selected pan by moving the mouse wheel up or down.
-
-
-Proモードでパン入力タブを選択すると、音を中央 / 左 / 右 のどこから出すか（パン）を音符単位で指定できます。
-
-Cが中央、Lが左、Rが右となっています。
-
-パンは一か所指定すると以後の音符にも引き継がれます。
-
-
-マウスホイールの上下で現在選択中のパンを変更できます。
-
 
 
 表示オプション

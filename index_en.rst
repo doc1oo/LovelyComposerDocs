@@ -235,23 +235,18 @@ In compatible playback mode, which version is compatible is displayed in the upp
 
 * The tone icon is displayed in the color of each part. By default, it is displayed as a small icon.
 * "Middle C (Do)" is the C4. It's displayed by the horizontal dotted line.
-* By default, the tone of the selected part is dark, and the tone of the other parts is dimmed.
+* By default, the notes of the non-selected part is display by pale color.
 * The roles of the normal part and the code part are slightly different.
 
-* 音色アイコンが各パートの色で表示されます。デフォルトでは小さいアイコンで表示されます。
-* C4という文字の横に水平点線が表示されている位置の音程が「真ん中のド」となります。
-* デフォルトでは選択中のパートの音色は濃く、それ以外のパートの音は薄く表示されます。
-* 通常パートとコードパートでは少し役割が違います。
 
-
-パート選択
+Part selection
 -------------------------------------------------------------------------
 .. image:: img/part_selector.png
 
-楽譜の左下にあるパート選択ボタンで 1 / 2 / 3 / 4 / C のいずれかを選択すると、選択したパートの表示・編集ができます。
+You can display and edit the selected part by selecting any of 1/2/3/4 / C with the part selection button at the bottom left of the score.
 
-* 1 / 2 / 3 / 4 のいずれかを選択すると、通常音色パートの表示・編集ができます。各パートの仕様は同じです。
-* パート選択部分で C を選択すると、コードパートの表示・編集ができます。 (C はコード=Chordの頭文字です)
+* If you select any of 1/2/3/4, you can display and edit the normal tone part. The specifications of each part are the same.
+* If you selecting C, you can display and edit the code part. (C is an acronym for code = Chord)
 
 
 通常音色パート

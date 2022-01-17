@@ -397,7 +397,8 @@ You can also delete it with the **Delete** key.
 
   The focus can be switched by clicking the target part.
 
-By pressing the selection tool button at the bottom right, you can select multiple pages and operate them all at once. You can move it by dragging the selection, and you can also duplicate it by dragging while holding down the Alt key.
+By pressing the selection tool button at the bottom right, you can select multiple pages and operate them all at once.
+You can move it by dragging the selection, and you can also duplicate it by dragging while holding down the Alt key.
 
 Press the mode button at the bottom left to switch the operation target of page-by-page copy.
 
@@ -407,30 +408,6 @@ Press the mode button at the bottom left to switch the operation target of page-
 * Only one part selected in the score data (can be copied to another part)
 * Rhythm pattern setting only
 * Page settings only (copy only settings such as tempo and number of notes for each page)
-
-
-ビットマップスクロールバーはページ移動だけでなく、ページ単位の曲データ編集にも利用できます。
-
-左上のボタンで、選択したページのコピー・貼り付けができます。（Ctrl + C、Ctrl + Vでも可）
-
-また、Deleteキーで削除ができます。
-
-  ショートカットキーでの操作対象（フォーカス）は、枠線の色で表示されます。（現在は楽譜とビットマップスクロールバー間のみでの切り替え）
-
-  フォーカスは対象部分のクリックで切り替えられます。
-
-右下の範囲選択ボタンを押すと、複数ページを選択可能になり、一括で操作できます。選択範囲のドラッグで移動、Altキーを押しながらのドラッグで複製もできます。
-
-左下のモードボタンを押すと、ページ単位コピーの操作対象が切り替えられます。
-
-* すべて（デフォルト）
-* 楽譜データとリズムパターン設定のみ（ページ単位のテンポ、音符数などの設定はコピーしない）
-* 楽譜データのみ
-* 楽譜データで選択した1パートのみ（別パートにコピー可能）
-* リズムパターン設定のみ
-* ページ設定のみ（ページ単位のテンポ、音符数などの設定のみコピーする）
-
-
 
 
 スケール機能

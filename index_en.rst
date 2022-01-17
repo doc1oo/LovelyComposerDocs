@@ -555,21 +555,17 @@ The buttons are as follows in order from left to right.
 * **O** ... Add an octave change (O = Octave ... does not move an octave when the color is gray)
 
 
-リズムパターンの編集ツール
+Editing tools for rhythm pattern
 --------------------------------------------------------------------------------
 
 .. image:: img/rhythm_pattern_edittool.png
 
-右下のボタンは
+The function are as follows in order from left to right.
 
-* 現在のリズムパターンのコピー
-* リズムパターンの貼り付け
+* A copy of the current rhythm pattern
+* Paste rhythm pattern
 
-となっています。
-
-  ページ単位編集ツールを使うと、複数ページを一括で処理することもでき便利です。
-
-
+  Using the page-based editing tool, you can also process multiple pages at once, which is convenient.
 
 
 アウトプットモニター

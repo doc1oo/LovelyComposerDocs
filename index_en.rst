@@ -196,7 +196,7 @@ You can also change the pitch by dragging up and down. (Transpose)
   The operation is the same for volume and pan editing in Pro mode so far.
 
 
-Music unit editing tool
+Music-based editing tool
 ================================================================================
 
 .. image:: img/music_edit_bar.png

@@ -430,13 +430,14 @@ The items are as follows in order from top to bottom.
 * Gagaku scale
 * Whole tone (whole tone interval / skip one note)
 * Chord (only the pitch used in the chord can be used)
-* Magical Scale 1 (Excludes chords and dissonant sounds. Aboid rock.)
+* Magical Scale 1 (Excludes dissonant sounds of selected chords)
 
 You can move the key up and down with the **"+"** and **"-"** buttons.
 
   The two scales below are special scales that change depending on the chord entered in the chord part. If you select these, the key cannot be changed.
 
-The scale function is disabled while you hold down the Ctrl key. This is useful when you want to temporarily input an unscaled pitch.
+The scale function is disabled while you hold down the Ctrl key.
+This is useful when you want to temporarily input an unscaled pitch.
 
 
 ツールリスト

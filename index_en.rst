@@ -382,10 +382,32 @@ When the playback position bar crosses this vertical line, it moves to the next 
 If you set "by page" in the music settings, the broken link icon is displayed and you can set the number of notes for each page individually.
 
 
-ページ単位編集ツール
+Page-based editing tool
 -----------------------------------------------------------------------
 
 .. image:: img/scroll_bar_tools.png
+
+The bitmap scroll bar can be used not only for page navigation but also for editing music data on a page-by-page basis.
+
+You can copy and paste the selected page with the button on the upper left. (Ctrl + C, Ctrl + V are also acceptable)
+
+You can also delete it with the **Delete** key.
+
+  The operation target (focus) with the shortcut key is displayed in the border color. (Currently, switching only between the score and the bitmap scroll bar)
+
+  The focus can be switched by clicking the target part.
+
+By pressing the selection tool button at the bottom right, you can select multiple pages and operate them all at once. You can move it by dragging the selection, and you can also duplicate it by dragging while holding down the Alt key.
+
+Press the mode button at the bottom left to switch the operation target of page-by-page copy.
+
+* All (default)
+* Musical score data and rhythm pattern settings only (settings such as page tempo and number of notes are not copied)
+* Musical score data only
+* Only one part selected in the score data (can be copied to another part)
+* Rhythm pattern setting only
+* Page settings only (copy only settings such as tempo and number of notes for each page)
+
 
 ビットマップスクロールバーはページ移動だけでなく、ページ単位の曲データ編集にも利用できます。
 

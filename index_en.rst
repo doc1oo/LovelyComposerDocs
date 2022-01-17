@@ -119,7 +119,7 @@ Save music / Undo
 
 .. image:: img/basic_function.png
 
-It is to the right of the music selection button.
+It located the right of the music selection button.
 
 The functions are as follows in order from left to right.
 
@@ -141,7 +141,7 @@ Basic editing tools
 
 .. image:: img/basic_edit_tool.png
 
-It's to the right of the save music button.
+It located the right of the save music button.
 
 The functions are as follows in order from left to right.
 
@@ -196,26 +196,25 @@ You can also change the pitch by dragging up and down. (Transpose)
   The operation is the same for volume and pan editing in Pro mode so far.
 
 
-曲単位編集ツール
+Music editing tool
 ================================================================================
 
 .. image:: img/music_edit_bar.png
 
-画面右上にあり、曲の設定および曲単位のコピー・貼り付け、消去（新規作成）ができます。
+It located in the upper right corner of the screen, you can settings of music, copy & paste music, and clear musics (create new).
 
-左から
+The functions are as follows in order from left to right.
 
-* 曲の設定
-* 爆弾ボタン（曲データの消去、新規作成）
-* 曲データのコピー
-* 曲データの貼り付け
+* Music settings
+* Bomb button (clear music data)
+* Copy music data
+* Paste music data
 
+Also, in the text part on the upper right of the image, the name of the currently selected music folder is displayed.
 
-となっており、画像右上のテキスト部分には、現在選択している曲フォルダ名が表示されます。
+  You can also undo the clear of music data. (Don't panic if you accidentally erase it!)
 
-  曲データの消去に対してもアンドゥができます。（間違えて消してしまっても慌てないようにしましょう）
-
-  サンプル曲など、書き込み禁止が設定されている曲データについてはこれらの操作を行っても保存されません。
+  Music data for which write protection is set, such as sample musics, will not be saved even if these operations are performed.
 
 
 

@@ -243,7 +243,7 @@ Part selection
 -------------------------------------------------------------------------
 .. image:: img/part_selector.png
 
-You can display and edit the selected part by selecting any of 1/2/3/4 / C with the part selection button at the bottom left of the score.
+You can display and edit the selected part by selecting any of 1/2/3/4/C with the part selection button at the bottom left of the score.
 
 * If you select any of 1/2/3/4, you can display and edit the normal tone part. The specifications of each part are the same.
 * If you selecting C, you can display and edit the code part. (C is an acronym for code = Chord)

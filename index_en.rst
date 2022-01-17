@@ -548,7 +548,7 @@ Plays the pitch of the arpeggio like a sequence of dots.
 
 The button on the right is the playing speed of the arpeggio (number of bars per page). x1 plays 1 bar per page, x2 plays 2 bars per page, and x4 plays 4 bars per page. When grayed out, the value of "Number of bars per page" in the music settings is used.
 
-The buttnos are as follows in order from left to right.
+The buttons are as follows in order from left to right.
 
 * **Up and down arrows** ... Upside down pattern
 * **L** ... Arpeggio length (L = Length ... note based)

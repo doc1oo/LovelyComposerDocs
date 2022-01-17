@@ -304,7 +304,7 @@ When the PRO switch at the top of the image is turned on (red state), a part of 
 In Pro mode, you can switch between note input, volume input, and pan input with the buttons in the image to input on the score.
 
 
-Volume input (only in Pro mode)
+Volume input (only in pro mode)
 ------------------------------------------------------------------------------------
 
 .. image:: img/volume_edit.png
@@ -323,10 +323,19 @@ In addition to the height of the bar, the volume is displayed as the number at t
 You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
 
 
-パン入力（Proモード時のみ）
+Pan input (only in pro mode)
 ------------------------------------------------------------------------------------
 
 .. image:: img/pan_edit.png
+
+If you select the pan input tab in pro mode, you can specify the position of the sound with the center / left / right. (note by note)
+
+**C** is center, **L** is left, and **R** is right.
+
+If you specify one place for bread, it will be carried over to subsequent notes.
+
+You can change the currently selected pan by moving the mouse wheel up or down.
+
 
 Proモードでパン入力タブを選択すると、音を中央 / 左 / 右 のどこから出すか（パン）を音符単位で指定できます。
 

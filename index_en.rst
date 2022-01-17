@@ -540,34 +540,19 @@ Arpeggiator
 
 This function allows you to play the chord constituent sounds one by one (arpeggio) instead of playing them at the same time.
 
-This is a popular technique because the number of simultaneous pronunciations is very limited on 8-bit game consoles and it is difficult to play chords at the same time.
-If the icon image is in the state of three lines, it will be a chord (alpeggio OFF), and if you select one with several dots lined up, it will be an arpeggio. Plays the pitch of the arpeggio like a sequence of dots.
+  This is a popular technique because the number of simultaneous pronunciations is very limited on 8-bit game consoles and it is difficult to play chords at the same time.
 
-The button on the right is the playing speed of the arpeggio (number of measures per page). x1 plays 1 bar per page, x2 plays 2 bars per page, and x4 plays 4 bars per page. When grayed out, the value of "Number of measures per page" in the song settings is used.
+If the icon image is in the state of three lines, arpeggiator is disabled.
+And if you select one with several dots lined up, arpeggiator is enabled.
+Plays the pitch of the arpeggio like a sequence of dots.
 
-The button below it is from the left
-…
-Up and down arrows ... Upside down pattern
-L… Arpeggio length (L = Length… note unit)
-O… Add an octave change (O = Octave… does not move an octave when gray)
-It has become.
+The button on the right is the playing speed of the arpeggio (number of bars per page). x1 plays 1 bar per page, x2 plays 2 bars per page, and x4 plays 4 bars per page. When grayed out, the value of "Number of bars per page" in the music settings is used.
 
+The buttnos are as follows in order from left to right.
 
-画像右上のボタン類は、コードの構成音（ドミソなど）を同時に鳴らすのではなく、一音ずつ順番に鳴らす（アルペジオ）ようにするための機能です。
-
-  8bitゲーム機では同時発音数が非常に限られていて、コードを同時に鳴らすのが難しいため、よく使われている手法です。
-
-アイコン画像が三本線の状態だと和音（アルペジエーターOFF）、点がいくつか並んでいるものを選ぶとアルペジオになります。点の並びのようにアルペジオの音程を再生します。
-
-右のボタンはアルペジオの演奏速度（ページごとの小節数）です。x1は1ページに1小節、x2は1ページに2小節、x4は1ページに4小節のペースで演奏します。グレー表示時は曲設定の「ページあたりの小節数」の数値が使われます。
-
-その下のボタンは、左から
- ... 
-* 上下矢印 ... パターンの上下反転
-* L ... アルペジオの長さ（L = Length ... 音符単位）
-* O ... オクターブ変化を加える（O = Octave ... グレー時はオクターブ移動しない）
-
-となっています。
+* **Up and down arrows** ... Upside down pattern
+* **L** ... Arpeggio length (L = Length ... note based)
+* **O** ... Add an octave change (O = Octave ... does not move an octave when the color is gray)
 
 
 リズムパターンの編集ツール

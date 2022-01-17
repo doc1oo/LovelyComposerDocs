@@ -410,32 +410,33 @@ Press the mode button at the bottom left to switch the operation target of page-
 * Page settings only (copy only settings such as tempo and number of notes for each page)
 
 
-スケール機能
+Scale function
 ============================================================================
 
 .. image:: img/scale_selector.png
 
-一定のルールで入力できる音程を制限して、特定の音階の曲を入力しやすくする機能です。入力できない音程が鍵盤上に表示されます。
-また選択時にはそのスケールでドから順に１つずつ上がった音がプレビュー再生されます。
+This function limits the pitches that can be entered according to certain rules, making it easier to enter musics with a specific scale.
+The pitches that cannot be entered are displayed on the keyboard.
+Also, when the icon selected, the sounds that are incremented one by one on that scale will be previewed.
 
-上から
+The items are as follows in order from top to bottom.
 
-* （ロック解除）
-* メジャースケール
-* マイナースケール
-* 白鍵のみ
-* 黒鍵のみ
-* 琉球スケール
-* 雅楽スケール
-* ホールトーン（全音間隔 / 1音飛ばし）
-* コード（コードで使用している音程のみ使える）
-* マジカルスケール1（コードと不協和音になる音を除外します。アボイドロック。）
+* (unlock scale)
+* Major scale
+* Minor scale
+* White key only
+* Black key only
+* Ryukyu scale
+* Gagaku scale
+* Whole tone (whole tone interval / skip one note)
+* Chord (only the pitch used in the chord can be used)
+* Magical Scale 1 (Excludes chords and dissonant sounds. Aboid rock.)
 
-で、+と-ボタンでキーを上下できます。
+You can move the key up and down with the **"+"** and **"-"** buttons.
 
-また、下の2つのスケールは、コードパートに入力されているコードに応じて変わる特殊なスケールです。これらを選択した場合は、キーは変えられません。
+  The two scales below are special scales that change depending on the chord entered in the chord part. If you select these, the key cannot be changed.
 
-Ctrlキーを押している間はスケール機能が無効になります。一時的にスケール外の音を入力したい場合に便利です。
+The scale function is disabled while you hold down the Ctrl key. This is useful when you want to temporarily input an unscaled pitch.
 
 
 ツールリスト

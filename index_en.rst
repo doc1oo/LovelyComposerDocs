@@ -436,7 +436,7 @@ You can move the key up and down with the **"+"** and **"-"** buttons.
 
   The two scales below are special scales that change depending on the chord entered in the chord part. If you select these, the key cannot be changed.
 
-The scale function is disabled while you hold down the Ctrl key.
+The scale function is disabled while you hold down the **Ctrl** key.
 This is useful when you want to temporarily input an unscaled pitch.
 
 

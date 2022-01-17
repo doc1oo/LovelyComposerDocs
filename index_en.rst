@@ -320,7 +320,7 @@ In addition to the height of the bar, the volume is displayed as the number at t
   * In hexadecimal, it represents A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.
   * One step is uniformly 2 dB, and can be specified in the range of + 6 dB to -22 dB.
 
-    You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
+You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
 
 
 パン入力（Proモード時のみ）

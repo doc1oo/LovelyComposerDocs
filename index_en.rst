@@ -249,27 +249,29 @@ You can display and edit the selected part by selecting any of 1/2/3/4/C with th
 * If you select C, you can display and edit the code part. (C is an acronym for code = Chord)
 
 
-通常音色パート
+Normal part
 -----------------------------------------------------------------------------------
 
 .. image:: img/tone_selector2.png
 
-通常音色パートを選択している時、楽譜の上側に音色リストが表示されます。
+When the normal part is selected, the tone list is displayed at the top of the score.
 
-音色リストを左クリックすると、ペンツールなどで使用する音色を選択できます。音色は複数ページに分かれており、+ボタンや-ボタンで別のページに切り替えられます。数字は現在のページ番号を表しています。
+By left-clicking on the tone list, you can select the tone to use with the pen/brush tool.
+The tone list is divided into multiple pages, and you can switch to another page with the **"+"** and **"-"** buttons.
+The numbers display the current page number.
 
-音色の種類には今のところ大きく分けて
+So far, the types of tones are roughly divided into the following.
 
-* 鳴り続ける音色
-* 鳴り続けない音色
-* 音程が滑らかにつながる音色（スラー音色またはグライド音色）
+* Tone that keeps ringing
+* A tone that doesn't keep ringing
+* A tone that smoothly connects neighbour tones (slur tone or glide tone)
 
-があります。また、
+Also,
 
-* 楽譜上で右クリックで選択した音色の試聴ができます。
-* 音色は音符1つごとに変えることができます。
-* 各音色は、実際には「基本波形 + エフェクト」で作られています。どの音色がどの組み合わせでできているかは、画面下側のヘルプ表示で確認できます。
-* 同じ基本波形の音色は、左右に並べることで音がつながって聞こえます。エフェクトの異なる音色を横に並べることで、細やかな演奏を実現しているユーザが多いようです。
+* You can audition the selected tone by right-clicking on the score.
+* The tone can be changed for each note.
+* Each tone is actually made up of "basic waveform + effect". You can check which tone is made up of which combination in the help display at the bottom of the screen.
+* Tones with the same basic waveform can be heard to connect the sounds, by arranging them side by side.
 
 
 コードパート

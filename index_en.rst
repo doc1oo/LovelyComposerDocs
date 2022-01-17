@@ -304,10 +304,25 @@ When the PRO switch at the top of the image is turned on (red state), a part of 
 In Pro mode, you can switch between note input, volume input, and pan input with the buttons in the image to input on the score.
 
 
-ボリューム入力（Proモード時のみ）
+Volume input (only in Pro mode)
 ------------------------------------------------------------------------------------
 
 .. image:: img/volume_edit.png
+
+If you select the volume input tab in Pro mode, you can specify the volume at the bottom side of the score.
+
+The volume value that can be specified is 16 levels from 0 to 15. (This is a specification assuming an 8-bit game machine.)
+
+The default volume is 12 (= C), where 0 is completely silent.
+
+In addition to the height of the bar, the volume is displayed as the number at the bottom (hexadecimal).
+
+  * In hexadecimal, it represents A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.
+  * One step is uniformly 2 dB, and can be specified in the range of + 6 dB to -22 dB.
+
+You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
+
+
 
 Proモードでボリューム入力タブを選択すると、楽譜の下部でボリューム指定ができるようになります。
 

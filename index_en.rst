@@ -440,49 +440,48 @@ The scale function is disabled while you hold down the **Ctrl** key.
 This is useful when you want to temporarily input an unscaled pitch.
 
 
-ツールリスト
+Tool list
 =============================================================================
 
 .. image:: img/tools_panel.png
 
-別窓を開いて使うタイプの便利ツールの起動ボタンが表示されていて、押すとウィンドウが開きます。
+The start button of the convenient tool of the type to use by opening another window is displayed, and when you press it, the window opens.
 
-左から
+The tools are as follows in order from left to right.
 
-* コードパターンツール
-* 音色パレットツール
-
-となっています。
+* Chord pattern tool
+* Tone palette tool
 
 
 
-コードパターンツール
+
+Chord pattern tool
 ============================================================================
 
 .. image:: img/chord_pattern_tool.png
 
-定番のコード進行を一覧から選んで入力できるツールです。コードの知識がなくても、実際に音を鳴らして聞きながら好きなコード進行を選べます。
+It is a tool that allows you to select and enter a standard chord progression from a list.
+Even if you don't have any knowledge of chords, you can choose your favorite chord progression while actually playing and listening.
+
+Left-click on any of the chord lists to set the selected chord pattern on the score.
+
+Press the preview playback button (speaker icon) on the left end to preview the chord on the right side.
+
+You can scroll the list by operating the scroll bar or by moving the mouse wheel up or down.
+
+The bottom of the window is option settings.
+
+If the play icon is enabled (green), the music will play at the same time as the chord pattern is set. (You can preview the sound of the current rhythm pattern.)
+
+You can use the **"+"** and **"-"** buttons on the far left to move the key of the chord you enter up or down.
+
+In the middle is the "chord number specification button for each page" (CHORD NUM / PAGE).
+If it is not specified (gray out), it depends on the "number of measures per page" in the music settings.
+
+You can close the window by press the CLOSE button.
 
 
-コード一覧のどれかを左クリックすると、楽譜上に選択したコードパターンがセットされます。
-
-左端のプレビュー再生ボタン（スピーカーアイコン）を押すと、右側のコードをプレビュー再生します。
-
-スクロールバーの操作またはマウスホイールの上下で、一覧をスクロールすることができます。
-
-
-ウィンドウの下部はオプション設定項目です。
-
-再生ボタンが有効（緑）の場合、コードパターンのセットと同時に曲が再生されます。（現在のリズムパターンの音でのプレビューができます。）
-
-左端の+や-ボタンで、入力するコードのキーを上下することができます。
-
-真ん中は「ページごとのコード数指定ボタン」（CHORD NUM / PAGE）です。未指定（グレー）の場合は、曲設定の「ページごとの小節数」に応じます。
-
-CLOSEボタンでウィンドウを閉じます。
-
-
-音色パレットツール
+Tone palette tool
 ========================================================================
 
 .. image:: img/tone_palette.png

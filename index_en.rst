@@ -212,7 +212,7 @@ The functions are as follows in order from left to right.
 
 Also, in the text part on the upper right of the image, the name of the currently selected music folder is displayed.
 
-  You can also undo the clear of music data. (Don't panic if you accidentally erase it!)
+  You can also undo the clear of music data by "Undo". (Don't panic if you accidentally erase it!)
 
   Music data for which write protection is set, such as sample musics, will not be saved even if these operations are performed.
 

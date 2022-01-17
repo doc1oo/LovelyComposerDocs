@@ -274,33 +274,34 @@ Also,
 * Tones with the same basic waveform can be heard to connect the sounds, by arranging them side by side.
 
 
-コードパート
+Chord part
 -----------------------------------------------------------------------------------
 
 .. image:: img/chord_input.png
 
-コードパートを選択している時、楽譜の上側にコード選択ツール（顔アイコン等）が表示されます。
+When the chord part is selected, the chord selection tool is displayed on the upper side of the score.
 
-基本コードの選択は楽譜の上側に表示される顔アイコンで、追加音はその右にあるボタンで設定します。
+The selection of the basic chord is set by the face icon displayed on the upper side of the score, and the additional note is set by the button to the right of it.
 
-追加音は帽子、パワーコードは顔色でアイコン表示されます。
+The additional notes is displayed as a hat, and the power chord is displayed as an icon with a face color.
 
-コードは一か所で指定すると、次のコードが現れるまで、引き続き同じコードの音を再生するようになっています。（黒い線が自動的に伸びていきます）
+If you specify a chord in one place, it will continue to play the same chord until the next chord appears. (The black line will extend automatically)
 
-途中で止めたい場合はミュート（×マーク）を止めたい位置に指定してください。
+If you want to stop the extend, specify the mute (**"x"** mark) at the position you want to stop.
 
-楽譜上で右クリックでコードの試聴ができます。上部で "Rhythm" を表示中は、現在のページで選択しているリズムパターンでの再生、 Tone のときは矩形波のみでの再生となります。コードの音程は太い線で、コードの各構成音（ドミソなど）は細い線で表示されます。
+You can audition the chords by right-clicking on the score.
+While "Rhythm" is displayed at the top, the rhythm pattern selected on the current page is used for playback, and for Tone, only the square wave is played.
+The pitch of the chord is displayed as a thick line, and each constituent note of the chord is displayed as a thin line.
 
 
-Proモード
+Pro mode
 ------------------------------------------------------------------------------------
 
 .. image:: img/note_vol_pan.png
 
-画像の一番上のPROスイッチをON（赤い状態）にすると、画面の一部が切り替わり、さまざまなボタンや上級者向け機能が表示されるようになります。
+When the PRO switch at the top of the image is turned on (red state), a part of the screen will be switched and various buttons and advanced functions will be displayed.
 
-Proモードでは、上画像のボタンで、音符入力、ボリューム入力、パン入力を切り替えてそれぞれ楽譜上で入力することになります。
-
+In Pro mode, you can switch between note input, volume input, and pan input with the buttons in the image to input on the score.
 
 
 ボリューム入力（Proモード時のみ）

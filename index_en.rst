@@ -320,22 +320,7 @@ In addition to the height of the bar, the volume is displayed as the number at t
   * In hexadecimal, it represents A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.
   * One step is uniformly 2 dB, and can be specified in the range of + 6 dB to -22 dB.
 
-You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
-
-
-
-Proモードでボリューム入力タブを選択すると、楽譜の下部でボリューム指定ができるようになります。
-
-指定できる音量の値は0～15の16段階になります。（これは8bitゲーム機を想定した仕様です。）
-
-音量のデフォルト値は12(C)で、0は完全な無音です。
-
-音量は棒の高さのほかに、最下部の数字（16進数）で表示されます。
-
-  * 16進数では A=10, B=11, C=12, D=13, E=14, F=15 を表します。
-  * 1段階は均一に2dBとなっていて、+6dB～-22dBの範囲で指定できます。
-
-※なお、通常の音符入力タブでも、Altキーを押しながらペンツールで描くことでボリューム値を入力することができます。
+    You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
 
 
 パン入力（Proモード時のみ）

@@ -337,21 +337,28 @@ If you specify one place for pan, it will be carried over to after notes.
 You can change the currently selected pan by moving the mouse wheel up or down.
 
 
-表示オプション
+Display settings
 -------------------------------------------------------------------------------------
 
 .. image:: img/display_settings.png
 
-楽譜の右側のボタンで、楽譜の表示設定を変更することができます。上から
+You can change the display settings of the score with the button on the right side of the score.
 
-* ピアノロール表示 / 五線譜風表示(※) の切り替え 
-* 音符のアイコンサイズ変更
-* コード名の表示、およびリズムパターンで実際に鳴らされる音の音符表示のオン/オフ
-* パートのレイヤー表示方法の切り替え（レイヤー透過表示、全レイヤー通常表示、選択レイヤーのみ表示）
-* 背景カラー設定　下の画像のウィンドウで、エディタの色や画面全体の色あい（システムパレットカラー）を指定します。
-* Proモード切り替え
+The functions are as follows in order from left to right.
 
-  ※五線譜風表示はあくまでも背景画像を変更するだけのもので、正しい五線譜表示にはなりません（ピアノロールベースのため、線が等間隔でなかったりします。）
+* Switching between piano roll display / staff like style display
+
+* Resize note icon
+
+* Turn on / off the display of chord names and the notes display of the sounds actually played in the rhythm pattern.
+
+* Switching the layer display method of the part (Layer transparent display / All layers normal display / Only selected layer display)
+
+* Background color setting in the window of the below image, specify the color of the editor and the color of the entire screen (system palette color).
+
+* Pro mode switching
+
+    The staff notation style display only changes the background image and does not display the correct staff notation (because it is a piano roll base, the lines may not be evenly spaced.)
 
 .. image:: img/color_settings.png
 

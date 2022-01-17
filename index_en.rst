@@ -217,20 +217,26 @@ Also, in the text part on the upper right of the image, the name of the currentl
   Music data for which write lock is set, such as sample musics, will not be saved even if these operations are performed.
 
 
-
-楽譜（ピアノロール）
+Score (Piano roll)
 ========================================================================
 
 .. image:: img/score_nonpro.png
 
-作曲時に一番中心となる編集画面で、ここで音符などを入力・編集することで曲を作っていきます。
+This is the main part of music editor, you can create a music by inputting and editing notes.
 
-ピアノロールと呼ばれる表示形式で、音楽の五線譜と同じように、縦軸は音程で、小節が縦線で区切られています。（五線譜風の表示にも変更可能です。）
+The display format called the piano roll, similar to the staff notation of music, the vertical axis is the pitch and the bars are separated by vertical lines. (It can also be changed to a staff-style display.)
 
-左上の数字は現在のページ番号です。ページ移動は早送りボタンや巻き戻しボタン、ページスクロールバーで行います。
+The number in the upper left is the current page number.
+Use the fast forward button, rewind button, and page scroll bar to move pages.
 
-補助的に、ループ位置やミュート状態等の表示もされます。互換再生モード時はどのバージョン互換かが右上に表示されます。
+Loop position, mute status, etc. are also displayed.
+In compatible playback mode, which version is compatible is displayed in the upper right.
 
+
+* The tone icon is displayed in the color of each part. By default, it is displayed as a small icon.
+* "Middle C (Do)" is the C4. It's displayed by the horizontal dotted line.
+* By default, the tone of the selected part is dark, and the tone of the other parts is dimmed.
+* The roles of the normal part and the code part are slightly different.
 
 * 音色アイコンが各パートの色で表示されます。デフォルトでは小さいアイコンで表示されます。
 * C4という文字の横に水平点線が表示されている位置の音程が「真ん中のド」となります。

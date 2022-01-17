@@ -503,18 +503,19 @@ Rhythm pattern
 
 .. image:: img/rhythm_pattern.png
 
-It is a function that adds various rhythms and accompaniment to the chords entered in the chord part. (Therefore, if no chord is entered, nothing will sound.)
+It is a function that adds various rhythms and accompaniment to the chords entered in the chord part. (Therefore, if no chord is entered, it's will not work and nothing will sound.)
 
 
 .. image:: img/rhythm_pattern_main.png
 
-上の絵は、現在選択されているリズムパターンを表していて、左右の三角ボタンでパターンを変更できます。
+The picture above shows the currently selected rhythm pattern, which you can change with the left and right triangle buttons.
 
-デフォルトの三本線アイコンでは、コードを純粋に和音で鳴らすだけですが、別パターンに変更するとリズムも刻むようになります。
+The default three-line icon only plays chords purely in chords, but changing to a different pattern will also add rhythm.
 
-それぞれサブパターンが4種類あり、絵の下の 1 / 2 / 3 / 4 の中から1つを選ぶようになっています。選択されたものがカラー表示され、それ以外はグレーで表示されます。
+There are 4 types of sub-patterns for each, and you can choose one from the 1/2/3/4 at the bottom of the picture. The selected ones are displayed in color, and the others are displayed in gray.
 
-サブパターンの4番の右隣りのボタンは、リズムパターンの演奏速度（ページごとの小節数）です。x1は1ページに1小節、x2は1ページに2小節、x4は1ページに4小節のペースで演奏します。グレー表示時は曲設定の「ページあたりの小節数」の数値が使われます。
+The button to the right of the 4th sub-pattern is the playing speed of the rhythm pattern (number of bars per page). x1 plays 1 bar per page, x2 plays 2 bars per page, and x4 plays 4 bars per page.
+When grayed out, the value of "Number of bars per page" in the music settings is used.
 
 
 リズムパート設定

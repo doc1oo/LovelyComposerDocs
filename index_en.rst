@@ -304,7 +304,7 @@ When the PRO switch at the top of the image is turned on (red state), a part of 
 In Pro mode, you can switch between note input, volume input, and pan input with the buttons in the image to input on the score.
 
 
-Volume input (only in pro mode)
+Volume input (Pro mode only)
 ------------------------------------------------------------------------------------
 
 .. image:: img/volume_edit.png
@@ -323,7 +323,7 @@ In addition to the height of the bar, the volume is displayed as the number at t
 You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
 
 
-Pan input (only in pro mode)
+Pan input (Pro mode only)
 ------------------------------------------------------------------------------------
 
 .. image:: img/pan_edit.png
@@ -628,19 +628,20 @@ You can reset all settings to the initial values ​​with the **RESET** button
   In that case, the volume display will be lightly grayed out.
 
 
-ダンサー
+Dancer
 ========================================================================
 
 .. image:: img/witches.png
 
-『ダンジョンウィッチーズ』のキャラクターたちが曲のテンポに合わせて歌って踊ったり、いろいろな演出をしたりしてくれます。
-間接的にメトロノームのような役割も果たします。
+The characters of "Dungeon Witches" will sing and dance to the tempo of the music, and will perform various productions.
+It also indirectly acts like a metronome.
 
-左クリックで別アニメパターンに変更、ドラッグで移動、右クリックで拡大縮小します。
+Left-click to change to another animation pattern, drag to move, right-click to zoom in / out.
 
-歌っている音程は選択中のパートの音符の音程です。
+The singing pitch is the pitch of the note of the selected part.
 
-  曲のテンポとダンスの速度感があまりにも違う場合は、曲設定の『ページあたりの小節数設定』が実際の曲データと違っているかもしれません。
+  If the tempo of the music and the speed of the dance are too different, the music setting "bars per page" may be different from the actual music data.
+
 
 
 曲の設定

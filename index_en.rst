@@ -790,22 +790,23 @@ The setting is effective when the Lovely Composer is started (if it is set while
 Q&A
 ================================================
 
-起動ができない ... セキュリティ警告が出た場合
+Cannot start ... Case of a security warning appears
 --------------------------------------------------------------
 
 .. image:: img/windows_security_alert.png
 
-ラビコンをダウンロードした後に初めて起動する場合、上のような警告が表示され、「実行しない」のほかに「実行」ボタンが表示されない場合があります。この場合は矢印で示した場所にある「詳細情報」を押すと、「実行」ボタンが表示されるようになります。
+When starting for the first time after downloading Lovely Composer, the above warning may be displayed and the "Run" button may not be displayed in addition to "Do not run". In this case, press "Details" at the location indicated by the arrow, and the "Execute" button will be displayed.
 
 
-ソフトのバージョンアップ（データ移行方法）
+Software version upgrade (data migration method)
 --------------------------------------------------------------
 
-* 曲データの移行は、新しいバージョンの曲データフォルダに、今までのバージョンの曲データフォルダをコピーすることで行えます。曲データフォルダは、LovelyComposerフォルダ/music/ 以下にあります。（曲データファイルは、各フォルダ内に入っている " 曲番号.jsonl "" (00.jsonl等)  です。）
+* You can transfer music data by copying the music data folder of the previous version to the music data folder of the new version.
+  The song data folder is located under the **Lovely Composer folder / music /**. (The music data file is **"music number.jsonl (00.jsonl etc.)"** in each folder.)
 
-* 環境設定を移行したい場合は、exeファイルと同じ場所にある app_settings.json ファイルを新しいバージョンへコピーします。
+* If you want to migrate your preferences, copy the **app_settings.json** file, which is in the same location as the executable file, to the new version.
 
-  ※データコピーの方向を間違えないように気を付けてください! 間違って逆にすると今まで作った曲が失われてしまいます。念のため事前にバックアップを取っておくと安心です。（将来的に、バージョンをアップデートしやすくする予定はあります）
+    **Be careful not to make a mistake in the direction of the data copy!** If you make a mistake and reverse it, the musics you have made will be lost. It is safe to make a backup in advance just in case. (There are plans to make it easier to update the version in the future)
 
 
 音割れする、ノイズが聞こえる

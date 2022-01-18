@@ -737,30 +737,28 @@ Common settings
 
 
 
-Wave出力
+Wave export
 --------------------------------------------------------------
 
 .. image:: img/export_wave_settings.png
 
-* **EXPORTボタン** ... 現在の設定で、音声ファイル出力を実行します。
-* **LOOP** ... ループ区間の再生をする回数を設定します。（1の場合は繰り返し再生になりません）
+* **EXPORT button** ... Executes audio file export with the current settings.
+* **LOOP** ... Set the number of times to play the loop section. (If it is 1, it will not be played repeatedly)
 
-  * **by DATA** ... 音声データを指定ループ回数分の長さで生成します。
-  * **by TAG** ... 音声データにループ位置情報をテキストタグとして埋め込むことによって、RPGツクール等のループタグ対応ソフトでの切れ目のないイントロつき無限ループ再生などに対応させます。（ループ回数は指定できません。）
+  * **by DATA** ... Generates audio data for the specified number of loops.
+  * **by TAG** ... By embedding loop position information as a text tag in audio data, it supports infinite loop playback with a continuous intro in loop tag compatible software such as RPG Maker. (The number of loops cannot be specified.)
 
-* **SAMPLING** ... サンプリング周波数を指定します。22050Hzがデフォルトです。（現状では内部的に22050Hzで音を処理しており、44100Hzに設定してもデータ上の音質は向上しません。）
-* **CHANNEL** ... ステレオ出力（2ch）かモノラル出力(1ch)かを指定します。ステレオ出力がデフォルトです。
-* **FORMAT** ... 音声ファイル形式を選択します。WAVの場合非圧縮Wave形式ファイル、それ以外は圧縮音声形式となり、Waveファイルを出力した後に変換される仕様になっています。（Waveファイルも生成されます）
-* **QUALITY** ... 圧縮音声の音質（圧縮レベル）を設定します。数値が大きい方が高音質ですが、ファイル容量は大きくなります。右側に変換パラメータがグレー表示されます。（FORMATでWAV以外を選択した場合以外のみ有効）
+* **SAMPLING** ... Specifies the sampling frequency. 22050Hz is the default. (Currently, sound is processed internally at 22050Hz, and setting it to 44100Hz does not improve the sound quality on the data.)
+* **CHANNEL** ... Specify whether it is stereo output (2ch) or monaural output (1ch). Stereo output is the default.
+* **FORMAT** ... Select the audio file format. In the case of **WAV**, it is an uncompressed Wave format file, and other than that, it is a compressed audio format, and it is designed to be converted after the Wave file is output. (Wave file is also generated)
+* **QUALITY** ... Sets the sound quality (compression level) of compressed audio. The higher the number, the higher the sound quality, but the larger the file size. The conversion parameters are grayed out on the right. (Valid only when other than WAV is selected in **FORMAT**)
 
-備考
 
-  ループ方式でタグを指定する場合は、出力ファイル形式は基本的にOGGまたはWaveを推奨します。（それ以外は対応ソフトが少なく、MP3の場合は対応していても仕様上ループ時の音飛びが避けられません。）
+    When specifying tags in a loop method, **OGG** or **Wave** is basically recommended as the output file format. (Other than that, there are few compatible software, and even if it is compatible with MP3, skipping during a loop is unavoidable due to the specifications.)
 
-  RPGツクールVX以降の場合OGG、Unityの場合Waveでループ再生できたことを確認しています。（1.2.0のリリース時点。動作保証はしていません。）
+    We have confirmed that loop playback was possible with OGG for RPG Maker VX or later, and Wave for Unity. (At the time of 1.2.0 release. Operation is not guaranteed.)
 
-  ループをタグ式にした場合、常に2周分の音声データが生成されます。これは、曲の終わりからループ開始位置に戻る瞬間に音を違和感なく連続的につなげるため（音飛びのようなものを生じさせないようにするため）です。
-
+    When the loop is tagged, audio data for two laps is always generated. This is to connect the sounds continuously without any discomfort at the moment of returning to the loop start position from the end of the music (to prevent something like skipping).
 
 
 MIDI出力

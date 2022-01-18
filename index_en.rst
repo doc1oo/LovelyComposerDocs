@@ -17,10 +17,10 @@ Support, bug reports and requests are accepted at the following.
 
 * Marketplace 
  
-  * itch.io https://1oogames.itch.io/lovely-composer
+  * `itch.io <https://1oogames.itch.io/lovely-composer>`_
 
-* Official twitter account https://twitter.com/1oo_games
-* Official Discord https://discord.gg/96GhPwjQnE
+* Official `twitter <https://twitter.com/1oo_games>`_
+* Official `Discord <https://discord.gg/96GhPwjQnE>`_
 
 Please introduce your work with the `#LovelyComposer <https://twitter.com/search?q=%23LovelyComposer&src=typed_query&f=live>`_ tag of twitter and so on! 
 

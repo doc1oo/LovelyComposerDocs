@@ -715,7 +715,7 @@ In order from the left items,
 * **EDIT** ... Composition screen
 * **EXPORT** ... Export screen
 
-  When switching screens, the music data being edited is saved as a file, and the history such as undo is cleard (it is not saved if write-protected).
+    When switching screens, the music data being edited is saved as a file, and the history such as undo is cleard (it is not saved if write-protected).
 
 
 Export screen

@@ -676,7 +676,7 @@ The tempo is not an arbitrary BPM specification, but a speed specification metho
 
 The BPM calculation formula is as follows, excluding the error.
 
-  BPM = (30 / *speed*) * *number of bars per page* * 30
+  BPM = (30 / *speed*) * *bars per page* * 30
 
   * "Speed" is the value on the left of the tempo slider. And the number of bars per page can be changed from 1 to 4 in the music settings.
 

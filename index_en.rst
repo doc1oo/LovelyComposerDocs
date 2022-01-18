@@ -568,37 +568,37 @@ The function are as follows in order from left to right.
     Using the page-based editing tool, you can also process multiple pages at once, which is convenient.
 
 
-アウトプットモニター
+Output monitor
 ========================================================================
 
 .. image:: img/output_monitor.png
 
-現在再生されている音の波形をオシロスコープのように表示します。出力するすべての音の合成結果を表示するので、曲だけでなく効果音などにも反応します。
+Displays the waveform of the sound currently being played like an oscilloscope.
+Since the synthesis result of all the output sounds is displayed, it responds not only to music but also to sound effects.
 
-* **MIX** ... 左右のチャンネルの音を合算して表示します。
-* **L & R** ... 左右のチャンネルの音を別々の色で同じ領域に重ねて表示します。
-* **L / R**  ... 左右のチャンネルの音を別々の領域に分けて表示します。
+* **MIX** ... Displays the sounds of the left and right channels combined.
+* **L & R** ... Displays the sounds of the left and right channels in different colors in the same area.
+* **L / R**  ... Displays the sounds of the left and right channels in separate areas.
 
 
-ボリューム
+Volume
 ========================================================================
 
 .. image:: img/volume_panel.png
 
-再生ボリューム変更、各パートのミュートやソロ再生が指定できます。（ここでの設定は、曲ごとには保存されません。）
+You can change the playback volume, mute each part, or specify solo playback.
+The settings here are not saved for each music.
 
-また現在再生されている音色等もアイコン他で視覚的に表示されます。
+In addition, the currently playing tone, etc. are displayed visually.
 
-パート番号の左クリックで各パートのミュート、右クリックでソロ再生が指定できます。
-ミュートされているパートは、パート選択部や楽譜上にもアイコン表示されます。
+Left-click the part number to mute each part, and right-click to specify solo playback. Muted parts are also displayed as icons in the part selection section and on the score.
 
-RESETボタン（リセットボタン）ですべての設定を初期値に戻せます。
+You can reset all settings to the initial values ​​with the **RESET** button.
 
-  * Proモードでは、視覚表示に音量や出力チャンネルの表示が加わります。また、音量スライダーを0にセットできるようになります。
-  * 視覚表示には、曲データやミキサーでの指定値をかけあわせた最終的な結果（実際に鳴っている音と同じ）が表示されます。
+  * Pro mode adds volume and output channel display to the visual display. You will also be able to set the volume slider to 0.
+  * The visual display shows the final result (same as the actual sound) by multiplying the music data and the values ​​specified in the mixer.
 
-
-ボリューム右下のボタンは、動画などを撮影するときのための、グリーンバック撮影（クロマキー合成）用のおまけ機能で、ダンサー関連以外の背景要素を一色で塗りつぶします。
+The button at the bottom right of the volume is an extra function for greenback shooting (chroma key compositing) for shooting movies, etc., and fills background elements other than dancer-related with one color.
 
 
 ミキサー(風)

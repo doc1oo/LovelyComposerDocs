@@ -601,25 +601,31 @@ You can reset all settings to the initial values ​​with the **RESET** button
 The button at the bottom right of the volume is an extra function for greenback shooting (chroma key compositing) for shooting movies, etc., and fills background elements other than dancer-related with one color.
 
 
-ミキサー(風)
+Adjustment panel (Pro mode only)
 ============================================================================
-
 
 .. image:: img/mixer_panel.png
 
-曲全体のパート別音量や出力チャンネルを一括で調整できます。Proモードでのみ表示されます。
+You can adjust the volume and output channel for each part of the entire music at once. 
 
-中央の音量スライダーについては、楽譜上での音量指定の値を上下させます。左ドラッグのほか、マウスホイールの回転でも増減できます。音符ごとの音量は0～15(0～F)を超えた値にはなりませんので、常にスライダーで指定した数値通りに音量が変わるわけではありません。
+For the volume slider in the center, raise or lower the value specified for the volume on the score.
+In addition to left dragging, you can also increase or decrease by rotating the mouse wheel.
+Since the volume of each note does not exceed 0 to 15 (0 to F), the volume does not always change according to the value specified by the slider.
 
-最上部の出力チャンネルについては、表示されているチャンネルのみ音を出力します。左右クリックするとLR / L / Rを切り替えられます。
+For the top output channel, only the displayed channel outputs sound.
+Click left or right to switch between **LR / L / R**.
 
-右上のスライダーは、全パートの音程を上下させます（トランスポーズ）。左ドラッグだと3くらいずつ変化してしまいますが、マウスホイールの回転で1ずつ増減できます。自分で作った曲やサンプル曲の試聴で音程を変えてみたりするのも面白いです。
+The slider on the upper right raises or lowers the pitch of all parts (transpose).
+If you drag, it will change by about 3, but you can increase or decrease it by 1 by rotating the mouse wheel.
+It is also interesting to try changing the pitch by listening to the musics you made or sample musics.
 
-パート番号ボタンを押すと、音量スライダーやチャンネル設定の有効/無効を切り替えられます。調整した結果の確認に使えます。
+Press the part number button to enable or disable the volume slider and channel settings.
+It can be used to check the adjustment result.
 
-RESETボタン（リセットボタン）ですべての設定を初期値に戻せます。
+You can reset all settings to the initial values ​​with the **RESET** button.
 
-  楽譜側のパン指定でL、ミキサー側の指定でRだった場合、出力される音は無音となります。その場合は、ボリューム表示部では薄いグレーアウト表示されます。
+  If **L** is specified for the pan on the score side and **R** is specified for the mixer side, the output sound will be silent.
+  In that case, the volume display will be lightly grayed out.
 
 
 ダンサー

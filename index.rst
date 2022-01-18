@@ -20,12 +20,12 @@ Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0
 
 * 各種ダウンロード販売サイト
  
-  * BOOTH - https://1oogames.booth.pm/items/3006558
-  * itch.io https://1oogames.itch.io/lovely-composer
-  * DLsite https://www.dlsite.com/home/work/=/product_id/RJ331224.html
+  * `BOOTH <https://1oogames.booth.pm/items/3006558>`_
+  * `itch.io <https://1oogames.itch.io/lovely-composer>`_
+  * `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html>`_
 
-* 公式twitterアカウント https://twitter.com/1oo_games
-* 公式Discord https://discord.gg/96GhPwjQnE
+* twitter `@1oo_games <https://twitter.com/1oo_games>`_
+* `Discord <https://discord.gg/96GhPwjQnE>`_
 
 で行っています。
 

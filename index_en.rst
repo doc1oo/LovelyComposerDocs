@@ -837,51 +837,51 @@ Unable to save music file
 * Check if the music data file has write permission on the OS side.
 
 
-新しくフォルダを増やしたい
+Add a new folder
 -------------------------------------------------------------
 
-* OS側で LC_USER フォルダを複製（コピー・貼り付け）して好きな名前に変えてください。（半角英数字・記号のみ）
+* Duplicate (copy and paste) the **LC_USER** folder on the OS side and rename it that you want. (Only half-width alphanumers and symbols)
+  
+    Even if you create only a new folder, it will not be displayed in the folder list. (It is necessary for **"lcdata.jsonl"** to be included for now)
 
-  * 新規フォルダだけを作っても、フォルダ一覧に表示されません。（"lcdata.jsonl" が入っている必要が今のところあります）
 
-
-ショートカットキー
+Shortcuts
 ==============================================================
 
 
-**一般的な操作**
+**General operation**
 
-* ファイルの保存 ... Ctrl + S
-* アンドゥ (元に戻す) ... Ctrl + Z
-* リドゥ (進む) ... Ctrl + Y
-* コピー ... Ctrl + C
-* カット ... Ctrl + X 
-* ペースト ... Ctrl + V 
-* すべて選択 ... Ctrl + A
-* 選択解除 ... Esc
-* 選択したものを削除 ... Delete
-* アプリケーションの終了 ... F10
-* フルスクリーン化 ... Alt + Enter
+* Save file ... Ctrl + S
+* Undo ... Ctrl + Z
+* Redo ... Ctrl + Y
+* Copy ... Ctrl + C
+* Cut ... Ctrl + X 
+* Paste ... Ctrl + V 
+* Select all ... Ctrl + A
+* Deselect ... Esc
+* Delete selected ... Delete
+* Exit application ... F10
+* Full screen ... Alt + Enter
 
 
-**作曲画面**
+**Music edit screen**
 
-* 再生/停止 ... スペース
-* 1ページループ設定 ... O (オー)
-* 次のページに移動 ... →　または　Shift + X
-* 前のページに移動 ... ←　または　Shift + Z
-* パート選択 ... 1,2,3,4,5
+* Play / Stop ... Space
+* 1-page loop setting ... O (Oh)
+* Go to next page ... -> or Shift + X
+* Go to previous page ... <- or Shift + Z
+* Part selection ... 1,2,3,4,5
 
-* ツール切り替え
+* Tool select
 
-  * ペン ... Q
-  * 消しゴム ... W
-  * ブラシ ... E
-  * 範囲選択 ... R
+  * Pen ... Q
+  * Eraser ... W
+  * Brush ... E
+  * Selection ... R
 
-* コード選択
+* Chord select
 
-  * ミュート ... Shift + A
+  * Mute ... Shift + A
   * Major ... Shift + S
   * Minor ... Shift + D
   * Dim ... Shift + F
@@ -891,41 +891,45 @@ Unable to save music file
   * 9th ... Shift + V
   * Power ... Shift + B
 
-* 次の音色一覧 ... Ctrl + W
-* 前の音色一覧 ... Ctrl + Q
-* 次の曲を開く ... Ctrl + 2
-* 前の曲を開く ... Ctrl + 1
-* カーソルの平行移動 ... Shiftを押し続ける
-* 音符入力タブでボリューム入力 ... Altを押し続けながらペンツール
-* 選択範囲の複製 ... Altキーを押しながら選択範囲のドラッグ
-* リズムパターン設定のコピー ... Alt + C
-* リズムパターン設定のペースト ... Alt + V
-* ソフトウェアキーボード
-  
-  * 演奏 ... Aの行, Zの行でピアノ鍵盤の並び
-  * 1オクターブ上げる ... Page Up
-  * 1オクターブ下げる ... Page Down
-  * 臨時に1オクターブ上げる ... ↑を押し続ながら
-  * 臨時に1オクターブ下げる ... ↓を押し続ながら
+* Next tone list ... Ctrl + W
+* Previous tone list ... Ctrl + Q
+* Open the next song ... Ctrl + 2
+* Open the previous song ... Ctrl + 1
+* Parallel movement of the mouse cursor ... Hold down Shift
+* Volume input on the Note Input tab ... Hold down Alt and use the Pen tool
+* Duplicate selected notes ... Alt-drag selection
+* Copy of rhythm pattern settings ... Alt + C
+* Paste rhythm pattern settings ... Alt + V
+* Software keyboard
 
-* ファイルの書き込み禁止設定 ... Ctrl + Alt + L
+  * Performance ... Lines of A and Z are the rows of piano keys
+  * Raise one octave ... Page Up
+  * 1 octave down ... Page Down
+  * Temporarily raise one octave ... While holding down of up arrow
+  * Temporarily lower by one octave ... While holding down of down arrow
+
+* File write protection setting ... Ctrl + Alt + L
 
 
-仕様
+Specification
 ===================================================================
 
-* パート数:  ユーザー 4パート + コード・リズムパターン　（音色は1音ごとに変更可能）
-* 曲の長さ:  32音符 x 256ページ分　(最大1024小節)
-* 音域:  C1 ～ B7　（MIDI基準、7オクターブ）
-* 音色:  50パターン　(「基本波形 + エフェクト」の組み合わせで1つと数えた場合)
-* 音量:  16段階　(1段階2dB、0は無音)
-* ステレオ/パン:  中央 / 左 / 右 の切替え
-* イントロ対応ループ機能
-* Waveファイル出力機能
-* MIDIファイル出力機能
-* MIDIキーボード対応　（音の確認・簡易演奏用。データ入力や録音、UI操作等は不可）
-* オートセーブ式
+* Number of parts: User 4 parts + chord rhythm pattern (tone can be changed for each note)
+* Song length: 32 notes * 256 pages (up to 1024 bars)
+* Range: C1 to B7 (MIDI standard, 7 octaves)
+* Tones: 50 patterns (when counted as one with the combination of "basic waveform + effect")
+* Volume: 16 steps (1 step 2 dB, 0 is silence)
+* Channels: Stereo (Pan is only Center / Left / Right)
+* Supports Loop play with intro
+* Wave file export 
+* MIDI file export
+* Supports MIDI keyboard (for sound confirmation / simple performance. Data input, recording, UI operation, etc. are not possible)
+* Auto save
 
-* Proモードで作成した曲は、ProモードがOFFの状態でも同じように再生されます。
-* 古いバージョンで作成したデータは新しいバージョンで開けますが、逆の場合は開けません。（例えばver.1.0系で作成した曲データは、ver.1.1系で同じように読み取ることができます。ただし逆に、1.1で作成されたデータを1.0で開くことはできません。）
-* データ仕様に変更が入ると、2番目のバージョン番号（1.x.0）が変わります。データ仕様に変更が入らないアップデートでは、末尾のバージョン番号が変わります。(1.1.x など)
+Detailed specifications
+-------------------------------------------------------------------
+
+* Data created in the old version can be opened in the new version, but not the other way around. (For example, music data created in ver.1.0 series can be read in the same way in ver.1.1 series. However, conversely, data created in 1.1 cannot be opened in 1.0.)
+* Musics created in Pro mode will play in the same way even when Pro mode is OFF.
+* If the data specifications change, the second version number (1.x.0) will change. For updates that do not change the data specifications, the version number at the end will change. (1.1.x etc.)
+

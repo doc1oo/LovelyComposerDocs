@@ -644,66 +644,63 @@ The singing pitch is the pitch of the note of the selected part.
 
 
 
-曲の設定
+Music settings
 ============================================================================
 
 .. image:: img/music_settings.png
 
-曲の設定を行う画面です。
+This is the screen for music setting.
 
-上から
+In order from the above items,
 
-* ページ数
-* ページあたりの音符数　（曲全体で共通 / ページごとに指定 の切り替え）
-* テンポ　（曲全体で共通 / ページごとに指定 の切り替え）
-* ページあたりの小節数
+* number of pages
+* Number of notes per page (common to all musics / switching specified for each page)
+* Tempo (common to all songs / switching specified for each page)
+* Number of bars per page
 
-  ページあたりの小節数は、楽譜上の小節線、BPM表示やダンス速度、リズムパターン等の小節数設定が自動の場合などに影響します。
+    The number of measures per page affects the number of measures such as the measure line on the score, BPM display, dance speed, and rhythm pattern when the number of measures is set automatically.
 
+And the below settings are the part that normally does not need to be set.
 
-下側は通常設定する必要のない部分で、
+* Pan Law settings ... Center and left / right volume balance settings
+* Compatibility mode setting ... If specified, the song data will be played according to the specifications of that version (used only to prevent old data from playing strangely).
+It has become.
 
-* パンロウ(Pan Law)の設定　中央と左右の音量バランスの設定
-* 互換モードの設定　指定すると曲データをそのバージョンの仕様で再生します（古いデータがおかしく再生されないようにするためだけに使います）
-
-となっています。
-
-右下の絵には特に機能はありません。
+The picture on the lower right has no function speciallly.
 
 
-テンポ
+Tempo
 ----------------------------------------------------------------------------------
 
-テンポは任意のBPM指定でなく、古いコンピュータ音楽のような速度指定方式になっています。
+The tempo is not an arbitrary BPM specification, but a speed specification method like old game music.
 
-BPMの計算式は、誤差分を除くと以下になります。
+The BPM calculation formula is as follows, excluding the error.
 
-  BPM = (30 ÷ スピード) × ページあたりの小節数 x 30 
+  BPM = (30 / *speed*) * *number of bars per page* * 30
 
-  ※「スピード」はテンポスライダーの左の数値、ページあたりの小節数は曲設定で1～4に可変
+  * "Speed" is the value on the left of the tempo slider. And the number of bars per page can be changed from 1 to 4 in the music settings.
 
-初期状態だと120 BPM = (30 ÷ 30)  x 4 x 30 となっています。
-
-
+In the initial state, 120 BPM = (30 / 30) * 4 * 30.
 
 
-吹き出しヘルプ表示ボタン
+
+Balloon help display button
 ============================================================================
 
 .. image:: img/help_button.png
 
-画面左下にあり、押すと吹き出しヘルプ表示をオン・オフを切り替えられます。操作を一通り覚えたらオフにしても大丈夫です。
+Located at the bottom left of the screen, you can press it to turn on / off the balloon help display. Once you have learned all the operations, you can turn it off.
 
 
-MIDI入力
+MIDI input
 ============================================================================
 
-ラビコンの音色を使って、MIDIキーボードで演奏することができます。
+You can play it on a MIDI keyboard using Lovely Composer's tones.
 
-（音符入力、UI操作、録音などには対応していません。）
+(It does not support note input, UI operation, recording, etc.)
 
-* 使用したいMIDI入力デバイスを環境設定ツールで選択できます。デフォルトで有効ですが、入力を無効にすることもできます。
-* ver.1.2.0現在では、入力から発音までに多少の遅延があります。（60fpsで処理しているため）
+* You can select the MIDI input device you want to use with the config tool in another executable file. It is enabled by default, but you can disable the input.
+* As of ver.1.2.0, there is a slight delay from input to pronunciation. (Because it is processed at 60fps)
 
 
 画面切替タブ

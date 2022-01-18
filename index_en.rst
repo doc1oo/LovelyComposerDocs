@@ -761,33 +761,30 @@ Wave export
     When the loop is tagged, audio data for two laps is always generated. This is to connect the sounds continuously without any discomfort at the moment of returning to the loop start position from the end of the music (to prevent something like skipping).
 
 
-MIDI出力
+MIDI export
 --------------------------------------------------------------
 
 .. image:: img/export_midi_settings.png
 
-* **EXPORTボタン** ... 現在の設定で、MIDIファイル出力を実行します。
-* **LOOP** ... ループ区間の再生をする回数を設定します。（1の場合は繰り返し再生になりません）
+* **EXPORT button** ... Executes MIDI file export with the current settings.
+* **LOOP** ... Set the number of times to play the loop section. (If it is 1, it will not be played repeatedly)
 
-  * **by DATA** ... MIDIデータを指定ループ回数分の長さで生成します。
-  * **by TAG** ... MIDIデータにループ位置情報をテキストタグとして埋め込むことによって、RPGツクール等のループタグ対応ソフトでの切れ目のないイントロつき無限ループ再生などに対応させます。（ループ回数は指定できません。）
-  * **PROG.CHG.** ... プログラムチェンジ（音色変更）を出力するかどうかを指定します。（有効にしないとどの音も同じ音色になります。）
-  * **CONVERT** ... AUTOを指定した場合、連続した音符をつなぐ等の処理をしたMIDIデータを出力します。（デフォルト設定）　RAWの場合、Lovely Composerの生データをそのままMIDIデータに置き変えて出力します。
+  * **by DATA** ... Generates MIDI data for the specified number of loops.
+  * **by TAG** ... By embedding loop position information as a text tag in MIDI data, it supports infinite loop playback with a continuous intro in loop tag compatible software such as RPG Maker. (The number of loops cannot be specified.)
 
+* **PROG.CHG.** ... Specifies whether to generate a program change (tone change). (If not enabled, all sounds will have the same tone.)
+* **CONVERT** ... When AUTO is specified, MIDI data that has been processed such as connecting consecutive notes is output. (Default setting) / For RAW, the raw data of Lovely Composer is replaced with MIDI data and output.
 
-環境設定ツール
+Config tool
 ==========================================================================
 
 .. image:: img/config_tool.png
 
+You can select the MIDI / audio device to use and set the audio buffer size.
 
-使用するMIDI/オーディオデバイスの選択や、オーディオバッファサイズの設定ができます。
+The setting is effective when the Lovely Composer is started (if it is set while the Lovely Composer is running, it will not be reflected until it is restarted).
 
-設定はラビコンの起動時に有効になります（ラビコン起動中に設定した場合は、再起動まで反映されません。）
-
-  オーディオバッファサイズは小さくした方が再生や一部表示のレスポンスが早くなりますが、小さくしすぎると音が再生できなくなったりブツブツとノイズが混ざったり、再生が不安定になる可能性があります。最適値はPC環境によって異なります。
-
-
+  If the audio buffer size is made smaller, the response of playback and partial display will be faster, but if it is made too small, the sound may not be reproduced, noise may be mixed, and playback may become unstable. The optimum value depends on the PC environment.
 
 
 Q&A

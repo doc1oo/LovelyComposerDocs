@@ -1,4 +1,4 @@
-Lovely Composer Docs (Official Manual) - ver.1.2.0 
+Lovely Composer Docs (Official Manual) 
 #################################################################
 
 .. image:: img/lc_xmas2021_web_x4.png

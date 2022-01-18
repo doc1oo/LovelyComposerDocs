@@ -22,7 +22,7 @@ Support, bug reports and requests are accepted at the following.
 * Official twitter account https://twitter.com/1oo_games
 * Official Discord https://discord.gg/96GhPwjQnE
 
-Please introduce your work and so on with the tag `#LovelyComposer<https://twitter.com/search?q=%23LovelyComposer&src=typed_query&f=live>` of twitter! 
+Please introduce your work and so on with the tag `#LovelyComposer<https://twitter.com/search?q=%23LovelyComposer&src=typed_query&f=live>`_ of twitter! 
 
 
 Table of contents

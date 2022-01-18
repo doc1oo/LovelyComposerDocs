@@ -703,42 +703,38 @@ You can play it on a MIDI keyboard using Lovely Composer's tones.
 * As of ver.1.2.0, there is a slight delay from input to pronunciation. (Because it is processed at 60fps)
 
 
-画面切替タブ
+Screen switching tab
 =============================================================================
 
 .. image:: img/mode_selector.png
 
-画面左上にある画面切り替えタブです。左クリックで選択した画面に切り替わります。
+The screen switching tab at the top left of the screen. Left-click to switch to the selected screen.
 
-左から
+In order from the left items,
 
-* **EDIT** ... 作曲画面
-* **EXPORT** ... エクスポート画面
+* **EDIT** ... Composition screen
+* **EXPORT** ... Export screen
 
-となっています。
-
-  画面切替え時に編集中の曲データがファイル保存され、アンドゥなどの履歴も消去されます（書き込み禁止の場合は保存されません）
+  When switching screens, the music data being edited is saved as a file, and the history such as undo is cleard (it is not saved if write-protected).
 
 
-エクスポート画面
+Export screen
 ==============================================================================
-
 
 .. image:: img/export_mode.png
 
-曲データを音声ファイルやMIDIファイルとして出力するための画面です。
+This screen is for outputting music data as an audio file or MIDI file.
 
 
-共通設定
+Common settings
 --------------------------------------------------------------
 
 .. image:: img/export_top_buttons.png
 
-* **ALL MUSIC / 1 MUSIC ボタン** ... 全曲をファイル出力するか、選択した1曲のみ出力するかを選びます。1 MUSICを選択した場合は、右の曲番号セレクタで対象の曲を選べるようになります。（初期値は作曲画面で選んでいた曲の番号となります。）
-* **フォルダオープンアイコン** ... エクスポート先フォルダをOS側のエクスプローラ等で開きます。
-* **AUTOボタン** ... 有効時（カラー表示の場合）、エクスポート処理完了時に自動的にエクスポート先フォルダを開きます。
+* **ALL MUSIC / 1 MUSIC button** ... Select whether to output all musics as a file or output only the selected music. If you select 1 MUSIC, you will be able to select the target music with the music number selector on the right. (The initial value is the number of the music selected on the music edit screen.)
+* **Folder open icon** ... Open the export destination folder with Explorer on the OS side.
+* **AUTO button** ... When enabled (in color display), the export destination folder is automatically opened when the export process is completed.
 
-  
 
 
 Wave出力

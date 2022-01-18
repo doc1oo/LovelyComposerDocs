@@ -787,7 +787,7 @@ The setting is effective when the Lovely Composer is started (if it is set while
   If the audio buffer size is made smaller, the response of playback and partial display will be faster, but if it is made too small, the sound may not be reproduced, noise may be mixed, and playback may become unstable. The optimum value depends on the PC environment.
 
 
-Q&A
+Q & A
 ================================================
 
 Cannot start ... Case of a security warning appears
@@ -809,31 +809,32 @@ Software version upgrade (data migration method)
     **Be careful not to make a mistake in the direction of the data copy!** If you make a mistake and reverse it, the musics you have made will be lost. It is safe to make a backup in advance just in case. (There are plans to make it easier to update the version in the future)
 
 
-音割れする、ノイズが聞こえる
--------------------------------------------------------------
-アウトプットモニターで波形がはみ出て潰れるような場合、その部分で音割れします。
-
-* 根本的には音が大きすぎるのが原因なので、音を重ねすぎないようにすると解消します。
-* 画面右下のマスターボリュームで音量を下げると一時的に解消します。
-* 波形の大きな音色を避けると問題が起きづらいです。
-
-ユーザが意識せずともなるべく音割れが起こらないようにしたい所ですが、デジタル音声の原理的な問題でもあるのでちょっと難しいところでもあります。
-
-
-曲ファイルが開けない
+Sound cracking, noise can be heard
 -------------------------------------------------------------
 
-開けない理由が楽譜上にエラーメッセージ表示されますので、ご確認ください。
+If the waveform overflows and collapses on the output monitor, the sound will crack at that part.
 
-* 古いバージョンで作成したデータは新しいバージョンで開けますが、逆の場合は開けません。最新バージョンで開けるか確かめるなどしてください。
+* The cause is that the sound is too loud. So it will be solved if you do not overlap the sounds too much.
+* If you turn down the volume with the master volume at the bottom right of the screen, it will disappear temporarily.
+* Avoiding tones with large waveforms is less likely to cause problems.
+
+We want to prevent sound cracking as much as possible without the user being aware of it, but it is also a difficult because it is a fundamental problem of digital audio.
 
 
-曲ファイルが保存できない
+Can't open the music file
 -------------------------------------------------------------
 
-* サンプル曲などでファイル書き込み禁止設定がされている曲を開いているとき（曲番号が赤い表示の時）は、ファイル保存ができません。ユーザーフォルダを選択するなどしてください。（すでにデータを入力してしまっている場合は、曲のコピーボタンを押してから、別の曲番号に曲を貼り付けてください。）
+An error message will be displayed on the score as to why it cannot be opened, so please check it.
 
-* OS側で曲データファイルに書き込み権限があるかなど確認してください。
+* Data created in the old version can be opened in the new version, but not the other way around.
+  Please make sure that you can open it with the latest version.
+
+
+Unable to save music file
+-------------------------------------------------------------
+
+* When a music for which file write protection is set, such as a sample music is opened (The music number is displayed in red), the file cannot be saved. Select a user folder, etc. (If you have already entered the data, press the copy button of the music and then paste the music to another music number.)
+* Check if the music data file has write permission on the OS side.
 
 
 新しくフォルダを増やしたい

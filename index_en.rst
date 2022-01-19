@@ -11,7 +11,7 @@ Lovely composer is a tool that aims to make music and sound effects like 8-bit g
 
 The content may differ from the latest version, but in that case, please read as appropriate.
 
-This software is a music software, but it is also a sequel to the game `Dungeon Witches - Girls Back Home - <https://1oogames.itch.io/dungeon-witches>`_, and its characters will also appear.
+This software is a music software, but it is also a sequel to the game ""`Dungeon Witches - Girls Back Home - <https://1oogames.itch.io/dungeon-witches>`_", and its characters will also appear.
 
 Support, bug reports and requests are accepted at the following.
 

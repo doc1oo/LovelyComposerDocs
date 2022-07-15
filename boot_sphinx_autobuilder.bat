@@ -1,0 +1,1 @@
+sphinx-autobuild -b html ./ docs

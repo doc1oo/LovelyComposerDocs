@@ -1,55 +1,21 @@
-Lovely Composer Docs (Official Manual) 
+Lovely Composer User Manual
 #################################################################
 
-.. image:: img/lc_xmas2021_web_x4.png
+\* Please use web browser's auto translation (If you are hard to read English).
+
 
 Overview
-==============================================================================
-This is the official manual for the personally developed music software Lovely Composer.
+##############################################################################
 
-Lovely composer is a tool that aims to make music and sound effects like 8-bit game consoles easy and fun.
+* :ref:`id_music_editor`
+* :ref:`id_export_screen`
+* :ref:`id_shortcut_keys`
+* :ref:`q_and_a`
 
-The content may differ from the latest version, but in that case, please read as appropriate.
+.. _id_music_editor:
 
-This software is a music software, but it is also a sequel to the game "`Dungeon Witches - Girls Back Home - <https://1oogames.itch.io/dungeon-witches>`_", and its characters will also appear.
-
-Support, bug reports and requests are accepted at the following.
-
-* Marketplace 
- 
-  * `itch.io <https://1oogames.itch.io/lovely-composer>`_
-
-* Official `twitter <https://twitter.com/1oo_games>`_
-* Official `Discord <https://discord.gg/96GhPwjQnE>`_
-
-Please introduce your work with the `#LovelyComposer <https://twitter.com/search?q=%23LovelyComposer&src=typed_query&f=live>`_ tag of twitter and so on! 
-
-
-Table of contents
-===============================================================================
-
-.. contents::
-
-
-
-Story
-==============================================================================
-
-In a certain forest ... Witches lived quietly in a small house.
-
-The witches should not be found by outsiders. Only the delicious food delivered by the villager Thomas is relied on.
-
-But one day Thomas suddenly changed. Not only he don't bringing food, but also beating witch's house strongly.
-
-He was brainwashed to defeat witches by the "Chant" of the "Grizzlia Choir"!
-
-The house is protected by magic, so it's okay, but the witches will soon be unable to eat food.
-
-So, the witches decided to use the magical instrument "Lovely Composer" to bring Thomas back with the power of music, to regain food and life!
-
-
-Overview of music editor
-==============================================================================
+Music Editor
+##############################################################################
 
 .. image:: img/about_nonpro_en.png
 
@@ -60,8 +26,8 @@ Each part will be explained later.
   * A text description of the area where the mouse cursor is located is displayed at the bottom of the screen. (It is a more detailed than the display in the balloon.)
 
 
-Play control
-========================================================================
+Play Control
+########################################################################
 
 .. image:: img/play_control.png
 
@@ -86,8 +52,8 @@ You can also moves current page with the bitmap scrollbar below the play button.
 .. image:: img/bitmap_scroll_bar.png
 
 
-Music selection
-========================================================================
+Music Selection
+########################################################################
 
 .. image:: img/music_selector.png
 
@@ -116,8 +82,8 @@ You can open the folder by selecting the folder name and pressing OPEN.
 If you press the folder open icon at the bottom left, the actual folder containing the music data will be opened with Explorer on the OS side.
 
 
-Save music / Undo
-============================================================================
+Save Music / Undo & Redo
+############################################################################
 
 .. image:: img/basic_function.png
 
@@ -138,8 +104,8 @@ So it is better to press it for avoid the data lost by abnormal termination of t
   The actual music data is saved in the *"Lovely Composer folder / music / selected folder / music number.jsonl"* file.
 
 
-Basic editing tools
-============================================================================
+Basic Editing Tools
+############################################################################
 
 .. image:: img/basic_edit_tool.png
 
@@ -160,7 +126,7 @@ The functions are as follows in order from left to right.
 
 
 Pen Tool
------------------------------
+=============================
 
 Left-click on the score to enter notes, and right-click to audition the selected tone.
 You can select the tone by right-clicking on the note.
@@ -171,7 +137,7 @@ Also You can lock the cursor to horizontal movement while holding down the Shift
 
 
 Eraser Tool
------------------------------
+=============================
 
 You can delete notes by left-clicking and dragging on the score.
 
@@ -179,7 +145,7 @@ You can delete notes by left-clicking and dragging on the score.
 
 
 Brush Tool
------------------------------
+=============================
 
 You can change all the tones of the notes on the currently open page to other tones by left-clicking on the score.
 Click on a note to repaint only the sound with the same tone.
@@ -189,7 +155,7 @@ You can also paint only the notes you traced by dragging.
 
 
 Selection Tool
------------------------------
+=============================
 
 You can select notes on the score.
 After the notes selecting, move the selection by dragging left or right, duplicate by Alt + dragging, and delete by pressing the Delete key.
@@ -198,8 +164,8 @@ You can also change the pitch by dragging up and down. (Transpose)
   The operation is the same for volume and pan editing in Pro mode so far.
 
 
-Music-based editing tool
-================================================================================
+Song-based Editing Tool
+################################################################################
 
 .. image:: img/music_edit_bar.png
 
@@ -219,8 +185,8 @@ Also, in the text part on the upper right of the image, the name of the currentl
   Music data for which write lock is set, such as sample musics, will not be saved even if these operations are performed.
 
 
-Score (Piano roll)
-========================================================================
+Score (Piano Roll)
+########################################################################
 
 .. image:: img/score_nonpro.png
 
@@ -241,8 +207,8 @@ In compatible playback mode, which version is compatible is displayed in the upp
 * The roles of the normal part and the code part are slightly different.
 
 
-Part selection
--------------------------------------------------------------------------
+Part Selection
+=========================================================================
 .. image:: img/part_selector.png
 
 You can display and edit the selected part by selecting any of 1/2/3/4/C with the part selection button at the bottom left of the score.
@@ -251,8 +217,8 @@ You can display and edit the selected part by selecting any of 1/2/3/4/C with th
 * If you select C, you can display and edit the code part. (C is an acronym for code = Chord)
 
 
-Normal part
------------------------------------------------------------------------------------
+Normal Part
+===================================================================================
 
 .. image:: img/tone_selector2.png
 
@@ -276,8 +242,8 @@ Also,
 * Tones with the same basic waveform can be heard to connect the sounds, by arranging them side by side.
 
 
-Chord part
------------------------------------------------------------------------------------
+Chord Part
+===================================================================================
 
 .. image:: img/chord_input.png
 
@@ -296,8 +262,8 @@ While "Rhythm" is displayed at the top, the rhythm pattern selected on the curre
 The pitch of the chord is displayed as a thick line, and each constituent note of the chord is displayed as a thin line.
 
 
-Pro mode
-------------------------------------------------------------------------------------
+Pro Mode
+====================================================================================
 
 .. image:: img/note_vol_pan.png
 
@@ -306,8 +272,8 @@ When the PRO switch at the top of the image is turned on (red state), a part of 
 In Pro mode, you can switch between note input, volume input, and pan input with the buttons in the image to input on the score.
 
 
-Volume input (Pro mode only)
-------------------------------------------------------------------------------------
+Volume Input (Pro mode only)
+====================================================================================
 
 .. image:: img/volume_edit.png
 
@@ -325,8 +291,8 @@ In addition to the height of the bar, the volume is displayed as the number at t
 You can also enter the volume value by drawing with the pen tool while holding down the Alt key even on the normal note input tab.
 
 
-Pan input (Pro mode only)
-------------------------------------------------------------------------------------
+Pan Input (Pro mode only)
+====================================================================================
 
 .. image:: img/pan_edit.png
 
@@ -339,8 +305,8 @@ If you specify one place for pan, it will be carried over to after notes.
 You can change the currently selected pan by moving the mouse wheel up or down.
 
 
-Display settings
--------------------------------------------------------------------------------------
+Display Settings
+=====================================================================================
 
 .. image:: img/display_settings.png
 
@@ -366,7 +332,7 @@ The functions are as follows in order from left to right.
 
 
 Setting the number of notes per page
------------------------------------------------------------------------------
+=============================================================================
 
 .. image:: img/note_per_page.png
 
@@ -384,8 +350,8 @@ When the playback position bar crosses this vertical line, it moves to the next 
 If you set "by page" in the music settings, the broken link icon is displayed and you can set the number of notes for each page individually.
 
 
-Page-based editing tool
------------------------------------------------------------------------
+Page-based Editing Tool
+=======================================================================
 
 .. image:: img/scroll_bar_tools.png
 
@@ -412,8 +378,8 @@ Press the mode button at the bottom left to switch the operation target of page-
 * Page settings only (copy only settings such as tempo and number of notes for each page)
 
 
-Scale function
-============================================================================
+Scale Function
+############################################################################
 
 .. image:: img/scale_selector.png
 
@@ -442,8 +408,8 @@ The scale function is disabled while you hold down the **Ctrl** key.
 This is useful when you want to temporarily input an unscaled pitch.
 
 
-Tool list
-=============================================================================
+Tool List
+#############################################################################
 
 .. image:: img/tools_panel.png
 
@@ -457,8 +423,8 @@ The tools are as follows in order from left to right.
 
 
 
-Chord pattern tool
-============================================================================
+Chord Pattern Tool
+############################################################################
 
 .. image:: img/chord_pattern_tool.png
 
@@ -483,8 +449,8 @@ If it is not specified (gray out), it depends on the "number of measures per pag
 You can close the window by press the CLOSE button.
 
 
-Tone palette tool
-========================================================================
+Tone Palette Tool
+########################################################################
 
 .. image:: img/tone_palette.png
 
@@ -500,8 +466,8 @@ When the normal part is displayed, it switches to the normal tone palette.
 Also when it is a chord part, it switches to the chord palette.
 
 
-Rhythm pattern
-========================================================================
+Rhythm Pattern
+########################################################################
 
 .. image:: img/rhythm_pattern.png
 
@@ -521,7 +487,7 @@ When grayed out, the value of "Number of bars per page" in the music settings is
 
 
 Rhythm part setting
---------------------------------------------------------------------------------
+================================================================================
 
 .. image:: img/rhythm_pattern_mute.png
 
@@ -536,7 +502,7 @@ The icons are as follows in order from left to right.
 
 
 Arpeggiator
---------------------------------------------------------------------------------
+================================================================================
 
 .. image:: img/rhythm_pattern_arpeggiator.png
 
@@ -558,7 +524,7 @@ The buttons are as follows in order from left to right.
 
 
 Editing tools for rhythm pattern
---------------------------------------------------------------------------------
+================================================================================
 
 .. image:: img/rhythm_pattern_edittool.png
 
@@ -570,8 +536,8 @@ The function are as follows in order from left to right.
     Using the page-based editing tool, you can also process multiple pages at once, which is convenient.
 
 
-Output monitor
-========================================================================
+Output Monitor
+########################################################################
 
 .. image:: img/output_monitor.png
 
@@ -584,7 +550,7 @@ Since the synthesis result of all the output sounds is displayed, it responds no
 
 
 Volume
-========================================================================
+########################################################################
 
 .. image:: img/volume_panel.png
 
@@ -603,8 +569,8 @@ You can reset all settings to the initial values ​​with the **RESET** button
 The button at the bottom right of the volume is an extra function for greenback shooting (chroma key compositing) for shooting movies, etc., and fills background elements other than dancer-related with one color.
 
 
-Adjustment panel (Pro mode only)
-============================================================================
+Adjustment Panel (Pro mode only)
+############################################################################
 
 .. image:: img/mixer_panel.png
 
@@ -631,7 +597,7 @@ You can reset all settings to the initial values ​​with the **RESET** button
 
 
 Dancer
-========================================================================
+########################################################################
 
 .. image:: img/witches.png
 
@@ -646,8 +612,8 @@ The singing pitch is the pitch of the note of the selected part.
 
 
 
-Music settings
-============================================================================
+Music Settings
+############################################################################
 
 .. image:: img/music_settings.png
 
@@ -666,13 +632,14 @@ And the below settings are the part that normally does not need to be set.
 
 * Pan Law settings ... Center and left / right volume balance settings
 * Compatibility mode setting ... If specified, the song data will be played according to the specifications of that version (used only to prevent old data from playing strangely).
+
 It has become.
 
 The picture on the lower right has no function speciallly.
 
 
 Tempo
-----------------------------------------------------------------------------------
+==================================================================================
 
 The tempo is not an arbitrary BPM specification, but a speed specification method like old game music.
 
@@ -686,16 +653,16 @@ In the initial state, 120 BPM = (30 / 30) * 4 * 30.
 
 
 
-Balloon help display button
-============================================================================
+Balloon Help Display Button
+############################################################################
 
 .. image:: img/help_button.png
 
 Located at the bottom left of the screen, you can press it to turn on / off the balloon help display. Once you have learned all the operations, you can turn it off.
 
 
-MIDI input
-============================================================================
+MIDI Input
+############################################################################
 
 You can play it on a MIDI keyboard using Lovely Composer's tones.
 
@@ -705,8 +672,8 @@ You can play it on a MIDI keyboard using Lovely Composer's tones.
 * As of ver.1.2.0, there is a slight delay from input to pronunciation. (Because it is processed at 60fps)
 
 
-Screen switching tab
-=============================================================================
+Screen Switching Tab
+#############################################################################
 
 .. image:: img/mode_selector.png
 
@@ -720,16 +687,18 @@ In order from the left items,
     When switching screens, the music data being edited is saved as a file, and the history such as undo is cleard (it is not saved if write-protected).
 
 
-Export screen
-==============================================================================
+.. _id_export_screen:
+
+Export Screen
+##############################################################################
 
 .. image:: img/export_mode.png
 
 This screen is for outputting music data as an audio file or MIDI file.
 
 
-Common settings
---------------------------------------------------------------
+Common Settings
+==============================================================
 
 .. image:: img/export_top_buttons.png
 
@@ -740,7 +709,7 @@ Common settings
 
 
 Wave export
---------------------------------------------------------------
+==============================================================
 
 .. image:: img/export_wave_settings.png
 
@@ -764,7 +733,7 @@ Wave export
 
 
 MIDI export
---------------------------------------------------------------
+==============================================================
 
 .. image:: img/export_midi_settings.png
 
@@ -777,8 +746,8 @@ MIDI export
 * **PROG.CHG.** ... Specifies whether to generate a program change (tone change). (If not enabled, all sounds will have the same tone.)
 * **CONVERT** ... When AUTO is specified, MIDI data that has been processed such as connecting consecutive notes is output. (Default setting) / For RAW, the raw data of Lovely Composer is replaced with MIDI data and output.
 
-Config tool
-==========================================================================
+Config Tool
+##########################################################################
 
 .. image:: img/config_tool.png
 
@@ -789,11 +758,13 @@ The setting is effective when the Lovely Composer is started (if it is set while
   If the audio buffer size is made smaller, the response of playback and partial display will be faster, but if it is made too small, the sound may not be reproduced, noise may be mixed, and playback may become unstable. The optimum value depends on the PC environment.
 
 
+.. _q_and_a:
+
 Q & A
-================================================
+################################################
 
 Cannot start ... Case of a security warning appears
---------------------------------------------------------------
+==============================================================
 
 .. image:: img/windows_security_alert.png
 
@@ -801,7 +772,7 @@ When starting for the first time after downloading Lovely Composer, the above wa
 
 
 Software version upgrade (data migration method)
---------------------------------------------------------------
+==============================================================
 
 * You can transfer music data by copying the music data folder of the previous version to the music data folder of the new version.
   The song data folder is located under the **Lovely Composer folder / music /**. (The music data file is **"music number.jsonl (00.jsonl etc.)"** in each folder.)
@@ -812,7 +783,7 @@ Software version upgrade (data migration method)
 
 
 Sound cracking, noise can be heard
--------------------------------------------------------------
+=============================================================
 
 If the waveform overflows and collapses on the output monitor, the sound will crack at that part.
 
@@ -824,7 +795,7 @@ We want to prevent sound cracking as much as possible without the user being awa
 
 
 Can't open the music file
--------------------------------------------------------------
+=============================================================
 
 An error message will be displayed on the score as to why it cannot be opened, so please check it.
 
@@ -833,23 +804,24 @@ An error message will be displayed on the score as to why it cannot be opened, s
 
 
 Unable to save music file
--------------------------------------------------------------
+=============================================================
 
 * When a music for which file write protection is set, such as a sample music is opened (The music number is displayed in red), the file cannot be saved. Select a user folder, etc. (If you have already entered the data, press the copy button of the music and then paste the music to another music number.)
 * Check if the music data file has write permission on the OS side.
 
 
 Add a new folder
--------------------------------------------------------------
+=============================================================
 
 * Duplicate (copy and paste) the **LC_USER** folder on the OS side and rename it that you want. (Only half-width alphanumers and symbols)
   
     Even if you create only a new folder, it will not be displayed in the folder list. (It is necessary for **"lcdata.jsonl"** to be included for now)
 
 
-Shortcuts
-==============================================================
+.. _id_shortcut_keys:
 
+Shortcut Keys
+##############################################################
 
 **General operation**
 
@@ -914,7 +886,7 @@ Shortcuts
 
 
 Specification
-===================================================================
+###################################################################
 
 * Number of parts: User 4 parts + chord rhythm pattern (tone can be changed for each note)
 * Song length: 32 notes * 256 pages (up to 1024 bars)
@@ -929,7 +901,7 @@ Specification
 * Auto save
 
 Detailed specifications
--------------------------------------------------------------------
+===================================================================
 
 * Data created in the old version can be opened in the new version, but not the other way around. (For example, music data created in ver.1.0 series can be read in the same way in ver.1.1 series. However, conversely, data created in 1.1 cannot be opened in 1.0.)
 * Musics created in Pro mode will play in the same way even when Pro mode is OFF.

@@ -758,7 +758,7 @@ The setting is effective when the Lovely Composer is started (if it is set while
   If the audio buffer size is made smaller, the response of playback and partial display will be faster, but if it is made too small, the sound may not be reproduced, noise may be mixed, and playback may become unstable. The optimum value depends on the PC environment.
 
 
-.. _q_and_a:
+.. _id_q_and_a:
 
 Q & A
 ################################################

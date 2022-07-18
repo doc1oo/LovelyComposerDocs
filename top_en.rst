@@ -3,7 +3,7 @@ Lovely Composer Official Guide
 
 :doc:`English <top_en>` \| :doc:`Japanese <top>` \| Others: Please use browser's auto translation!
 
-.. image:: img/lc_xmas2021_web_x4.png
+.. image:: img/LC_header_main_ss.png
 
 
 * :doc:`index_en` 

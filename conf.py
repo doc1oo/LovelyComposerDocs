@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'LovelyComposer'
-copyright = '2022, doc1oo'
-author = 'doc1oo'
+copyright = '2022, 1oo Games'
+author = '1oo Games'
 
 # The full version, including alpha/beta/rc tags
 release = '1.2.0'
@@ -41,13 +41,26 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
+master_doc = "top_en"
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

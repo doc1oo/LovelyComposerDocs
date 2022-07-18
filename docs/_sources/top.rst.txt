@@ -3,7 +3,7 @@ Lovely Composer 公式ガイド
 
 :doc:`English <top_en>` \| :doc:`日本語 <top>` 
 
-.. image:: img/lc_xmas2021_web_x4.png
+.. image:: img/LC_header_main_ss.png
 
 
 * `操作説明書 <index.html>`_

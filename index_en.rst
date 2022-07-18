@@ -10,7 +10,7 @@ Overview
 * :ref:`id_music_editor`
 * :ref:`id_export_screen`
 * :ref:`id_shortcut_keys`
-* :ref:`q_and_a`
+* :ref:`id_q_and_a`
 
 .. _id_music_editor:
 

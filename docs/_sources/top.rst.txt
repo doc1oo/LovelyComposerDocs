@@ -1,14 +1,13 @@
-Lovely Composer Official Guide
+Lovely Composer 公式ガイド
 #####################################################
 
 .. image:: img/lc_xmas2021_web_x4.png
 
-Please use auto translation!
-We recommend using the automatic translation!
+English version is `here <top_en.html>`.
 
-* `Official Manual <index_en.html>`_
-* `Official Manual <index_en.html>`_
-* 
+* `説明書 <index.html>`_
+* `ストーリー <story>`_
+* :doc:`story`
 
 
 概要
@@ -37,23 +36,3 @@ We recommend using the automatic translation!
 
 で行っています。
 
-
-
-ストーリー
-##############################################################################
-
-とある森の中…… 小さな家に魔女たちがひっそりと暮らしていました。
-
-魔女たちは外の人間に見つかってはいけない存在でした。
-村人のトーマスが届けてくれる、おいしい食べ物だけが頼りです。
-
-ところがある日、トーマスはとつぜん豹変し、
-食べ物を持ってこないばかりか家を乱暴にたたくようになります。
-
-なんと彼は『グリズリア聖歌隊』の"聖歌"によって、
-魔女を倒すように洗脳されてしまったのです。
-
-家は頑丈なので心配ありませんが、このままではご飯が食べられません。
-
-魔女たちは魔法の楽器「ラブリーコンポーザ」を使って、
-音楽の力でトーマスを改心させて、食料と生活を取り戻すことにしました!

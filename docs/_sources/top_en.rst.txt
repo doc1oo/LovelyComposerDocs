@@ -1,10 +1,10 @@
 Lovely Composer Official Guide
 #####################################################
 
+:doc:`English <top_en>` \| :doc:`Japanese <top>` \| Others: Please use browser's auto translation!
+
 .. image:: img/lc_xmas2021_web_x4.png
 
-Please use auto translation!
-We recommend using the automatic translation!
 
 * `Official Manual <index_en.html>`_
 * `Official Manual <index_en.html>`_

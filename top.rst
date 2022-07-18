@@ -40,6 +40,7 @@ SNS
 * twitter `@1oo_games <https://twitter.com/1oo_games>`_
 * Discord `LovelyComposer <https://discord.gg/96GhPwjQnE>`_
 
+`#LovelyComposer <https://twitter.com/search?q=%23LovelyComposer>`_ タグで他の人の作品を見たり、あなたの作品を紹介したりしましょう!
 
 サポート・お問い合わせ
 ##############################################################################

@@ -25,6 +25,7 @@ Support, bug reports and requests are accepted at the following.
 * Marketplace 
  
   * `itch.io <https://1oogames.itch.io/lovely-composer>`_
+  * `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html?locale=en_US>`_
 
 * `twitter <https://twitter.com/1oo_games>`_
 * `Discord <https://discord.gg/96GhPwjQnE>`_

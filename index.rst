@@ -1,11 +1,12 @@
-Lovely Composer Docs (ラブリーコンポーザ 公式説明書) - ver.1.2.0 
+ラブリーコンポーザ 操作説明書 (ver.1.2.0) 
 ##############################################################################
 
+この説明書はLovelyComposerからF1キーで開くことができます(ver.1.2.6以降)。内容は最新版プログラムとは異なる場合があります。
 
 * :ref:`id_music_editor`
 * :ref:`id_export_screen`
 * :ref:`id_shortcut_keys`
-* :ref:`q_and_a`
+* :ref:`id_q_and_a`
 
 
 

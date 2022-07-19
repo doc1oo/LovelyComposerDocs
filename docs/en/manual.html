@@ -5,21 +5,21 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lovely Composer User Manual &mdash; LovelyComposer 1.2.0 documentation</title>
-      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="_static/ex_css.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/ex_css.css" type="text/css" />
   <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
+    <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/ex_js.js"></script>
-    <script src="_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/ex_js.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <meta name="viewport" content="width=device-width; initial-scale=2.0">
     <meta name="test">
 </head>
@@ -30,6 +30,78 @@
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Lovely Composer User Manual</a></li>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#music-editor">Music Editor</a></li>
+<li><a class="reference internal" href="#play-control">Play Control</a></li>
+<li><a class="reference internal" href="#music-selection">Music Selection</a></li>
+<li><a class="reference internal" href="#save-music-undo-redo">Save Music / Undo &amp; Redo</a></li>
+<li><a class="reference internal" href="#basic-editing-tools">Basic Editing Tools</a><ul>
+<li><a class="reference internal" href="#pen-tool">Pen Tool</a></li>
+<li><a class="reference internal" href="#eraser-tool">Eraser Tool</a></li>
+<li><a class="reference internal" href="#brush-tool">Brush Tool</a></li>
+<li><a class="reference internal" href="#selection-tool">Selection Tool</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#song-based-editing-tool">Song-based Editing Tool</a></li>
+<li><a class="reference internal" href="#score-piano-roll">Score (Piano Roll)</a><ul>
+<li><a class="reference internal" href="#part-selection">Part Selection</a></li>
+<li><a class="reference internal" href="#normal-part">Normal Part</a></li>
+<li><a class="reference internal" href="#chord-part">Chord Part</a></li>
+<li><a class="reference internal" href="#pro-mode">Pro Mode</a></li>
+<li><a class="reference internal" href="#volume-input-pro-mode-only">Volume Input (Pro mode only)</a></li>
+<li><a class="reference internal" href="#pan-input-pro-mode-only">Pan Input (Pro mode only)</a></li>
+<li><a class="reference internal" href="#display-settings">Display Settings</a></li>
+<li><a class="reference internal" href="#setting-the-number-of-notes-per-page">Setting the number of notes per page</a></li>
+<li><a class="reference internal" href="#page-based-editing-tool">Page-based Editing Tool</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#scale-function">Scale Function</a></li>
+<li><a class="reference internal" href="#tool-list">Tool List</a></li>
+<li><a class="reference internal" href="#chord-pattern-tool">Chord Pattern Tool</a></li>
+<li><a class="reference internal" href="#tone-palette-tool">Tone Palette Tool</a></li>
+<li><a class="reference internal" href="#rhythm-pattern">Rhythm Pattern</a><ul>
+<li><a class="reference internal" href="#rhythm-part-setting">Rhythm part setting</a></li>
+<li><a class="reference internal" href="#arpeggiator">Arpeggiator</a></li>
+<li><a class="reference internal" href="#editing-tools-for-rhythm-pattern">Editing tools for rhythm pattern</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#output-monitor">Output Monitor</a></li>
+<li><a class="reference internal" href="#volume">Volume</a></li>
+<li><a class="reference internal" href="#adjustment-panel-pro-mode-only">Adjustment Panel (Pro mode only)</a></li>
+<li><a class="reference internal" href="#dancer">Dancer</a></li>
+<li><a class="reference internal" href="#music-settings">Music Settings</a><ul>
+<li><a class="reference internal" href="#tempo">Tempo</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#balloon-help-display-button">Balloon Help Display Button</a></li>
+<li><a class="reference internal" href="#midi-input">MIDI Input</a></li>
+<li><a class="reference internal" href="#screen-switching-tab">Screen Switching Tab</a></li>
+<li><a class="reference internal" href="#export-screen">Export Screen</a><ul>
+<li><a class="reference internal" href="#common-settings">Common Settings</a></li>
+<li><a class="reference internal" href="#wave-export">Wave export</a></li>
+<li><a class="reference internal" href="#midi-export">MIDI export</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#config-tool">Config Tool</a></li>
+<li><a class="reference internal" href="#q-a">Q &amp; A</a><ul>
+<li><a class="reference internal" href="#cannot-start-case-of-a-security-warning-appears">Cannot start … Case of a security warning appears</a></li>
+<li><a class="reference internal" href="#software-version-upgrade-data-migration-method">Software version upgrade (data migration method)</a></li>
+<li><a class="reference internal" href="#sound-cracking-noise-can-be-heard">Sound cracking, noise can be heard</a></li>
+<li><a class="reference internal" href="#can-t-open-the-music-file">Can’t open the music file</a></li>
+<li><a class="reference internal" href="#unable-to-save-music-file">Unable to save music file</a></li>
+<li><a class="reference internal" href="#add-a-new-folder">Add a new folder</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#shortcut-keys">Shortcut Keys</a></li>
+<li><a class="reference internal" href="#specification">Specification</a><ul>
+<li><a class="reference internal" href="#detailed-specifications">Detailed specifications</a></li>
+</ul>
+</li>
+</ul>
+</div>
         </div>
       </div>
     </nav>
@@ -56,15 +128,15 @@
 <section id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline"></a></h1>
 <ul class="simple">
-<li><p><a class="reference internal" href="jp/manual.html#id-music-editor"><span class="std std-ref">音楽エディタ</span></a></p></li>
-<li><p><a class="reference internal" href="jp/manual.html#id-export-screen"><span class="std std-ref">エクスポート画面</span></a></p></li>
-<li><p><a class="reference internal" href="jp/manual.html#id-shortcut-keys"><span class="std std-ref">ショートカットキー</span></a></p></li>
-<li><p><a class="reference internal" href="jp/manual.html#id-q-and-a"><span class="std std-ref">Q&amp;A</span></a></p></li>
+<li><p><a class="reference internal" href="../jp/manual.html#id-music-editor"><span class="std std-ref">音楽エディタ</span></a></p></li>
+<li><p><a class="reference internal" href="../jp/manual.html#id-export-screen"><span class="std std-ref">エクスポート画面</span></a></p></li>
+<li><p><a class="reference internal" href="../jp/manual.html#id-shortcut-keys"><span class="std std-ref">ショートカットキー</span></a></p></li>
+<li><p><a class="reference internal" href="../jp/manual.html#id-q-and-a"><span class="std std-ref">Q&amp;A</span></a></p></li>
 </ul>
 </section>
 <section id="music-editor">
 <span id="id-music-editor"></span><h1>Music Editor<a class="headerlink" href="#music-editor" title="Permalink to this headline"></a></h1>
-<img alt="_images/about_nonpro_en.png" src="_images/about_nonpro_en.png" />
+<img alt="../_images/about_nonpro_en.png" src="../_images/about_nonpro_en.png" />
 <p>The basic screen layout looks like the image above.
 Each part will be explained later.</p>
 <blockquote>
@@ -76,7 +148,7 @@ Each part will be explained later.</p>
 </section>
 <section id="play-control">
 <h1>Play Control<a class="headerlink" href="#play-control" title="Permalink to this headline"></a></h1>
-<img alt="_images/play_control.png" src="_images/play_control.png" />
+<img alt="../_images/play_control.png" src="../_images/play_control.png" />
 <p>At the bottom of the screen, there are buttons for playing songs. The functions are as follows in order from left to right.</p>
 <ul>
 <li><p><strong>Stop</strong> … Stops playing the music. If you press the stop button while stopped, you will return to the beginning of the music. (You can also stop by pressing the space key during playback.)</p></li>
@@ -92,13 +164,13 @@ Each part will be explained later.</p>
 </div></blockquote>
 </li>
 </ul>
-<img alt="_images/tempo_slider_unlink.png" src="_images/tempo_slider_unlink.png" />
+<img alt="../_images/tempo_slider_unlink.png" src="../_images/tempo_slider_unlink.png" />
 <p>You can also moves current page with the bitmap scrollbar below the play button. The dots in each color represent musical notes. The currently selected page is displayed brightly, and the playback position is displayed as a white vertical line. The number on the upper right is the number of pages. The loop position is also displayed with an arrow icon.</p>
-<img alt="_images/bitmap_scroll_bar.png" src="_images/bitmap_scroll_bar.png" />
+<img alt="../_images/bitmap_scroll_bar.png" src="../_images/bitmap_scroll_bar.png" />
 </section>
 <section id="music-selection">
 <h1>Music Selection<a class="headerlink" href="#music-selection" title="Permalink to this headline"></a></h1>
-<img alt="_images/music_selector.png" src="_images/music_selector.png" />
+<img alt="../_images/music_selector.png" src="../_images/music_selector.png" />
 <p>There is a music selection button at the top left of the screen.</p>
 <p>The numbers display the currently open song numbers.
 You can open the next music by pressing the <strong>“+”</strong> button and the previous song by pressing the <strong>“-”</strong> button.
@@ -109,15 +181,15 @@ A folder for users (LC_USER) and a folder for sample songs (LC_SAMPLE) are prepa
 <blockquote>
 <div><p>If you have created a music in a write-protected state, use the music copy function to copy it to another music number.</p>
 </div></blockquote>
-<img alt="_images/music_selector_red.png" src="_images/music_selector_red.png" />
+<img alt="../_images/music_selector_red.png" src="../_images/music_selector_red.png" />
 <p>The folder selection screen is as follows.</p>
-<img alt="_images/folder_select.png" src="_images/folder_select.png" />
+<img alt="../_images/folder_select.png" src="../_images/folder_select.png" />
 <p>You can open the folder by selecting the folder name and pressing OPEN.</p>
 <p>If you press the folder open icon at the bottom left, the actual folder containing the music data will be opened with Explorer on the OS side.</p>
 </section>
 <section id="save-music-undo-redo">
 <h1>Save Music / Undo &amp; Redo<a class="headerlink" href="#save-music-undo-redo" title="Permalink to this headline"></a></h1>
-<img alt="_images/basic_function.png" src="_images/basic_function.png" />
+<img alt="../_images/basic_function.png" src="../_images/basic_function.png" />
 <p>It located the right of the music selection button.</p>
 <p>The functions are as follows in order from left to right.</p>
 <ul class="simple">
@@ -134,7 +206,7 @@ So it is better to press it for avoid the data lost by abnormal termination of t
 </section>
 <section id="basic-editing-tools">
 <h1>Basic Editing Tools<a class="headerlink" href="#basic-editing-tools" title="Permalink to this headline"></a></h1>
-<img alt="_images/basic_edit_tool.png" src="_images/basic_edit_tool.png" />
+<img alt="../_images/basic_edit_tool.png" src="../_images/basic_edit_tool.png" />
 <p>It located the right of the save music button.</p>
 <p>The functions are as follows in order from left to right.</p>
 <ul class="simple">
@@ -185,7 +257,7 @@ You can also change the pitch by dragging up and down. (Transpose)</p>
 </section>
 <section id="song-based-editing-tool">
 <h1>Song-based Editing Tool<a class="headerlink" href="#song-based-editing-tool" title="Permalink to this headline"></a></h1>
-<img alt="_images/music_edit_bar.png" src="_images/music_edit_bar.png" />
+<img alt="../_images/music_edit_bar.png" src="../_images/music_edit_bar.png" />
 <p>It located in the upper right corner of the screen, you can settings of music, copy &amp; paste music, and clear musics (create new).</p>
 <p>The functions are as follows in order from left to right.</p>
 <ul class="simple">
@@ -202,7 +274,7 @@ You can also change the pitch by dragging up and down. (Transpose)</p>
 </section>
 <section id="score-piano-roll">
 <h1>Score (Piano Roll)<a class="headerlink" href="#score-piano-roll" title="Permalink to this headline"></a></h1>
-<img alt="_images/score_nonpro.png" src="_images/score_nonpro.png" />
+<img alt="../_images/score_nonpro.png" src="../_images/score_nonpro.png" />
 <p>This is the main part of music editor, you can create a music by inputting and editing notes.</p>
 <p>The display format called the piano roll, similar to the staff notation of music, the vertical axis is the pitch and the bars are separated by vertical lines. (It can also be changed to a staff-style display.)</p>
 <p>The number in the upper left is the current page number.
@@ -217,7 +289,7 @@ In compatible playback mode, which version is compatible is displayed in the upp
 </ul>
 <section id="part-selection">
 <h2>Part Selection<a class="headerlink" href="#part-selection" title="Permalink to this headline"></a></h2>
-<img alt="_images/part_selector.png" src="_images/part_selector.png" />
+<img alt="../_images/part_selector.png" src="../_images/part_selector.png" />
 <p>You can display and edit the selected part by selecting any of 1/2/3/4/C with the part selection button at the bottom left of the score.</p>
 <ul class="simple">
 <li><p>If you select any of 1/2/3/4, you can display and edit the normal tone part. The specifications of each part are the same.</p></li>
@@ -226,7 +298,7 @@ In compatible playback mode, which version is compatible is displayed in the upp
 </section>
 <section id="normal-part">
 <h2>Normal Part<a class="headerlink" href="#normal-part" title="Permalink to this headline"></a></h2>
-<img alt="_images/tone_selector2.png" src="_images/tone_selector2.png" />
+<img alt="../_images/tone_selector2.png" src="../_images/tone_selector2.png" />
 <p>When the normal part is selected, the tone list is displayed at the top of the score.</p>
 <p>By left-clicking on the tone list, you can select the tone to use with the pen/brush tool.
 The tone list is divided into multiple pages, and you can switch to another page with the <strong>“+”</strong> and <strong>“-”</strong> buttons.
@@ -247,7 +319,7 @@ The numbers display the current page number.</p>
 </section>
 <section id="chord-part">
 <h2>Chord Part<a class="headerlink" href="#chord-part" title="Permalink to this headline"></a></h2>
-<img alt="_images/chord_input.png" src="_images/chord_input.png" />
+<img alt="../_images/chord_input.png" src="../_images/chord_input.png" />
 <p>When the chord part is selected, the chord selection tool is displayed on the upper side of the score.</p>
 <p>The selection of the basic chord is set by the face icon displayed on the upper side of the score, and the additional note is set by the button to the right of it.</p>
 <p>The additional notes is displayed as a hat, and the power chord is displayed as an icon with a face color.</p>
@@ -259,13 +331,13 @@ The pitch of the chord is displayed as a thick line, and each constituent note o
 </section>
 <section id="pro-mode">
 <h2>Pro Mode<a class="headerlink" href="#pro-mode" title="Permalink to this headline"></a></h2>
-<img alt="_images/note_vol_pan.png" src="_images/note_vol_pan.png" />
+<img alt="../_images/note_vol_pan.png" src="../_images/note_vol_pan.png" />
 <p>When the PRO switch at the top of the image is turned on (red state), a part of the screen will be switched and various buttons and advanced functions will be displayed.</p>
 <p>In Pro mode, you can switch between note input, volume input, and pan input with the buttons in the image to input on the score.</p>
 </section>
 <section id="volume-input-pro-mode-only">
 <h2>Volume Input (Pro mode only)<a class="headerlink" href="#volume-input-pro-mode-only" title="Permalink to this headline"></a></h2>
-<img alt="_images/volume_edit.png" src="_images/volume_edit.png" />
+<img alt="../_images/volume_edit.png" src="../_images/volume_edit.png" />
 <p>If you select the volume input tab in Pro mode, you can specify the volume at the bottom side of the score.</p>
 <p>The volume value that can be specified is 16 levels from 0 to 15. (This is a specification assuming an 8-bit game machine.)</p>
 <p>The default volume is 12 (= C), where 0 is completely silent.</p>
@@ -280,7 +352,7 @@ The pitch of the chord is displayed as a thick line, and each constituent note o
 </section>
 <section id="pan-input-pro-mode-only">
 <h2>Pan Input (Pro mode only)<a class="headerlink" href="#pan-input-pro-mode-only" title="Permalink to this headline"></a></h2>
-<img alt="_images/pan_edit.png" src="_images/pan_edit.png" />
+<img alt="../_images/pan_edit.png" src="../_images/pan_edit.png" />
 <p>If you select the pan input tab in pro mode, you can specify the position of the sound with the center / left / right. (note by note)</p>
 <p><strong>C</strong> is center, <strong>L</strong> is left, and <strong>R</strong> is right.</p>
 <p>If you specify one place for pan, it will be carried over to after notes.</p>
@@ -288,7 +360,7 @@ The pitch of the chord is displayed as a thick line, and each constituent note o
 </section>
 <section id="display-settings">
 <h2>Display Settings<a class="headerlink" href="#display-settings" title="Permalink to this headline"></a></h2>
-<img alt="_images/display_settings.png" src="_images/display_settings.png" />
+<img alt="../_images/display_settings.png" src="../_images/display_settings.png" />
 <p>You can change the display settings of the score with the button on the right side of the score.</p>
 <p>The functions are as follows in order from left to right.</p>
 <ul>
@@ -303,11 +375,11 @@ The pitch of the chord is displayed as a thick line, and each constituent note o
 </div></blockquote>
 </li>
 </ul>
-<img alt="_images/color_settings.png" src="_images/color_settings.png" />
+<img alt="../_images/color_settings.png" src="../_images/color_settings.png" />
 </section>
 <section id="setting-the-number-of-notes-per-page">
 <h2>Setting the number of notes per page<a class="headerlink" href="#setting-the-number-of-notes-per-page" title="Permalink to this headline"></a></h2>
-<img alt="_images/note_per_page.png" src="_images/note_per_page.png" />
+<img alt="../_images/note_per_page.png" src="../_images/note_per_page.png" />
 <p>The number in the upper right corner of the score displays the maximum number of notes per page.</p>
 <ul class="simple">
 <li><p>If you press the <strong>“+”</strong> button, you can increase it by 1 and set it up to 32.</p></li>
@@ -315,12 +387,12 @@ The pitch of the chord is displayed as a thick line, and each constituent note o
 </ul>
 <p>The maximum number of notes is also displayed as a vertical line on the score.
 When the playback position bar crosses this vertical line, it moves to the next page.</p>
-<img alt="_images/note_per_page_by_page.png" src="_images/note_per_page_by_page.png" />
+<img alt="../_images/note_per_page_by_page.png" src="../_images/note_per_page_by_page.png" />
 <p>If you set “by page” in the music settings, the broken link icon is displayed and you can set the number of notes for each page individually.</p>
 </section>
 <section id="page-based-editing-tool">
 <h2>Page-based Editing Tool<a class="headerlink" href="#page-based-editing-tool" title="Permalink to this headline"></a></h2>
-<img alt="_images/scroll_bar_tools.png" src="_images/scroll_bar_tools.png" />
+<img alt="../_images/scroll_bar_tools.png" src="../_images/scroll_bar_tools.png" />
 <p>The bitmap scroll bar can be used not only for page navigation but also for editing music data on a page-by-page basis.</p>
 <p>You can copy and paste the selected page with the button on the upper left. (Ctrl + C, Ctrl + V are also acceptable)</p>
 <p>You can also delete it with the <strong>Delete</strong> key.</p>
@@ -343,7 +415,7 @@ You can move it by dragging the selection, and you can also duplicate it by drag
 </section>
 <section id="scale-function">
 <h1>Scale Function<a class="headerlink" href="#scale-function" title="Permalink to this headline"></a></h1>
-<img alt="_images/scale_selector.png" src="_images/scale_selector.png" />
+<img alt="../_images/scale_selector.png" src="../_images/scale_selector.png" />
 <p>This function limits the pitches that can be entered according to certain rules, making it easier to enter musics with a specific scale.
 The pitches that cannot be entered are displayed on the keyboard.
 Also, when the icon selected, the sounds that are incremented one by one on that scale will be previewed.</p>
@@ -369,7 +441,7 @@ This is useful when you want to temporarily input an unscaled pitch.</p>
 </section>
 <section id="tool-list">
 <h1>Tool List<a class="headerlink" href="#tool-list" title="Permalink to this headline"></a></h1>
-<img alt="_images/tools_panel.png" src="_images/tools_panel.png" />
+<img alt="../_images/tools_panel.png" src="../_images/tools_panel.png" />
 <p>The start button of the convenient tool of the type to use by opening another window is displayed, and when you press it, the window opens.</p>
 <p>The tools are as follows in order from left to right.</p>
 <ul class="simple">
@@ -379,7 +451,7 @@ This is useful when you want to temporarily input an unscaled pitch.</p>
 </section>
 <section id="chord-pattern-tool">
 <h1>Chord Pattern Tool<a class="headerlink" href="#chord-pattern-tool" title="Permalink to this headline"></a></h1>
-<img alt="_images/chord_pattern_tool.png" src="_images/chord_pattern_tool.png" />
+<img alt="../_images/chord_pattern_tool.png" src="../_images/chord_pattern_tool.png" />
 <p>It is a tool that allows you to select and enter a standard chord progression from a list.
 Even if you don’t have any knowledge of chords, you can choose your favorite chord progression while actually playing and listening.</p>
 <p>Left-click on any of the chord lists to set the selected chord pattern on the score.</p>
@@ -394,7 +466,7 @@ If it is not specified (gray out), it depends on the “number of measures per p
 </section>
 <section id="tone-palette-tool">
 <h1>Tone Palette Tool<a class="headerlink" href="#tone-palette-tool" title="Permalink to this headline"></a></h1>
-<img alt="_images/tone_palette.png" src="_images/tone_palette.png" />
+<img alt="../_images/tone_palette.png" src="../_images/tone_palette.png" />
 <p>This is a convenient tool for collecting frequently used tones.</p>
 <p>The tones freely selected by the user are displayed on the upper side, and the recently used tones are displayed on the lower side.
 Press the <strong>“+”</strong> button to add the currently selected tone to the palette.</p>
@@ -405,9 +477,9 @@ Also when it is a chord part, it switches to the chord palette.</p>
 </section>
 <section id="rhythm-pattern">
 <h1>Rhythm Pattern<a class="headerlink" href="#rhythm-pattern" title="Permalink to this headline"></a></h1>
-<img alt="_images/rhythm_pattern.png" src="_images/rhythm_pattern.png" />
+<img alt="../_images/rhythm_pattern.png" src="../_images/rhythm_pattern.png" />
 <p>It is a function that adds various rhythms and accompaniment to the chords entered in the chord part. (Therefore, if no chord is entered, it’s will not work and nothing will sound.)</p>
-<img alt="_images/rhythm_pattern_main.png" src="_images/rhythm_pattern_main.png" />
+<img alt="../_images/rhythm_pattern_main.png" src="../_images/rhythm_pattern_main.png" />
 <p>The picture above shows the currently selected rhythm pattern, which you can change with the left and right triangle buttons.</p>
 <p>The default three-line icon only plays chords purely in chords, but changing to a different pattern will also add rhythm.</p>
 <p>There are 4 types of sub-patterns for each, and you can choose one from the 1/2/3/4 at the bottom of the picture. The selected ones are displayed in color, and the others are displayed in gray.</p>
@@ -415,7 +487,7 @@ Also when it is a chord part, it switches to the chord palette.</p>
 When grayed out, the value of “Number of bars per page” in the music settings is used.</p>
 <section id="rhythm-part-setting">
 <h2>Rhythm part setting<a class="headerlink" href="#rhythm-part-setting" title="Permalink to this headline"></a></h2>
-<img alt="_images/rhythm_pattern_mute.png" src="_images/rhythm_pattern_mute.png" />
+<img alt="../_images/rhythm_pattern_mute.png" src="../_images/rhythm_pattern_mute.png" />
 <p>The rhythm pattern sound performance consists of four parts, and each performance can be turned on / off individually with the button at the bottom left of the image.</p>
 <p>The icons are as follows in order from left to right.</p>
 <ul class="simple">
@@ -427,7 +499,7 @@ When grayed out, the value of “Number of bars per page” in the music setting
 </section>
 <section id="arpeggiator">
 <h2>Arpeggiator<a class="headerlink" href="#arpeggiator" title="Permalink to this headline"></a></h2>
-<img alt="_images/rhythm_pattern_arpeggiator.png" src="_images/rhythm_pattern_arpeggiator.png" />
+<img alt="../_images/rhythm_pattern_arpeggiator.png" src="../_images/rhythm_pattern_arpeggiator.png" />
 <p>This function allows you to play the chord constituent sounds one by one (arpeggio) instead of playing them at the same time.</p>
 <blockquote>
 <div><p>This is a popular technique because the number of simultaneous pronunciations is very limited on 8-bit game consoles and it is difficult to play chords at the same time.</p>
@@ -445,7 +517,7 @@ Plays the pitch of the arpeggio like a sequence of dots.</p>
 </section>
 <section id="editing-tools-for-rhythm-pattern">
 <h2>Editing tools for rhythm pattern<a class="headerlink" href="#editing-tools-for-rhythm-pattern" title="Permalink to this headline"></a></h2>
-<img alt="_images/rhythm_pattern_edittool.png" src="_images/rhythm_pattern_edittool.png" />
+<img alt="../_images/rhythm_pattern_edittool.png" src="../_images/rhythm_pattern_edittool.png" />
 <p>The function are as follows in order from left to right.</p>
 <ul>
 <li><p>Copy the current rhythm pattern</p></li>
@@ -459,7 +531,7 @@ Plays the pitch of the arpeggio like a sequence of dots.</p>
 </section>
 <section id="output-monitor">
 <h1>Output Monitor<a class="headerlink" href="#output-monitor" title="Permalink to this headline"></a></h1>
-<img alt="_images/output_monitor.png" src="_images/output_monitor.png" />
+<img alt="../_images/output_monitor.png" src="../_images/output_monitor.png" />
 <p>Displays the waveform of the sound currently being played like an oscilloscope.
 Since the synthesis result of all the output sounds is displayed, it responds not only to music but also to sound effects.</p>
 <ul class="simple">
@@ -470,7 +542,7 @@ Since the synthesis result of all the output sounds is displayed, it responds no
 </section>
 <section id="volume">
 <h1>Volume<a class="headerlink" href="#volume" title="Permalink to this headline"></a></h1>
-<img alt="_images/volume_panel.png" src="_images/volume_panel.png" />
+<img alt="../_images/volume_panel.png" src="../_images/volume_panel.png" />
 <p>You can change the playback volume, mute each part, or specify solo playback.
 The settings here are not saved for each music.</p>
 <p>In addition, the currently playing tone, etc. are displayed visually.</p>
@@ -486,7 +558,7 @@ The settings here are not saved for each music.</p>
 </section>
 <section id="adjustment-panel-pro-mode-only">
 <h1>Adjustment Panel (Pro mode only)<a class="headerlink" href="#adjustment-panel-pro-mode-only" title="Permalink to this headline"></a></h1>
-<img alt="_images/mixer_panel.png" src="_images/mixer_panel.png" />
+<img alt="../_images/mixer_panel.png" src="../_images/mixer_panel.png" />
 <p>You can adjust the volume and output channel for each part of the entire music at once.</p>
 <p>For the volume slider in the center, raise or lower the value specified for the volume on the score.
 In addition to left dragging, you can also increase or decrease by rotating the mouse wheel.
@@ -506,7 +578,7 @@ In that case, the volume display will be lightly grayed out.</p>
 </section>
 <section id="dancer">
 <h1>Dancer<a class="headerlink" href="#dancer" title="Permalink to this headline"></a></h1>
-<img alt="_images/witches.png" src="_images/witches.png" />
+<img alt="../_images/witches.png" src="../_images/witches.png" />
 <p>The characters of “Dungeon Witches” will sing and dance to the tempo of the music, and will perform various productions.
 It also indirectly acts like a metronome.</p>
 <p>Left-click to change to another animation pattern, drag to move, right-click to zoom in / out.</p>
@@ -517,7 +589,7 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="music-settings">
 <h1>Music Settings<a class="headerlink" href="#music-settings" title="Permalink to this headline"></a></h1>
-<img alt="_images/music_settings.png" src="_images/music_settings.png" />
+<img alt="../_images/music_settings.png" src="../_images/music_settings.png" />
 <p>This is the screen for music setting.</p>
 <p>In order from the above items,</p>
 <ul>
@@ -552,7 +624,7 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="balloon-help-display-button">
 <h1>Balloon Help Display Button<a class="headerlink" href="#balloon-help-display-button" title="Permalink to this headline"></a></h1>
-<img alt="_images/help_button.png" src="_images/help_button.png" />
+<img alt="../_images/help_button.png" src="../_images/help_button.png" />
 <p>Located at the bottom left of the screen, you can press it to turn on / off the balloon help display. Once you have learned all the operations, you can turn it off.</p>
 </section>
 <section id="midi-input">
@@ -566,7 +638,7 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="screen-switching-tab">
 <h1>Screen Switching Tab<a class="headerlink" href="#screen-switching-tab" title="Permalink to this headline"></a></h1>
-<img alt="_images/mode_selector.png" src="_images/mode_selector.png" />
+<img alt="../_images/mode_selector.png" src="../_images/mode_selector.png" />
 <p>The screen switching tab at the top left of the screen. Left-click to switch to the selected screen.</p>
 <p>In order from the left items,</p>
 <ul>
@@ -580,11 +652,11 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="export-screen">
 <span id="id-export-screen"></span><h1>Export Screen<a class="headerlink" href="#export-screen" title="Permalink to this headline"></a></h1>
-<img alt="_images/export_mode.png" src="_images/export_mode.png" />
+<img alt="../_images/export_mode.png" src="../_images/export_mode.png" />
 <p>This screen is for outputting music data as an audio file or MIDI file.</p>
 <section id="common-settings">
 <h2>Common Settings<a class="headerlink" href="#common-settings" title="Permalink to this headline"></a></h2>
-<img alt="_images/export_top_buttons.png" src="_images/export_top_buttons.png" />
+<img alt="../_images/export_top_buttons.png" src="../_images/export_top_buttons.png" />
 <ul class="simple">
 <li><p><strong>ALL MUSIC / 1 MUSIC button</strong> … Select whether to output all musics as a file or output only the selected music. If you select 1 MUSIC, you will be able to select the target music with the music number selector on the right. (The initial value is the number of the music selected on the music edit screen.)</p></li>
 <li><p><strong>Folder open icon</strong> … Open the export destination folder with Explorer on the OS side.</p></li>
@@ -593,7 +665,7 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="wave-export">
 <h2>Wave export<a class="headerlink" href="#wave-export" title="Permalink to this headline"></a></h2>
-<img alt="_images/export_wave_settings.png" src="_images/export_wave_settings.png" />
+<img alt="../_images/export_wave_settings.png" src="../_images/export_wave_settings.png" />
 <ul>
 <li><p><strong>EXPORT button</strong> … Executes audio file export with the current settings.</p></li>
 <li><p><strong>LOOP</strong> … Set the number of times to play the loop section. (If it is 1, it will not be played repeatedly)</p>
@@ -616,7 +688,7 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="midi-export">
 <h2>MIDI export<a class="headerlink" href="#midi-export" title="Permalink to this headline"></a></h2>
-<img alt="_images/export_midi_settings.png" src="_images/export_midi_settings.png" />
+<img alt="../_images/export_midi_settings.png" src="../_images/export_midi_settings.png" />
 <ul class="simple">
 <li><p><strong>EXPORT button</strong> … Executes MIDI file export with the current settings.</p></li>
 <li><p><strong>LOOP</strong> … Set the number of times to play the loop section. (If it is 1, it will not be played repeatedly)</p>
@@ -632,7 +704,7 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="config-tool">
 <h1>Config Tool<a class="headerlink" href="#config-tool" title="Permalink to this headline"></a></h1>
-<img alt="_images/config_tool.png" src="_images/config_tool.png" />
+<img alt="../_images/config_tool.png" src="../_images/config_tool.png" />
 <p>You can select the MIDI / audio device to use and set the audio buffer size.</p>
 <p>The setting is effective when the Lovely Composer is started (if it is set while the Lovely Composer is running, it will not be reflected until it is restarted).</p>
 <blockquote>
@@ -643,7 +715,7 @@ It also indirectly acts like a metronome.</p>
 <span id="id-q-and-a"></span><h1>Q &amp; A<a class="headerlink" href="#q-a" title="Permalink to this headline"></a></h1>
 <section id="cannot-start-case-of-a-security-warning-appears">
 <h2>Cannot start … Case of a security warning appears<a class="headerlink" href="#cannot-start-case-of-a-security-warning-appears" title="Permalink to this headline"></a></h2>
-<img alt="_images/windows_security_alert.png" src="_images/windows_security_alert.png" />
+<img alt="../_images/windows_security_alert.png" src="../_images/windows_security_alert.png" />
 <p>When starting for the first time after downloading Lovely Composer, the above warning may be displayed and the “Run” button may not be displayed in addition to “Do not run”. In this case, press “Details” at the location indicated by the arrow, and the “Execute” button will be displayed.</p>
 </section>
 <section id="software-version-upgrade-data-migration-method">
@@ -795,9 +867,6 @@ Please make sure that you can open it with the latest version.</p></li>
     <p>&#169; Copyright 2022, 1oo Games.</p>
   </div>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>

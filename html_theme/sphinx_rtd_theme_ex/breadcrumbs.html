@@ -1,0 +1,33 @@
+{% extends "sphinx_rtd_theme/breadcrumbs.html" %}
+
+
+{%- block breadcrumbs %}
+<li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+  {%- for doc in parents %}
+    <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo;</li>
+  {%- endfor %}
+<li>{{ title }}</li>
+{%- endblock %}
+
+{%- block breadcrumbs_aside %}
+{%- endblock %}
+
+{%- block mobile_nav %}
+{%- endblock %}
+
+
+
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+{% block relbaritems %}{% endblock %}
+
+
+
+{% block sidebarlogo %}
+    {{ super() }}
+{% endblock %}
+
+{% set reldelim1 = ' &gt;' %}
+{% set reldelim2 = ' &gt;' %}
+{% set master_doc = 'root2' %}
+

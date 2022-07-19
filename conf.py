@@ -41,13 +41,17 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-master_doc = "top_en"
+#master_doc = "top_en"
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme_path = [ "./html_theme" ]
+html_theme = 'sphinx_rtd_theme_ex'
+
+html_show_sourcelink = False
+html_show_sphinx = False
 
 html_theme_options = {
     'logo_only': False,

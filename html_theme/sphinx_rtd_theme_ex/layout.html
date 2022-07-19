@@ -1,0 +1,36 @@
+{% extends "sphinx_rtd_theme/layout.html" %}
+
+{% set script_files = script_files + [ "_static/ex_js.js" ] %}
+{% set css_files    = css_files    + [ "_static/ex_css.css" ] %}
+
+{%- block extrahead %}
+    <meta name="viewport" content="width=device-width; initial-scale=2.0">
+    <meta name="test">
+{%- endblock %}
+
+{% block rootrellink %}
+    <li><a href="https://project.invalid/">Project Homepage</a> &raquo;</li>
+{% endblock %}
+
+{%- block sidebartitle %}
+{%- endblock %}
+
+{%- block mobile_nav %}
+{%- endblock %}
+
+
+
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+{% block relbaritems %}{% endblock %}
+
+
+
+{% block sidebarlogo %}
+    {{ super() }}
+{% endblock %}
+
+{% set reldelim1 = ' &gt;' %}
+{% set reldelim2 = ' &gt;' %}
+{% set master_doc = 'root2' %}
+

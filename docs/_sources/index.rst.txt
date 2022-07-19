@@ -1,4 +1,4 @@
 Lovely Composer Official Documents
 #####################################################
 
-:doc:`English <en/index>` \| :doc:`Japanese <jp/index>` \| Others: Please use browser's auto translation!
+`English <https://doc1oo.github.io/LovelyComposerDocs/en/index.html>`_ \| `Japanese <https://doc1oo.github.io/LovelyComposerDocs/en/index.html>`_ \| Others: Please use browser's auto translation!

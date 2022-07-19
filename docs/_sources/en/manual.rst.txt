@@ -12,6 +12,7 @@ Overview
 * :ref:`id_shortcut_keys`
 * :ref:`id_q_and_a`
 
+
 .. _id_music_editor:
 
 Music Editor

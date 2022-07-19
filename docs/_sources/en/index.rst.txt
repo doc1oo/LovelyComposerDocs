@@ -4,7 +4,7 @@ Lovely Composer Official Guide
 :doc:`English <index>` \| :doc:`Japanese <../jp/index>` \| Others: Please use browser's auto translation!
 
 .. image:: ../img/LC_header_main_ss.png
-    :scale: 30%
+    :scale: 35%
 
 
 * :doc:`User Manual <manual>` 

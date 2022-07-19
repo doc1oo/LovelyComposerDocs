@@ -4,10 +4,11 @@ Lovely Composer 公式ガイド
 :doc:`English <../en/index>` \| :doc:`日本語 <index>` 
 
 .. image:: ../img/LC_header_main_ss.png
+    :scale: 30%
 
 
 * :doc:`操作説明書 <manual>` 
-* :doc:`story`
+* :doc:`ストーリー <story>`
 
 はじめに
 ##############################################################################

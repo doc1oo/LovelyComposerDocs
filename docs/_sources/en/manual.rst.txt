@@ -6,13 +6,13 @@ Lovely Composer User Manual
 Index
 ##############################################################################
 
-* :ref:`id_music_editor`
-* :ref:`id_export_screen`
-* :ref:`id_shortcut_keys`
-* :ref:`id_q_and_a`
+* :ref:`id_music_editor_en`
+* :ref:`id_export_screen_en`
+* :ref:`id_shortcut_keys_en`
+* :ref:`id_q_and_a_en`
 
 
-.. _id_music_editor:
+.. _id_music_editor_en:
 
 Music Editor
 ##############################################################################
@@ -687,7 +687,7 @@ In order from the left items,
     When switching screens, the music data being edited is saved as a file, and the history such as undo is cleard (it is not saved if write-protected).
 
 
-.. _id_export_screen:
+.. _id_export_screen_en:
 
 Export Screen
 ##############################################################################
@@ -758,7 +758,7 @@ The setting is effective when the Lovely Composer is started (if it is set while
   If the audio buffer size is made smaller, the response of playback and partial display will be faster, but if it is made too small, the sound may not be reproduced, noise may be mixed, and playback may become unstable. The optimum value depends on the PC environment.
 
 
-.. _id_q_and_a:
+.. _id_q_and_a_en:
 
 Q & A
 ################################################
@@ -818,7 +818,7 @@ Add a new folder
     Even if you create only a new folder, it will not be displayed in the folder list. (It is necessary for **"lcdata.jsonl"** to be included for now)
 
 
-.. _id_shortcut_keys:
+.. _id_shortcut_keys_en:
 
 Shortcut Keys
 ##############################################################

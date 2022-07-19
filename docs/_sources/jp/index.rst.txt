@@ -28,10 +28,9 @@ Lovely Composer（ラブリーコンポーザ　愛称: ラビコン）は、8bi
 販売サイト
 ##################################################################
 
- 
-  * `BOOTH <https://1oogames.booth.pm/items/3006558>`_
-  * `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html>`_
-  * `itch.io <https://1oogames.itch.io/lovely-composer>`_
+* `BOOTH <https://1oogames.booth.pm/items/3006558>`_
+* `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html>`_
+* `itch.io <https://1oogames.itch.io/lovely-composer>`_
 
 .. _id_sns:
 

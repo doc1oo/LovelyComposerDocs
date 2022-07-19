@@ -2,9 +2,6 @@ Lovely Composer - Story
 #####################################################
 
 
-Story
-==============================================================================
-
 In a certain forest ... Witches lived quietly in a small house.
 
 The witches should not be found by outsiders. Only the delicious food delivered by the villager Thomas is relied on.

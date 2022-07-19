@@ -1,10 +1,9 @@
 Lovely Composer User Manual
 #################################################################
 
-\* Please use web browser's auto translation (If you are hard to read English).
+\* Please use web browser's auto translation (If you are hard to read English). The content may differ from the latest version.
 
-
-Overview
+Index
 ##############################################################################
 
 * :ref:`id_music_editor`

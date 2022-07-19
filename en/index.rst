@@ -24,8 +24,8 @@ About the operation method, please read :doc:`User Manual <manual>`.
 Marketplace 
 ###############################################################################
 
-  * `itch.io <https://1oogames.itch.io/lovely-composer>`_
-  * `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html?locale=en_US>`_
+* `itch.io <https://1oogames.itch.io/lovely-composer>`_
+* `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html?locale=en_US>`_
 
 SNS
 ################################################################################

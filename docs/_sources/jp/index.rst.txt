@@ -10,12 +10,12 @@ Lovely Composer 公式ガイド
 * :doc:`操作説明書 <manual>` 
 * :doc:`ストーリー <story>`
 
-はじめに
+ようこそ
 ##############################################################################
 
 Lovely Composer（ラブリーコンポーザ　愛称: ラビコン）は、8bitゲーム機風の音楽や効果音を手軽に楽しく作れることを目指した、個人開発の音楽ツールです。
 
-このソフトは音楽ツールですが、前作のゲーム『`ダンジョンウィッチーズ - 少女の帰宅 - <https://1oogames.booth.pm/items/2263636>`_』の続編にもなっていて、そのキャラクター達も登場します。 :doc:`ストーリー <story>` まであります。
+このソフトには、前作のゲーム『`ダンジョンウィッチーズ - 少女の帰宅 - <https://1oogames.booth.pm/items/2263636>`_』のキャラクター達も登場します。（続編としての :doc:`ストーリー <story>` まであります。）
 
 操作方法については :doc:`操作説明書 <manual>` をお読みください。
 
@@ -41,7 +41,7 @@ SNS
 * twitter `@1oo_games <https://twitter.com/1oo_games>`_
 * Discord `LovelyComposer <https://discord.gg/96GhPwjQnE>`_
 
-`#LovelyComposer <https://twitter.com/search?q=%23LovelyComposer>`_ タグで他の人の作品を見たり、あなたの作品を紹介したりしましょう!
+`#LovelyComposer <https://twitter.com/search?q=%23LovelyComposer>`_ タグで他の人の作品を見たり、あなたの作品を紹介しましょう!
 
 サポート・お問い合わせ
 ##############################################################################

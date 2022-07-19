@@ -12,13 +12,12 @@ Lovely Composer Official Guide
 
 Welcome
 ##############################################################################
-This is the official manual for the personally developed music software Lovely Composer.
 
-Lovely composer is a tool that aims to make music and sound effects like 8-bit game consoles easy and fun.
-
-About the operation method, please read :doc:`User Manual <manual>`.
+Lovely composer is a tool that aims to make music and sound effects like 8-bit game consoles easy and fun. And it developed personally.
 
 This software is a music software, but it is also a sequel to the game "`Dungeon Witches - Girls Back Home - <https://1oogames.itch.io/dungeon-witches>`_", and its characters will also appear. Even the :doc:`story <story>` is exist. 
+
+About the operation method, please read :doc:`User Manual <manual>`.
 
 
 Marketplace 

@@ -51,6 +51,15 @@
 <li><a class="reference internal" href="#sounds">Sounds</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#ver-1-2-3-2022-02-21">ver.1.2.3 - 2022-02-21</a></li>
+<li><a class="reference internal" href="#ver-1-2-2-2022-01-01">ver.1.2.2 - 2022-01-01</a></li>
+<li><a class="reference internal" href="#ver-1-2-1-2022-12-24">ver.1.2.1 - 2022-12-24</a></li>
+<li><a class="reference internal" href="#ver-1-2-0-2022-12-23">ver.1.2.0 - 2022-12-23</a><ul>
+<li><a class="reference internal" href="#released">1.2.0 released!</a></li>
+<li><a class="reference internal" href="#id6">Demo</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ver-1-2-0beta4">ver.1.2.0beta4</a></li>
 </ul>
 </div>
         </div>
@@ -79,19 +88,19 @@
 <span id="id-changelog-1-2-6-en"></span><h1>ver.1.2.6 - 2022-07-20<a class="headerlink" href="#ver-1-2-6-2022-07-20" title="Permalink to this headline"></a></h1>
 <section id="list-of-changes">
 <h2>List of changes<a class="headerlink" href="#list-of-changes" title="Permalink to this headline"></a></h2>
-<p>Add</p>
+<p>Added</p>
 <ul class="simple">
 <li><p>Added help function: F1 key to open the display screen instructions, F2 key to open the user guide</p></li>
 <li><p>Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D</p></li>
 <li><p>Added function to display the name of the currently selected scale and its component notes in text (when mouse cursor is placed on the scale key operation button)</p></li>
 <li><p>Added function limitation processing, etc. for making the new trial version*</p></li>
 </ul>
-<p>Changes</p>
+<p>Changed</p>
 <ul class="simple">
 <li><p>Changed default location of song data, etc. to LovelyComposer folder under user document folder (to simplify version upgrade)</p></li>
 <li><p>When using the eraser tool, pressing the tone icon in the tone selection tool always switches to the pen tool.</p></li>
 </ul>
-<p>Fixes</p>
+<p>Fixed</p>
 <ul class="simple">
 <li><p>Fixed a problem that the maximum number of folders on the folder selection window was the number of chord patterns</p></li>
 <li><p>Fixed the problem that the USER_SFX folder was not set to the default settings for sound effects after song number 32.</p></li>
@@ -123,13 +132,13 @@
 <span id="id-changelog-1-2-5-en"></span><h1>ver.1.2.5 - 2022-05-18<a class="headerlink" href="#ver-1-2-5-2022-05-18" title="Permalink to this headline"></a></h1>
 <section id="id3">
 <h2>List of changes<a class="headerlink" href="#id3" title="Permalink to this headline"></a></h2>
-<p>Add</p>
+<p>Added</p>
 <ul class="simple">
 <li><p>Added the system setting tool (Top right of the screen)</p></li>
 <li><p>Supports non-integer multiple enlargement display and linear interpolation display on the screen</p></li>
 <li><p>Added the song list window (Display by click the song number display)</p></li>
 </ul>
-<p>Changes</p>
+<p>Changed</p>
 <ul class="simple">
 <li><p>The maximum number of songs for each folder has been increased up to 100 songs from 32 songs.</p></li>
 </ul>
@@ -177,6 +186,88 @@
 <p>We cannot guarantee that the sound will play comfortably without delay, etc., as it depends on the hardware environment, but even if it does not sound correctly, the problem may be resolved by the settings.</p>
 <p>Try using a configuration tool to increase the value of the audio buffer, for example.</p>
 </section>
+</section>
+<section id="ver-1-2-3-2022-02-21">
+<h1>ver.1.2.3 - 2022-02-21<a class="headerlink" href="#ver-1-2-3-2022-02-21" title="Permalink to this headline"></a></h1>
+<p>In version 1.2.3, sound effect on / off settings, export function, keyboard input improvements, etc. have been made.</p>
+<p>Added</p>
+<ul class="simple">
+<li><p>Added Sound Effects on / off setting</p></li>
+<li><p>Added an option to export an audio file for each part</p></li>
+<li><p>Added a JSONL file export function that adds rhythm pattern notes to the internal song data</p></li>
+</ul>
+<p>Changed</p>
+<ul class="simple">
+<li><p>Enabled to play chords on the keyboard (or MIDI keyboard) when chord part is selected</p></li>
+<li><p>Changed the export screen UI to switch options depending on the selected output  type</p></li>
+<li><p>Changeed 1 file output to default selection on the export screen</p></li>
+</ul>
+<p>Fixed</p>
+<ul class="simple">
+<li><p>Fixed an issue where Pan Law and Compatibility mode specifications were not enabled when exporting files</p></li>
+<li><p>Fixed an issue where pre-played sound effects could be played periodically and repeatedly when the page loop was turned on.</p></li>
+<li><p>Fixed a few noise tones that aren’t currently available in the sample song (the sound doesn’t change)</p></li>
+</ul>
+</section>
+<section id="ver-1-2-2-2022-01-01">
+<h1>ver.1.2.2 - 2022-01-01<a class="headerlink" href="#ver-1-2-2-2022-01-01" title="Permalink to this headline"></a></h1>
+<p>Only the following changes are made.</p>
+<ul class="simple">
+<li><p>Fixed an issue where if you edited a score during playback, the note volume and pan on that page would play incorrectly. (Until it plays again)</p></li>
+<li><p>Fixed the version number notation being still 1.2.0.</p></li>
+</ul>
+</section>
+<section id="ver-1-2-1-2022-12-24">
+<h1>ver.1.2.1 - 2022-12-24<a class="headerlink" href="#ver-1-2-1-2022-12-24" title="Permalink to this headline"></a></h1>
+<p>Fixed</p>
+<ul class="simple">
+<li><p>Fixed an issue where the first pitch might shift while dragging notes with the Pen tool</p></li>
+</ul>
+</section>
+<section id="ver-1-2-0-2022-12-23">
+<h1>ver.1.2.0 - 2022-12-23<a class="headerlink" href="#ver-1-2-0-2022-12-23" title="Permalink to this headline"></a></h1>
+<p>Changed</p>
+<ul class="simple">
+<li><p>The 4bit low resolution triangle wave has been slightly modified to be closer to the waveform of an 8bit game machine.</p></li>
+</ul>
+<p>Fixed</p>
+<ul class="simple">
+<li><p>Fixed an issue where notes could be placed off the screen by transpose (dragging the selection area)</p></li>
+<li><p>Fixed an issue where putting a chord mute symbol at the end of a page and selecting a chord scale on the next page would freeze</p></li>
+<li><p>Fixed an issue where the mixer volume specification would be invalid if the chord extension line spans the next page</p></li>
+</ul>
+<section id="released">
+<h2>1.2.0 released!<a class="headerlink" href="#released" title="Permalink to this headline"></a></h2>
+<p>This is the major update in about 3 months!</p>
+<p>Volume and stereo support have been added, greatly improving expressiveness.</p>
+<p>The volume is 16 levels, the stereo is Center / Left / Right selectable. ( the specifications are based on 8-bit game machines. )</p>
+<p>With the addition in the form of Pro Mode, advanced composers will be able to provide richer expressiveness and functionality while maintaining the traditional simple screen for beginners.</p>
+<p>Also, this time, we have added 10 new sample songs created by some users of Lovely Composer. These songs are samples with volume and stereo features of ver.1.2.</p>
+<p>When using a sample song, it is strongly recommended to write the author’s name somewhere, but other than that, you can use it freely. See the included readme for details.</p>
+<p>Thank you to the authors of the sample songs!</p>
+<blockquote>
+<div><p>ver.1.2.0 Sample music (LC_SAMPLE_1.2.0) ————</p>
+<blockquote>
+<div><p>No. 0 … Author: yktakaha4                 Title: Uchu-now</p>
+<p>No. 1 … Author: チカンゴ                  Title: (Untitled)</p>
+<p>No. 2 … Author: えなじ～                  Title: Execute</p>
+<p>No. 3 … Author: tdhr                      Title: (Untitled)</p>
+<p>No. 4 … Author: 荒巻那智 (Nachi Aramaki)  Title: まどろむ未確認</p>
+<p>No. 5 … Author: <a class="reference external" href="mailto:f&#37;&#52;&#48;ct">f<span>&#64;</span>ct</a>                      Title: Fun days</p>
+<p>No. 6 … Author: にしあぷ                  Title: (Original Song) The Other Day, I Met a Bear（Traditional American Song）</p>
+<p>No. 7 … Author: hits                      Title: 風の足跡</p>
+<p>No. 8 … Author: hits                      Title: Starry Drive</p>
+<p>No. 9 … Author: えなじ～                  Title: 帰り道のアンダンテ</p>
+</div></blockquote>
+</div></blockquote>
+</section>
+<section id="id6">
+<h2>Demo<a class="headerlink" href="#id6" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://youtu.be/9qsP4k_6AVM">Youtube</a></p>
+</section>
+</section>
+<section id="ver-1-2-0beta4">
+<h1>ver.1.2.0beta4<a class="headerlink" href="#ver-1-2-0beta4" title="Permalink to this headline"></a></h1>
 </section>
 
 

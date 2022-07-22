@@ -10,19 +10,19 @@ ver.1.2.6 - 2022-07-20
 List of changes
 =====================================
 
-Add
+Added
 
 * Added help function: F1 key to open the display screen instructions, F2 key to open the user guide
 * Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D
 * Added function to display the name of the currently selected scale and its component notes in text (when mouse cursor is placed on the scale key operation button)
 * Added function limitation processing, etc. for making the new trial version*
 
-Changes
+Changed
 
 * Changed default location of song data, etc. to LovelyComposer folder under user document folder (to simplify version upgrade)
 * When using the eraser tool, pressing the tone icon in the tone selection tool always switches to the pen tool.
 
-Fixes
+Fixed
 
 * Fixed a problem that the maximum number of folders on the folder selection window was the number of chord patterns
 * Fixed the problem that the USER_SFX folder was not set to the default settings for sound effects after song number 32.
@@ -61,13 +61,13 @@ ver.1.2.5 - 2022-05-18
 List of changes
 ============================================================================
 
-Add
+Added
 
 * Added the system setting tool (Top right of the screen)
 * Supports non-integer multiple enlargement display and linear interpolation display on the screen
 * Added the song list window (Display by click the song number display)
 
-Changes
+Changed
 
 * The maximum number of songs for each folder has been increased up to 100 songs from 32 songs.
 
@@ -118,3 +118,108 @@ Sounds
 We cannot guarantee that the sound will play comfortably without delay, etc., as it depends on the hardware environment, but even if it does not sound correctly, the problem may be resolved by the settings.
 
 Try using a configuration tool to increase the value of the audio buffer, for example.
+
+
+ver.1.2.3 - 2022-02-21
+#########################################################
+
+In version 1.2.3, sound effect on / off settings, export function, keyboard input improvements, etc. have been made.
+
+Added
+
+* Added Sound Effects on / off setting
+* Added an option to export an audio file for each part
+* Added a JSONL file export function that adds rhythm pattern notes to the internal song data
+
+Changed
+
+* Enabled to play chords on the keyboard (or MIDI keyboard) when chord part is selected
+* Changed the export screen UI to switch options depending on the selected output  type
+* Changeed 1 file output to default selection on the export screen
+
+Fixed
+
+* Fixed an issue where Pan Law and Compatibility mode specifications were not enabled when exporting files
+* Fixed an issue where pre-played sound effects could be played periodically and repeatedly when the page loop was turned on.
+* Fixed a few noise tones that aren't currently available in the sample song (the sound doesn't change)
+
+
+ver.1.2.2 - 2022-01-01
+#########################################################
+
+Only the following changes are made.
+
+* Fixed an issue where if you edited a score during playback, the note volume and pan on that page would play incorrectly. (Until it plays again)
+* Fixed the version number notation being still 1.2.0.
+
+
+
+ver.1.2.1 - 2022-12-24
+#########################################################
+
+Fixed
+
+* Fixed an issue where the first pitch might shift while dragging notes with the Pen tool
+
+
+ver.1.2.0 - 2022-12-23
+#########################################################
+
+Changed
+
+* The 4bit low resolution triangle wave has been slightly modified to be closer to the waveform of an 8bit game machine.
+
+Fixed
+
+* Fixed an issue where notes could be placed off the screen by transpose (dragging the selection area)
+* Fixed an issue where putting a chord mute symbol at the end of a page and selecting a chord scale on the next page would freeze
+* Fixed an issue where the mixer volume specification would be invalid if the chord extension line spans the next page
+
+1.2.0 released!
+==========================================================
+
+This is the major update in about 3 months!
+
+Volume and stereo support have been added, greatly improving expressiveness.
+
+The volume is 16 levels, the stereo is Center / Left / Right selectable. ( the specifications are based on 8-bit game machines. )
+
+With the addition in the form of Pro Mode, advanced composers will be able to provide richer expressiveness and functionality while maintaining the traditional simple screen for beginners.
+
+Also, this time, we have added 10 new sample songs created by some users of Lovely Composer. These songs are samples with volume and stereo features of ver.1.2.
+
+When using a sample song, it is strongly recommended to write the author's name somewhere, but other than that, you can use it freely. See the included readme for details. 
+
+Thank you to the authors of the sample songs!
+
+
+  ver.1.2.0 Sample music (LC_SAMPLE_1.2.0) ------------
+
+    No. 0 ... Author: yktakaha4                 Title: Uchu-now
+
+    No. 1 ... Author: チカンゴ                  Title: (Untitled)
+
+    No. 2 ... Author: えなじ～                  Title: Execute
+
+    No. 3 ... Author: tdhr                      Title: (Untitled)
+
+    No. 4 ... Author: 荒巻那智 (Nachi Aramaki)  Title: まどろむ未確認
+
+    No. 5 ... Author: f@ct                      Title: Fun days
+
+    No. 6 ... Author: にしあぷ                  Title: (Original Song) The Other Day, I Met a Bear（Traditional American Song）
+
+    No. 7 ... Author: hits                      Title: 風の足跡
+
+    No. 8 ... Author: hits                      Title: Starry Drive
+
+    No. 9 ... Author: えなじ～                  Title: 帰り道のアンダンテ
+
+Demo
+=======================================
+`Youtube <https://youtu.be/9qsP4k_6AVM>`_
+
+
+
+ver.1.2.0beta4 
+#########################################################

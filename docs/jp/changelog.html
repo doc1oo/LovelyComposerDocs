@@ -33,11 +33,30 @@
               <!-- Local TOC -->
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Lovely Composer - 更新履歴</a></li>
-<li><a class="reference internal" href="#ver-1-2-6">ver.1.2.6</a><ul>
+<li><a class="reference internal" href="#ver-1-2-6-2022-07-20">ver.1.2.6 - 2022-07-20</a><ul>
 <li><a class="reference internal" href="#id1">変更内容</a></li>
 <li><a class="reference internal" href="#id2">※ 重要なお知らせ</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#ver-1-2-5-2022-05-18">ver.1.2.5 - 2022-05-18</a><ul>
+<li><a class="reference internal" href="#id3">デモ</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ver-1-2-4-2022-04-11">ver.1.2.4 - 2022-04-11</a><ul>
+<li><a class="reference internal" href="#linux-supported">Linux supported!</a></li>
+<li><a class="reference internal" href="#supported-linux">Supported Linux</a></li>
+<li><a class="reference internal" href="#sounds">Sounds</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ver-1-2-3-2022-02-21">ver.1.2.3 - 2022-02-21</a></li>
+<li><a class="reference internal" href="#ver-1-2-2-2022-01-01">ver.1.2.2 -  - 2022-01-01</a></li>
+<li><a class="reference internal" href="#ver-1-2-1-2022-12-24">ver.1.2.1 - 2022-12-24</a></li>
+<li><a class="reference internal" href="#ver-1-2-0-2022-12-23">ver.1.2.0 - 2022-12-23</a><ul>
+<li><a class="reference internal" href="#id5">1.2.0 公開!</a></li>
+<li><a class="reference internal" href="#id6">デモ</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ver-1-2-0beta4">ver.1.2.0beta4</a></li>
 </ul>
 </div>
         </div>
@@ -62,8 +81,8 @@
   <section id="lovely-composer">
 <h1>Lovely Composer - 更新履歴<a class="headerlink" href="#lovely-composer" title="Permalink to this headline"></a></h1>
 </section>
-<section id="ver-1-2-6">
-<span id="id-changelog-1-2-6-jp"></span><h1>ver.1.2.6<a class="headerlink" href="#ver-1-2-6" title="Permalink to this headline"></a></h1>
+<section id="ver-1-2-6-2022-07-20">
+<span id="id-changelog-1-2-6-jp"></span><h1>ver.1.2.6 - 2022-07-20<a class="headerlink" href="#ver-1-2-6-2022-07-20" title="Permalink to this headline"></a></h1>
 <section id="id1">
 <h2>変更内容<a class="headerlink" href="#id1" title="Permalink to this headline"></a></h2>
 <p><strong>追加</strong></p>
@@ -95,9 +114,149 @@
 <li><p>ユーザードキュメントの下のLovelyComposerフォルダ内にある”music”フォルダと”app_settings.json”ファイルへ、あなたのデータファイル（以前のバージョンのプログラムフォルダ以下にあるmusicフォルダとapp_settings.jsonファイル）を上書きしてください。</p></li>
 </ol>
 <p>※今まで通り、プログラムフォルダ以下にデータを配置したい場合は、設定で可能です。（説明の準備中）</p>
-<p><strong>デモ動画</strong></p>
+<p><strong>デモ</strong></p>
 <p><a class="reference external" href="https://youtu.be/kw5izF6dYk4">Youtube</a></p>
 </section>
+</section>
+<section id="ver-1-2-5-2022-05-18">
+<h1>ver.1.2.5 - 2022-05-18<a class="headerlink" href="#ver-1-2-5-2022-05-18" title="Permalink to this headline"></a></h1>
+<p>追加</p>
+<ul class="simple">
+<li><p>システム設定画面追加</p></li>
+<li><p>画面の非整数倍拡大表示、線形補間表示に対応</p></li>
+<li><p>フォルダ内の曲一覧表示追加</p></li>
+</ul>
+<p>変更</p>
+<ul class="simple">
+<li><p>フォルダごとに上限32曲だったのを100曲まで扱えるように増量</p></li>
+</ul>
+<section id="id3">
+<h2>デモ<a class="headerlink" href="#id3" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://youtu.be/Pvl7DNT6hLE">Youtube</a></p>
+</section>
+</section>
+<section id="ver-1-2-4-2022-04-11">
+<h1>ver.1.2.4 - 2022-04-11<a class="headerlink" href="#ver-1-2-4-2022-04-11" title="Permalink to this headline"></a></h1>
+<ul class="simple">
+<li><p>Windowsに加えてLinuxを正式サポート</p></li>
+<li><p>非公式ベータ版としてMac用とラズベリーパイ用を追加（動作保証なし）</p></li>
+<li><p>オーディオバッファサイズのデフォルトを2048から1024に変更</p></li>
+</ul>
+<section id="linux-supported">
+<h2>Linux supported!<a class="headerlink" href="#linux-supported" title="Permalink to this headline"></a></h2>
+<p>Lovely Composer now supported some of Linux, but the Mac and Raspberry Pi versions are beta versions and are not guaranteed to work.</p>
+<p>Version 1.2.4 is mainly a modification for multi-platform support, with no major functional changes.</p>
+<p>Also the default value of audio buffer size has been changed from 2048 to 1024, which will reduces audio playback delay on many PCs, and smoothes the playback position bar and output waveform display. But may cause audio playback instability such as skips and petit noises on a small percentage of PCs. If you are having problems with audio playback, please change the audio buffer size to 2048 from the configuration tool.</p>
+</section>
+<section id="supported-linux">
+<h2>Supported Linux<a class="headerlink" href="#supported-linux" title="Permalink to this headline"></a></h2>
+<p>We have confirmed that the following operating systems work. (x86_64, with the latest updates applied)</p>
+<ul class="simple">
+<li><p>Ubuntu 20.04</p></li>
+<li><p>Fedora 34</p></li>
+<li><p>Slackware 15.0</p></li>
+<li><p>debian 11.3</p></li>
+</ul>
+<p>Following os have checked some problems in the virtual environment, but may work on the actual device.</p>
+<ul class="simple">
+<li><p>Mint Linux 20.3 &#64; VirtualBox</p></li>
+<li><p>Fedora 35 &#64; VirtualBox</p></li>
+</ul>
+<p>We confirmed that the following operating systems did not boot</p>
+<ul class="simple">
+<li><p>debian 10.10</p></li>
+</ul>
+<p>The Linux version is compiled on Ubuntu 20.04 for now. Basically, it seems to need a newer version than this to work.</p>
+<ul class="simple">
+<li><p>Linux kernel 5.13.0</p></li>
+<li><p>GCC 9.3.0</p></li>
+<li><p>GLIBC 2.31</p></li>
+</ul>
+</section>
+<section id="sounds">
+<h2>Sounds<a class="headerlink" href="#sounds" title="Permalink to this headline"></a></h2>
+<p>We cannot guarantee that the sound will play comfortably without delay, etc., as it depends on the hardware environment, but even if it does not sound correctly, the problem may be resolved by the settings.</p>
+<p>Try using a configuration tool to increase the value of the audio buffer, for example.</p>
+</section>
+</section>
+<section id="ver-1-2-3-2022-02-21">
+<h1>ver.1.2.3 - 2022-02-21<a class="headerlink" href="#ver-1-2-3-2022-02-21" title="Permalink to this headline"></a></h1>
+<p>追加</p>
+<ul class="simple">
+<li><p>効果音のオン/オフ設定を追加</p></li>
+<li><p>オーディオファイルをパートごとにエクスポートするオプションを追加しました</p></li>
+<li><p>内部曲データのJSONLファイルにリズムパターンの音符を追加出力するエクスポート機能を追加しました</p></li>
+</ul>
+<p>変更</p>
+<ul class="simple">
+<li><p>コードパートを選択すると、キーボード（またはMIDIキーボード）でコードを演奏できるようになります</p></li>
+<li><p>選択した出力タイプに応じてオプションを切り替えるようにエクスポート画面のUIを変更しました</p></li>
+<li><p>1ファイル出力をエクスポート画面のデフォルトに変更しました</p></li>
+</ul>
+<p>修正</p>
+<ul class="simple">
+<li><p>ファイルのエクスポート時にパンロウ設定と互換モードの指定が有効にならなかった問題を修正しました</p></li>
+<li><p>効果音が定期的かつ繰り返し再生される可能性がある問題を修正しました。</p></li>
+<li><p>サンプル曲で現在利用できないノイズ音色が使用されていたのを修正しました（音は変更されません）</p></li>
+</ul>
+</section>
+<section id="ver-1-2-2-2022-01-01">
+<h1>ver.1.2.2 -  - 2022-01-01<a class="headerlink" href="#ver-1-2-2-2022-01-01" title="Permalink to this headline"></a></h1>
+<p>修正</p>
+<ul class="simple">
+<li><p>再生中に楽譜を編集すると、（再生し直すまで）そのページの音符の音量とパンが正しく再生されなくなる問題を修正しました。</p></li>
+<li><p>バージョン番号表記が1.2.0から変わってなかったのを修正しました。</p></li>
+</ul>
+</section>
+<section id="ver-1-2-1-2022-12-24">
+<h1>ver.1.2.1 - 2022-12-24<a class="headerlink" href="#ver-1-2-1-2022-12-24" title="Permalink to this headline"></a></h1>
+<p>修正</p>
+<ul class="simple">
+<li><p>ペンツールでノートをドラッグ入力するときに、最初の音程がずれる場合がある問題を修正しました</p></li>
+</ul>
+</section>
+<section id="ver-1-2-0-2022-12-23">
+<h1>ver.1.2.0 - 2022-12-23<a class="headerlink" href="#ver-1-2-0-2022-12-23" title="Permalink to this headline"></a></h1>
+<p>変更</p>
+<ul class="simple">
+<li><p>4ビットローレゾ三角波を、8bitゲーム機の波形により近くなるようにわずかに変更しました</p></li>
+</ul>
+<p>修正</p>
+<ul class="simple">
+<li><p>トランスポーズ（選択領域のドラッグ）によってノートが画面の外に配置できてしまう問題を修正しました</p></li>
+<li><p>コードミュート状態でコードスケールを選択するとフリーズする問題を修正しました</p></li>
+<li><p>コード延長線が次のページにまたがる場合、次ページ再生時にミキサーのボリューム指定が無効になる問題を修正しました</p></li>
+</ul>
+<section id="id5">
+<h2>1.2.0 公開!<a class="headerlink" href="#id5" title="Permalink to this headline"></a></h2>
+<p>約3か月ぶりのメジャーアップデートです！</p>
+<p>音量の指定やステレオ対応を追加し、表現力が大きく向上しました。</p>
+<p>音量は16段階、ステレオは中央/左/右の選択式と、8bitゲーム機を踏まえた仕様となっています。</p>
+<p>Proモードという形で追加したことで、作曲初心者のために従来のシンプルな画面を維持したまま、作曲上級者にはより豊かな表現力や機能を提供します。</p>
+<p>また今回は新しく、LovelyComposerの一部のユーザー達が制作したサンプル曲を10曲追加しています。これらの曲は、ver.1.2の音量やステレオ機能を使用したサンプルとなっています。</p>
+<p>サンプル曲を使用する場合は、作者名をどこかに表記することを強く推奨していますが、それ以外は自由に使うことができます。詳しくは同梱のreadmeをご覧ください。</p>
+<p>サンプル曲の作者の皆様、ありがとうございました!</p>
+<p>ver.1.2.0 サンプル曲 (LC_SAMPLE_1.2.0) ————</p>
+<blockquote>
+<div><p>0番 … 作者名: yktakaha4      曲名: うちゅうなう</p>
+<p>1番 … 作者名: チカンゴ       曲名: （なし）</p>
+<p>2番 … 作者名: えなじ～       曲名: Execute</p>
+<p>3番 … 作者名: tdhr           曲名: （特にありません）</p>
+<p>4番 … 作者名: 荒巻那智       曲名: まどろむ未確認</p>
+<p>5番 … 作者名: <a class="reference external" href="mailto:f&#37;&#52;&#48;ct">f<span>&#64;</span>ct</a>           曲名: Fun days</p>
+<p>6番 … 作者名: にしあぷ       曲名: (原曲) The Other Day, I Met a Bear（アメリカ民謡）</p>
+<p>7番 … 作者名: hits           曲名: 風の足跡</p>
+<p>8番 … 作者名: hits           曲名: Starry Drive</p>
+<p>9番 … 作者名: えなじ～       曲名: 帰り道のアンダンテ</p>
+</div></blockquote>
+</section>
+<section id="id6">
+<h2>デモ<a class="headerlink" href="#id6" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://youtu.be/9qsP4k_6AVM">Youtube</a></p>
+</section>
+</section>
+<section id="ver-1-2-0beta4">
+<h1>ver.1.2.0beta4<a class="headerlink" href="#ver-1-2-0beta4" title="Permalink to this headline"></a></h1>
 </section>
 
 

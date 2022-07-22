@@ -1,10 +1,10 @@
-Lovely Composer - Change Log
+Lovely Composer - Changelog
 #####################################################
 
 
 .. _id-changelog-1-2-6-en:
 
-ver.1.2.6 - Data folder moved - 2022-07-20 
+ver.1.2.6 - 2022-07-20 
 ####################################################
 
 List of changes
@@ -27,8 +27,8 @@ Fixes
 * Fixed a problem that the maximum number of folders on the folder selection window was the number of chord patterns
 * Fixed the problem that the USER_SFX folder was not set to the default settings for sound effects after song number 32.
 
-Important Notices
-===================================
+Important Notices - Data folder moved!
+===============================================
 The most important change in version 1.2.6 is that the default location of song data has been changed from directly under the program folder to the LovelyComposer folder under the user document folder.
 
 It's to facilitate program version upgrades for users. Previously, it was necessary to migrate song data each time the program was upgraded. After this version, you should only have to download the new program.
@@ -44,6 +44,7 @@ However, to inherit your song data from ver.1.2.5 or older, it requires manual o
 Other features
 ===================================
 You can now open the manual directly from the application with the F1 and F2 keys. The manual has also been corrected to be easier to read!
+
 Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D.
 
 Demo
@@ -54,7 +55,7 @@ Demo
 
 .. _id-changelog-1-2-5-en:
 
-ver.1.2.5 - Fit to the screen - 2022-05-18
+ver.1.2.5 - 2022-05-18
 ####################################################
 
 List of changes
@@ -75,8 +76,11 @@ Demo
 `Youtube <https://youtu.be/Pvl7DNT6hLE>`_
 
 
-ver.1.2.4 - Linux supported! - 2022-04-11
+ver.1.2.4 - 2022-04-11
 ####################################################
+
+Linux supported!
+==================================
 
 Lovely Composer now supported some of Linux, but the Mac and Raspberry Pi versions are beta versions and are not guaranteed to work.
 

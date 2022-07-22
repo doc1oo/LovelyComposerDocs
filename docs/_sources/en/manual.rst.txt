@@ -836,7 +836,7 @@ Shortcut Keys
 * Delete selected ... Delete
 * Full screen ... Alt + Enter
 * Open online manual of current screen … F1  (ver.1.2.6 or later)
-* Open top page of user guide … F2  (ver.1.2.6 or later)
+* Open user guide … F2  (ver.1.2.6 or later)
 * Exit application ... F10
 
 

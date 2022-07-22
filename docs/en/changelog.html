@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lovely Composer - Change Log &mdash; LovelyComposer 1.2.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/ex_css.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/ex_js.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width; initial-scale=2.0">
+    <meta name="test">
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Lovely Composer - Change Log</a></li>
+<li><a class="reference internal" href="#ver-1-2-6">ver.1.2.6</a><ul>
+<li><a class="reference internal" href="#list-of-changes">List of changes</a></li>
+<li><a class="reference internal" href="#important-notices">Important Notices</a></li>
+<li><a class="reference internal" href="#other-features">Other features</a></li>
+<li><a class="reference internal" href="#demo">Demo</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ver-1-2-5">ver.1.2.5</a><ul>
+<li><a class="reference internal" href="#id3">List of changes</a></li>
+<li><a class="reference internal" href="#id4">Demo</a></li>
+<li><a class="reference internal" href="#id6">変更内容</a></li>
+<li><a class="reference internal" href="#id7">※ 重要なお知らせ</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+<li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+<li>Lovely Composer - Change Log</li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lovely-composer-change-log">
+<h1>Lovely Composer - Change Log<a class="headerlink" href="#lovely-composer-change-log" title="Permalink to this headline"></a></h1>
+</section>
+<section id="ver-1-2-6">
+<span id="id-changelog-1-2-6-en"></span><h1>ver.1.2.6<a class="headerlink" href="#ver-1-2-6" title="Permalink to this headline"></a></h1>
+<section id="list-of-changes">
+<h2>List of changes<a class="headerlink" href="#list-of-changes" title="Permalink to this headline"></a></h2>
+<p>Add
+* Added help function: F1 key to open the display screen instructions, F2 key to open the user guide
+* Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D
+* Added function to display the name of the currently selected scale and its component notes in text (when mouse cursor is placed on the scale key operation button)
+* Added function limitation processing, etc. for making the new trial version*
+Changes
+* Changed default location of song data, etc. to LovelyComposer folder under user document folder (to simplify version upgrade)
+* When using the eraser tool, pressing the tone icon in the tone selection tool always switches to the pen tool.
+Fixes
+* Fixed a problem that the maximum number of folders on the folder selection window was the number of chord patterns
+* Fixed the problem that the USER_SFX folder was not set to the default settings for sound effects after song number 32.</p>
+</section>
+<section id="important-notices">
+<h2>Important Notices<a class="headerlink" href="#important-notices" title="Permalink to this headline"></a></h2>
+<p>The most important change in version 1.2.6 is that the default location of song data has been changed from directly under the program folder to the LovelyComposer folder under the user document folder.</p>
+<p>It’s to facilitate program version upgrades for users. Previously, it was necessary to migrate song data each time the program was upgraded. After this version, you should only have to download the new program.</p>
+<p>However, to inherit your song data from ver.1.2.5 or older, it requires manual operation only once. So if you need, please follow the steps below. (Make a backup of your song files before proceeding.)</p>
+<ol class="arabic simple">
+<li><p>At first, please boot new version of Lovely Composer app. The “LovelyComposer” data folder will be automatically created under your User Documents folder when the first time boot. (ex. C:/Users/user_name/Documents/ or /home/user_name/Documents/ or /home/user_name/ ).</p></li>
+<li><p>When the startup is complete, please close Lovely Composer app.</p></li>
+<li><p>Please overwrite the “music” folder and “app_settings.json”  file in the “LovelyComposer” folder under the user documents with your “music” folder and “app_settings.json” file. (From under the program folder of the previous version LovelyComposer. )</p></li>
+</ol>
+<p><a href="#id1"><span class="problematic" id="id2">*</span></a>If you still want to place the data under the program folder as before, it is possible to do so in the settings. (Explanation in preparation)</p>
+</section>
+<section id="other-features">
+<h2>Other features<a class="headerlink" href="#other-features" title="Permalink to this headline"></a></h2>
+<p>You can now open the manual directly from the application with the F1 and F2 keys. The manual has also been corrected to be easier to read!
+Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D.</p>
+</section>
+<section id="demo">
+<h2>Demo<a class="headerlink" href="#demo" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://youtu.be/kw5izF6dYk4">Youtube</a></p>
+</section>
+</section>
+<section id="ver-1-2-5">
+<span id="id-changelog-1-2-5-en"></span><h1>ver.1.2.5<a class="headerlink" href="#ver-1-2-5" title="Permalink to this headline"></a></h1>
+<section id="id3">
+<h2>List of changes<a class="headerlink" href="#id3" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Added the system setting tool (Top right of the screen)</p></li>
+<li><p>Supports non-integer multiple enlargement display and linear interpolation display on the screen</p></li>
+<li><p>The maximum number of songs for each folder has been increased up to 100 songs from 32 songs.</p></li>
+<li><p>Added the song list window (Display by click the song number display)</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>Demo<a class="headerlink" href="#id4" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://youtu.be/Pvl7DNT6hLE">Youtube</a></p>
+</section>
+<section id="id6">
+<h2>変更内容<a class="headerlink" href="#id6" title="Permalink to this headline"></a></h2>
+<p><strong>追加</strong></p>
+<ul class="simple">
+<li><p>F1キーで表示画面の説明書、F2キーでユーザーガイドを開くヘルプ機能を追加</p></li>
+<li><p>選択範囲の音符をCtrl + Dで連続コピー入力する機能の追加</p></li>
+<li><p>選択中のスケール名とその構成音をテキスト表示する機能の追加（スケールキー操作ボタンにマウスカーソルを置いたとき）</p></li>
+<li><p>体験版のための機能制限処理等の追加</p></li>
+</ul>
+<p><strong>変更</strong></p>
+<ul class="simple">
+<li><p>曲データ等のデフォルト配置場所を、ユーザドキュメントフォルダ以下のLovelyComposerフォルダに変更（バージョンアップの簡易化のため）</p></li>
+<li><p>消しゴムツール使用時、音色選択ツールで音色アイコンを押したときは常にペンツールに切り替わるようにした</p></li>
+</ul>
+<p><strong>修正</strong></p>
+<ul class="simple">
+<li><p>フォルダ選択画面のフォルダの最大数がコードパターンの数になっていた問題を修正</p></li>
+<li><p>USER_SFXフォルダの32番以降が効果音向けの初期設定になっていなかったのを修正</p></li>
+</ul>
+</section>
+<section id="id7">
+<h2>※ 重要なお知らせ<a class="headerlink" href="#id7" title="Permalink to this headline"></a></h2>
+<p>今回のアップデートでは、ユーザがプログラムのバージョンアップをしやすくするため、曲データ等のデフォルト配置場所を、プログラムフォルダの直下からユーザドキュメントフォルダ以下のLovelyComposerフォルダ内に変えました。</p>
+<p>今まではプログラムのバージョンアップ時に毎回曲データの移行作業をする必要がありましたが、このバージョン以後は新しいプログラムをダウンロードするだけで済むようになるはずです。</p>
+<p>ただしver.1.2.5以前から曲データを移行するのには、初回だけ移行作業が必要となります。作業は以下の手順で行ってください。<strong>（事前に曲ファイルのバックアップを作成してください。）</strong></p>
+<ol class="arabic simple">
+<li><p>はじめに新しいバージョンのLovely Composerを起動してください。自動的にユーザーのドキュメントフォルダ以下にLovelyComposerフォルダが作成されます。（例: C:/Users/ユーザ名/Documents/ ） （※Linuxの場合、 /home/ユーザ名/Documents/ または /home/ユーザ名/ ）。</p></li>
+<li><p>起動が完了したらそのままLovely Composerを閉じてください。</p></li>
+<li><p>ユーザードキュメントの下のLovelyComposerフォルダ内にある”music”フォルダと”app_settings.json”ファイルへ、あなたのデータファイル（以前のバージョンのプログラムフォルダ以下にあるmusicフォルダとapp_settings.jsonファイル）を上書きしてください。</p></li>
+</ol>
+<p>※今まで通り、プログラムフォルダ以下にデータを配置したい場合は、設定で可能です。（説明の準備中）</p>
+<p><strong>デモ動画</strong></p>
+<p><a class="reference external" href="https://youtu.be/kw5izF6dYk4">Youtube</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, 1oo Games.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

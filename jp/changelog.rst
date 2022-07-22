@@ -7,6 +7,9 @@ Lovely Composer - 更新履歴
 ver.1.2.6
 ####################################################
 
+.. raw:: html
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kw5izF6dYk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ※ 重要なお知らせ
 ============================================================================
 今回のアップデートでは、ユーザがプログラムのバージョンアップをしやすくするため、曲データ等のデフォルト配置場所を、プログラムフォルダの直下からユーザドキュメントフォルダ以下のLovelyComposerフォルダ内に変えました。

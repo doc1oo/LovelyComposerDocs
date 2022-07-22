@@ -4,21 +4,26 @@ Lovely Composer - Change Log
 
 .. _id-changelog-1-2-6-en:
 
-ver.1.2.6
+ver.1.2.6 - Data folder moved - 2022-07-20 
 ####################################################
 
 List of changes
 =====================================
 
 Add
+
 * Added help function: F1 key to open the display screen instructions, F2 key to open the user guide
 * Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D
 * Added function to display the name of the currently selected scale and its component notes in text (when mouse cursor is placed on the scale key operation button)
 * Added function limitation processing, etc. for making the new trial version*
+
 Changes
+
 * Changed default location of song data, etc. to LovelyComposer folder under user document folder (to simplify version upgrade)
 * When using the eraser tool, pressing the tone icon in the tone selection tool always switches to the pen tool.
+
 Fixes
+
 * Fixed a problem that the maximum number of folders on the folder selection window was the number of chord patterns
 * Fixed the problem that the USER_SFX folder was not set to the default settings for sound effects after song number 32.
 
@@ -49,18 +54,63 @@ Demo
 
 .. _id-changelog-1-2-5-en:
 
-ver.1.2.5
+ver.1.2.5 - Fit to the screen - 2022-05-18
 ####################################################
 
 List of changes
 ============================================================================
+
+Add
+
 * Added the system setting tool (Top right of the screen)
 * Supports non-integer multiple enlargement display and linear interpolation display on the screen
-* The maximum number of songs for each folder has been increased up to 100 songs from 32 songs.
 * Added the song list window (Display by click the song number display)
+
+Changes
+
+* The maximum number of songs for each folder has been increased up to 100 songs from 32 songs.
 
 Demo
 =======================================
 `Youtube <https://youtu.be/Pvl7DNT6hLE>`_
 
 
+ver.1.2.4 - Linux supported! - 2022-04-11
+####################################################
+
+Lovely Composer now supported some of Linux, but the Mac and Raspberry Pi versions are beta versions and are not guaranteed to work.
+
+Version 1.2.4 is mainly a modification for multi-platform support, with no major functional changes. 
+
+Also the default value of audio buffer size has been changed from 2048 to 1024, which will reduces audio playback delay on many PCs, and smoothes the playback position bar and output waveform display. But may cause audio playback instability such as skips and petit noises on a small percentage of PCs. If you are having problems with audio playback, please change the audio buffer size to 2048 from the configuration tool.
+
+
+Supported Linux
+===================================
+We have confirmed that the following operating systems work. (x86_64, with the latest updates applied)
+
+* Ubuntu 20.04
+* Fedora 34
+* Slackware 15.0
+* debian 11.3
+
+Following os have checked some problems in the virtual environment, but may work on the actual device.
+
+* Mint Linux 20.3 @ VirtualBox
+* Fedora 35 @ VirtualBox
+
+We confirmed that the following operating systems did not boot
+
+* debian 10.10
+
+The Linux version is compiled on Ubuntu 20.04 for now. Basically, it seems to need a newer version than this to work. 
+
+* Linux kernel 5.13.0
+* GCC 9.3.0
+* GLIBC 2.31
+
+Sounds
+===================================
+We cannot guarantee that the sound will play comfortably without delay, etc., as it depends on the hardware environment, but even if it does not sound correctly, the problem may be resolved by the settings.
+
+Try using a configuration tool to increase the value of the audio buffer, for example.

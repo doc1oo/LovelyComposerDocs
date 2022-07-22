@@ -15,6 +15,7 @@ Added
 * Added help function: F1 key to open the display screen instructions, F2 key to open the user guide
 * Added a function to input continuous copy of notes in the selected range by pressing Ctrl + D
 * Added function to display the name of the currently selected scale and its component notes in text (when mouse cursor is placed on the scale key operation button)
+* App now remember the song that was open when the app was closed last time. (  When the app started, the song will open​.)
 * Added function limitation processing, etc. for making the new trial version*
 
 Changed

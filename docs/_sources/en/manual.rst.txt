@@ -834,8 +834,10 @@ Shortcut Keys
 * Select all ... Ctrl + A
 * Deselect ... Esc
 * Delete selected ... Delete
-* Exit application ... F10
 * Full screen ... Alt + Enter
+* Open online manual of current screen … F1  (ver.1.2.6 or later)
+* Open top page of user guide … F2  (ver.1.2.6 or later)
+* Exit application ... F10
 
 
 **Music edit screen**
@@ -872,6 +874,7 @@ Shortcut Keys
 * Parallel movement of the mouse cursor ... Hold down Shift
 * Volume input on the Note Input tab ... Hold down Alt and use the Pen tool
 * Duplicate selected notes ... Alt-drag selection
+* Repeated duplicate of selected notes ... Ctrl + D
 * Copy of rhythm pattern settings ... Alt + C
 * Paste rhythm pattern settings ... Alt + V
 * Software keyboard

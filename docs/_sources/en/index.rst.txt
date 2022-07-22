@@ -9,6 +9,7 @@ Lovely Composer Official Guide
 
 * :doc:`User Manual <manual>` 
 * :doc:`Story <story>`
+* :doc:`Change Log <changelog>`
 
 
 Welcome

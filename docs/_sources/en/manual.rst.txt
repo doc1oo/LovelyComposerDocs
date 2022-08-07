@@ -390,10 +390,10 @@ Also, when the icon selected, the sounds that are incremented one by one on that
 The items are as follows in order from top to bottom.
 
 * (unlock scale)
-* Major scale
-* Minor scale
 * White key only
 * Black key only
+* Major scale
+* Minor scale
 * Ryukyu scale
 * Gagaku scale
 * Whole tone (whole tone interval / skip one note)

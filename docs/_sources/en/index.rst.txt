@@ -22,11 +22,25 @@ This software is a music software, but it is also a sequel to the game "`Dungeon
 About the operation method, please read :doc:`User Manual <manual>`.
 
 
+Demo version
+###############################################################################
+
+The demo version has the following limitations:
+
+* Song data and settings cannot be saved  (The song data will be initialized even if you move to another song.)
+* Few sample songs
+* Display showing trial version
+
+`Windows <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_
+`Linux <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
+
+
 Marketplace 
 ###############################################################################
 
 * `itch.io <https://1oogames.itch.io/lovely-composer>`_
 * `DLsite <https://www.dlsite.com/home/work/=/product_id/RJ331224.html?locale=en_US>`_
+
 
 SNS
 ################################################################################

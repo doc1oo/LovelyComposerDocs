@@ -31,8 +31,9 @@ The demo version has the following limitations:
 * Few sample songs
 * Display showing trial version
 
-* `Windows <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_
-* `Linux <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
+`Windows <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_
+
+`Linux <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
 
 
 Marketplace 

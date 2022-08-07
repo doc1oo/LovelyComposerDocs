@@ -24,6 +24,23 @@ Lovely Composer（ラブリーコンポーザ　愛称: ラビコン）は、8bi
 
 このガイドはLovelyComposerからF2キーで開くことができます(ver.1.2.6以降)。
 
+
+.. _id_demo:
+
+体験版
+##################################################################
+
+体験版には以下の制限があります。
+
+* 曲データ等の保存ができない（別の曲を開く等でも初期化されます）
+* サンプル曲が少ない
+* 体験版表示がつく
+
+`Windows <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_
+
+`Linux <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
+
+
 .. _id_shop:
 
 販売サイト

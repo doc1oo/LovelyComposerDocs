@@ -37,8 +37,7 @@ Lovely Composer（ラブリーコンポーザ　愛称: ラビコン）は、8bi
 * 体験版表示がつく
 
 `Windows <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_
-
-`Linux <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
+ | `Linux <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
 
 
 .. _id_shop:

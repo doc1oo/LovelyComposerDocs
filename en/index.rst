@@ -25,13 +25,13 @@ About the operation method, please read :doc:`User Manual <manual>`.
 Demo version
 ###############################################################################
 
+`Windows10/11 64bit <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_ \| `Linux x64 <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
+
 The demo version has the following limitations:
 
 * Song data and settings cannot be saved  (The song data will be initialized even if you move to another song.)
 * Few sample songs
 * Display showing trial version
-
-`Windows10/11 64bit <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Windows.zip>`_ \| `Linux x64 <https://github.com/doc1oo/LovelyComposerDocs/raw/main/files/Trial_LovelyComposer_1.2.6_Linux.zip>`_
 
 
 Marketplace 

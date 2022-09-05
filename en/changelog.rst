@@ -2,6 +2,27 @@ Lovely Composer - Changelog
 #####################################################
 
 
+.. _id-changelog-1-2-7-en:
+
+ver.1.2.7 - 2022-09-05 
+####################################################
+
+List of changes
+=====================================
+
+Added
+
+* Added a function to display the folder path by clicking the current folder name display on the upper right of the screen.
+
+Changed
+
+* Changed not to display the file path of the open song folder in the title bar.
+
+Fixed
+
+* Fixed a bug that the app may crash when sound previewing with the key number changed in the chord pattern tool.
+
+
 .. _id-changelog-1-2-6-en:
 
 ver.1.2.6 - 2022-07-20 

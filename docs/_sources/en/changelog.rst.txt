@@ -2,6 +2,62 @@ Lovely Composer - Changelog
 #####################################################
 
 
+.. _id-changelog-1-3-0-en:
+
+ver.1.3.0 - 2023-01-30 
+####################################################
+
+ 
+List of changes
+=====================================
+
+* **New tones (23 patterns)** ... Organ-like triangle wave, Phaser triangle wave, Tilted sawtooth wave, and Slow Drop effects, and fast arpeggio tones.
+
+* **Note Extension Line** ... In addition to making the note edit process easier, several tones are changed sound when extended. (e.g., Piano like tone, with enveloping)
+
+* **Multi Function Pen** ... Note input / Extension line input / Note deletion / Note movement can be done with one pen according to the cursor operation.
+
+* **Fast arpeggio support** ... There are two ways to use fast arpeggio tones or to specify fast arpeggios in rhythm patterns (select ∞).
+
+* **Random Composition Function** ... Simple automatic composition can be easily performed with a single click by setting melody, chord, scales, and rhythm patterns at random. Scales are also set automatically, so it is easy to rewrite melodies. Beginners can use it as a finished product, and advanced users can use it to get ideas for their compositions.
+
+* **Various note manipulation buttons** ... Convenient one-click operation of octave up/down, etc.
+
+* **Instruments arrangement function**
+
+* **Song title / author name / file name setting** ... Currently only alphanumeric characters and a few one-byte symbols are available (US Keyboard base). The file name will be displayed on the song editing screen and can be used as the file name when file exporting.
+
+* **Open in Browser button** ... You can open the user guide (manual), #LovelyComposer tag on twitter, and LovelyComposer server on Discord with one button (upper right corner of the screen)
+
+* **Additional scales (13 types)** ... additional typical scales such as Dorian Scale, Lydian Scale, etc.
+
+* **Additional chord progression patterns (7 types)**
+
+* **New sample songs (21 user-created songs)** ... The amazing songs created with 1.3.0 by ordinary users as sample songs. (See the included Readme for more information about each song and author.)
+
+Changes
+
+* **Improved MIDI export quality** ... The connected notes are now output as one long note. Volume and panning have also been improved.
+
+* Slight changes to UI and button layout
+
+* Window size is now slightly larger
+
+* Changed folder selection dialog to show sample song folders at the bottom
+
+* Volume of bomb button lowered.
+
+Fixes
+
+* **Fixed a bug that the arpeggio rate value of rhythm patterns affected rhythm pattern parts other than chords**
+
+* Fixed a bug that file paths failed when exporting if they contain Japanese characters, etc.
+
+* Fixed behavior after selecting a area with the selection tool
+
+* Fixed a problem that caused error sounds to become louder
+
+
 .. _id-changelog-1-2-7-en:
 
 ver.1.2.7 - 2022-09-05 

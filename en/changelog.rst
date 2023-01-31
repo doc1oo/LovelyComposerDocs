@@ -105,6 +105,8 @@ Fixed
 * Fixed a problem that the maximum number of folders on the folder selection window was the number of chord patterns
 * Fixed the problem that the USER_SFX folder was not set to the default settings for sound effects after song number 32.
 
+.. _id-changelog-1-2-6-song-data-migration-en:
+
 Important Notices - Data folder moved!
 ===============================================
 The most important change in version 1.2.6 is that the default location of song data has been changed from directly under the program folder to the LovelyComposer folder under the user document folder.

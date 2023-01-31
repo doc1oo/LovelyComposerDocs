@@ -11,6 +11,8 @@ ver.1.3.0 - 2023-01-30
 List of changes
 =====================================
 
+Added
+
 * **New tones (23 patterns)** ... Organ-like triangle wave, Phaser triangle wave, Tilted sawtooth wave, and Slow Drop effects, and fast arpeggio tones.
 
 * **Note Extension Line** ... In addition to making the note edit process easier, several tones are changed sound when extended. (e.g., Piano like tone, with enveloping)

@@ -1,6 +1,21 @@
 Lovely Composer - Changelog
 #####################################################
 
+.. _id-changelog-1-3-1-en:
+
+ver.1.3.1 - 2023-2-7
+####################################################
+
+List of changes
+=====================================
+
+**Fixes**
+
+* Fixed the config.exe does not start in the environment where not alpha-numeric letters (Japanese etc.) are used for the user name in the Windows. (Please note that emojis etc. still cause problems)
+* Fixed the lovely_composer.AppImage and config.AppImage cannot be started on Linux distributions that do not include libtiff on the OS side.
+* Fixed the problem that the volume display of each part in the volume panel did not correspond to the extension line.
+* Changed not to be able to fill with the note operation button when the extension line is selected (Fixed the problem that notes are overwritten by the extension lines)
+
  
 .. _id-changelog-1-3-0-en:
 
@@ -11,7 +26,7 @@ ver.1.3.0 - 2023-01-30
 List of changes
 =====================================
 
-Added
+**Added**
 
 * **New tones (23 patterns)** ... Organ-like triangle wave, Phaser triangle wave, Tilted sawtooth wave, and Slow Drop effects, and fast arpeggio tones.
 
@@ -37,7 +52,7 @@ Added
 
 * **New sample songs (21 user-created songs)** ... The amazing songs created with 1.3.0 by ordinary users as sample songs. (See the included Readme for more information about each song and author.)
 
-Changes
+**Changes**
 
 * **Improved MIDI export quality** ... The connected notes are now output as one long note. Volume and panning have also been improved.
 
@@ -49,7 +64,7 @@ Changes
 
 * Volume of bomb button lowered.
 
-Fixes
+**Fixes**
 
 * **Fixed a bug that the arpeggio rate value of rhythm patterns affected rhythm pattern parts other than chords**
 

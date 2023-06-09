@@ -1,9 +1,49 @@
 Lovely Composer - Changelog
 #####################################################
 
+
 .. _id-changelog-1-3-1-en:
 
-ver.1.3.1 - 2023-2-7
+ver.1.3.3 - 2023-06-10
+####################################################
+
+List of changes
+=====================================
+
+**Added**
+
+* Added support for export add-ons ... Users can export any file formats by addons.
+* Save export settings and restore them on restart
+* The export destination can now be specified in the folder selection dialog.
+* Added setting to export song data at the same time as saving.
+
+**Changes**
+
+* Changed the default number of loops when exporting from 2 to 1
+
+**Fixes** 
+
+* Fixed the problem that the volume is not inherited properly and played in C when crossing pages with an extension bar without volume specification
+* Improved so that the program does not terminate when an error occurs during export
+
+.. _id-changelog-1-3-2-en:
+
+ver.1.3.2 - 2023-04-16
+####################################################
+
+List of changes (Abstruct)
+=====================================
+
+**Changes**
+
+* **Support for game controller input**  ...  You can play easier with Steam Deck etc.
+* **Home tab added**  ...  Quit or resetting the app for gamepads, Moved SNS buttons, etc.
+* **System settings added**  ...  Gamepad settings and Full screen switch.
+
+
+.. _id-changelog-1-3-1-en:
+
+ver.1.3.1 - 2023-02-07
 ####################################################
 
 List of changes

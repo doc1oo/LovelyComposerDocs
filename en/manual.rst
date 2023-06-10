@@ -994,7 +994,7 @@ About the configuration file
 
 You must have one configuration text file like the sample below in your add-ons folder named **config.json**.
 
-... image:: ... /img/export_addon_config_example.png
+.. image:: ../img/export_addon_config_example.png
 
 * **addon_name** ... An arbitrary string representing the add-on name.
 * **version** ... An arbitrary string representing the version. 

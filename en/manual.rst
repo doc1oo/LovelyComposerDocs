@@ -1,4 +1,4 @@
-Lovely Composer User Manual
+Lovely Composer User Manual (ver.1.2.0 + α)
 #################################################################
 
 \* Please use web browser's auto translation (If you are hard to read English). The content may differ from the latest version.
@@ -692,20 +692,24 @@ In order from the left items,
 Export Screen
 ##############################################################################
 
-.. image:: ../img/export_mode.png
+.. image:: ../img/export_mode2.png
+ 
 
-This screen is for outputting music data as an audio file or MIDI file.
+This screen is for outputting music data as an audio file or MIDI file, and other formats.
 
 
 Common Settings
 ==============================================================
 
-.. image:: ../img/export_top_buttons.png
+.. image:: ../img/export_common_settings.png
 
-* **ALL MUSIC / 1 MUSIC button** ... Select whether to output all musics as a file or output only the selected music. If you select 1 MUSIC, you will be able to select the target music with the music number selector on the right. (The initial value is the number of the music selected on the music edit screen.)
+* **MUSIC - 1 / ALL button**  ... Select whether to output all musics as a file or output only the selected music. If you select 1 MUSIC, you will be able to select the target music with the music number selector on the right. (The initial value is the number of the music selected on the music edit screen.)
+* **TYPE** ... Selects which type of file to output. The options at the bottom of the screen will change depending on the type.
+* **FOLDER** ... Specify the folder path to export to. Click the folder button on the left to open the folder selection dialog.
 * **Folder open icon** ... Open the export destination folder with Explorer on the OS side.
 * **AUTO button** ... When enabled (in color display), the export destination folder is automatically opened when the export process is completed.
-
+* **ON SAVE button** ... When enabled, manual save operation on the edit screen will automatically export after the save is complete.
+* **EXPORT button** ... Executes file output with current settings.
 
 
 Wave export
@@ -745,6 +749,26 @@ MIDI export
 
 * **PROG.CHG.** ... Specifies whether to generate a program change (tone change). (If not enabled, all sounds will have the same tone.)
 * **CONVERT** ... When AUTO is specified, MIDI data that has been processed such as connecting consecutive notes is output. (Default setting) / For RAW, the raw data of Lovely Composer is replaced with MIDI data and output.
+
+
+RAW export
+==============================================================
+
+Outputs jsonl data in Lovely Composer format with the notes of the rhythm pattern expanded as note data.
+
+
+Add-On Output (1.3.3 - )
+==============================================================
+
+.. image:: ../img/export_mode_addon_option.png
+
+Calls an external extension addon to convert it. The location of the addon is **/USER DOCUMENT DIR/LovelyComposer/addon/export/**. You can also create your own :ref:`addon. <id_addons_en>` 
+
+* **ADDON** ... Select an addon in the list box on the left. Select the conversion option provided for each add-on in the list box on the right.
+* **INPUT** ... Select the file type used for the add-on's input file. If the input file is specified on the add-on side, the user will not be able to select it. The input file will be generated with the current export settings just before the add-on is executed.
+* **FILENAME** ... selects the output file name. **F.NAME** is the file name set for the song data (or song number if not set), **No_F.N** is the song number and file name connected by underscores, **No.** is the song number only.
+* **COMMAND** ... displays the final command to be executed. Commands can also be rewritten directly. The :ref:`variable <id_export_addons_command_vars_jp>` of the input file name etc. can be used.
+
 
 Config Tool
 ##########################################################################
@@ -892,7 +916,7 @@ Shortcut Keys
 
 .. _id_gamepad_button_layouts_en:
 
-Gamepad Button Layouts
+Gamepad Button Layouts (1.3.2 -)
 ##############################################################
 
 * **D-pad / Left analog stick**  ......  Move the cursor. The default speed can be changed in system settings.
@@ -939,9 +963,68 @@ Detailed specifications
 * If the data specifications change, the second version number (1.x.0) will change. For updates that do not change the data specifications, the version number at the end will change. (1.1.x etc.)
 
 
+.. _id_addons_en:
+
 Add-ons
 ###################################################################
 
 Export Add-ons (ver.1.3.3 - )
 ================================================
 
+.. image:: ../img/export_mode_addon_option.png
+
+A system is provided to automatically execute a user-prepared conversion program by calling it at export time.
+The program is executed by passing arguments to an executable file or script on the command line.
+It can be used for game production, etc., and can also be created by the user with a little work.
+
+Folder Structure
+------------------------------------------------------
+
+An addon is a collection of dedicated configuration files and executables or scripts in a single folder.
+Add-ons are located at **/user document folder/LovelyComposer/addon/export/**.
+
+.. image:: ../img/export_addon_directory.png
+
+Each folder corresponds to one add-on.
+
+.. image:: ../img/export_addon_spec_directory.png
+
+About the configuration file
+------------------------------------------------------
+
+You must have one configuration text file like the sample below in your add-ons folder named **config.json**.
+
+... image:: ... /img/export_addon_config_example.png
+
+* **addon_name** ... An arbitrary string representing the add-on name.
+* **version** ... An arbitrary string representing the version. 
+* **help** ... An arbitrary string used for the description. It will be displayed at the bottom of the screen, etc.
+* **bubbles_help** ... Arbitrary string used for bubbles pop-up help.
+* **options** ... One to multiple option selections in an array of objects. Must be an array even if there is only one option.
+
+File paths in the command must be enclosed in quotation marks at the end. ( Characters assigned to variables {i} and {o} include quotation marks, so they are unnecessary. )
+
+
+.. _id_export_addons_command_vars_en:
+
+Command variables
+-------------------------------------
+
+The following variables are allowed in **command**.
+
+* **{i}** ... The input filename is assigned. The full path string, enclosed in quotation marks.
+* **{o}** ... The output filename is substituted. The full path string, enclosed in quotation marks. The input filename extension is replaced by the one specified in the **output_extension** option. 
+* **{basename}** ... Only the filename without extension is substituted.
+* **{addondir}** ... The full path to the selected add-on will be substituted.
+* **{exportdir}** ... The full path of the destination folder will be assigned.
+
+
+Precaution
+---------------------------
+
+* Please note that only single-byte alphanumeric characters and some symbols are displayed on the application.
+* Add-ons are loaded when Lovely Composer is launched. If you want to update the add-ons and reload them, please restart the application.
+* File paths must be enclosed in quotation marks at the end or they will not work properly. If you use **basename**, **addondir**, etc., please put them in quotes.
+* Details of the error will be output to a log file. Open the **/PROGRAM DIR/log/app_log.log** file by opening it with a text editor. The log will be written to text when the application is terminated.
+* Please also refer to the sample add-ons included in the package.
+* We do not provide any support for each of the included add-ons (we are not responsible for any disadvantages or obligated to improve them). The developer of each add-on also assumes no obligation for any support or liability for any disadvantage.

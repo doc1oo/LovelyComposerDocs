@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lovely Composer User Manual &mdash; LovelyComposer 1.2.0 documentation</title>
+  <title>Lovely Composer User Manual (ver.1.2.0 + α) &mdash; LovelyComposer 1.2.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/ex_css.css" type="text/css" />
@@ -32,7 +32,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Lovely Composer User Manual</a><ul>
+<li><a class="reference internal" href="#">Lovely Composer User Manual (ver.1.2.0 + α)</a><ul>
 <li><a class="reference internal" href="#index">Index</a></li>
 </ul>
 </li>
@@ -85,6 +85,8 @@
 <li><a class="reference internal" href="#common-settings">Common Settings</a></li>
 <li><a class="reference internal" href="#wave-export">Wave export</a></li>
 <li><a class="reference internal" href="#midi-export">MIDI export</a></li>
+<li><a class="reference internal" href="#raw-export">RAW export</a></li>
+<li><a class="reference internal" href="#add-on-output-1-3-3">Add-On Output (1.3.3 - )</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#config-tool">Config Tool</a></li>
@@ -98,13 +100,19 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#shortcut-keys">Shortcut Keys</a></li>
-<li><a class="reference internal" href="#gamepad-button-layouts">Gamepad Button Layouts</a></li>
+<li><a class="reference internal" href="#gamepad-button-layouts-1-3-2">Gamepad Button Layouts (1.3.2 -)</a></li>
 <li><a class="reference internal" href="#specification">Specification</a><ul>
 <li><a class="reference internal" href="#detailed-specifications">Detailed specifications</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#add-ons">Add-ons</a><ul>
-<li><a class="reference internal" href="#export-add-ons-ver-1-3-3">Export Add-ons (ver.1.3.3 - )</a></li>
+<li><a class="reference internal" href="#export-add-ons-ver-1-3-3">Export Add-ons (ver.1.3.3 - )</a><ul>
+<li><a class="reference internal" href="#folder-structure">Folder Structure</a></li>
+<li><a class="reference internal" href="#about-the-configuration-file">About the configuration file</a></li>
+<li><a class="reference internal" href="#command-variables">Command variables</a></li>
+<li><a class="reference internal" href="#precaution">Precaution</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -121,15 +129,15 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
 <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-<li>Lovely Composer User Manual</li>
+<li>Lovely Composer User Manual (ver.1.2.0 + α)</li>
   </ul>
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="lovely-composer-user-manual">
-<h1>Lovely Composer User Manual<a class="headerlink" href="#lovely-composer-user-manual" title="Permalink to this headline"></a></h1>
+  <section id="lovely-composer-user-manual-ver-1-2-0">
+<h1>Lovely Composer User Manual (ver.1.2.0 + α)<a class="headerlink" href="#lovely-composer-user-manual-ver-1-2-0" title="Permalink to this headline"></a></h1>
 <p>* Please use web browser’s auto translation (If you are hard to read English). The content may differ from the latest version.</p>
 <section id="index">
 <h2>Index<a class="headerlink" href="#index" title="Permalink to this headline"></a></h2>
@@ -659,15 +667,19 @@ It also indirectly acts like a metronome.</p>
 </section>
 <section id="export-screen">
 <span id="id-export-screen-en"></span><h1>Export Screen<a class="headerlink" href="#export-screen" title="Permalink to this headline"></a></h1>
-<img alt="../_images/export_mode.png" src="../_images/export_mode.png" />
-<p>This screen is for outputting music data as an audio file or MIDI file.</p>
+<img alt="../_images/export_mode2.png" src="../_images/export_mode2.png" />
+<p>This screen is for outputting music data as an audio file or MIDI file, and other formats.</p>
 <section id="common-settings">
 <h2>Common Settings<a class="headerlink" href="#common-settings" title="Permalink to this headline"></a></h2>
-<img alt="../_images/export_top_buttons.png" src="../_images/export_top_buttons.png" />
+<img alt="../_images/export_common_settings.png" src="../_images/export_common_settings.png" />
 <ul class="simple">
-<li><p><strong>ALL MUSIC / 1 MUSIC button</strong> … Select whether to output all musics as a file or output only the selected music. If you select 1 MUSIC, you will be able to select the target music with the music number selector on the right. (The initial value is the number of the music selected on the music edit screen.)</p></li>
+<li><p><strong>MUSIC - 1 / ALL button</strong>  … Select whether to output all musics as a file or output only the selected music. If you select 1 MUSIC, you will be able to select the target music with the music number selector on the right. (The initial value is the number of the music selected on the music edit screen.)</p></li>
+<li><p><strong>TYPE</strong> … Selects which type of file to output. The options at the bottom of the screen will change depending on the type.</p></li>
+<li><p><strong>FOLDER</strong> … Specify the folder path to export to. Click the folder button on the left to open the folder selection dialog.</p></li>
 <li><p><strong>Folder open icon</strong> … Open the export destination folder with Explorer on the OS side.</p></li>
 <li><p><strong>AUTO button</strong> … When enabled (in color display), the export destination folder is automatically opened when the export process is completed.</p></li>
+<li><p><strong>ON SAVE button</strong> … When enabled, manual save operation on the edit screen will automatically export after the save is complete.</p></li>
+<li><p><strong>EXPORT button</strong> … Executes file output with current settings.</p></li>
 </ul>
 </section>
 <section id="wave-export">
@@ -706,6 +718,21 @@ It also indirectly acts like a metronome.</p>
 </li>
 <li><p><strong>PROG.CHG.</strong> … Specifies whether to generate a program change (tone change). (If not enabled, all sounds will have the same tone.)</p></li>
 <li><p><strong>CONVERT</strong> … When AUTO is specified, MIDI data that has been processed such as connecting consecutive notes is output. (Default setting) / For RAW, the raw data of Lovely Composer is replaced with MIDI data and output.</p></li>
+</ul>
+</section>
+<section id="raw-export">
+<h2>RAW export<a class="headerlink" href="#raw-export" title="Permalink to this headline"></a></h2>
+<p>Outputs jsonl data in Lovely Composer format with the notes of the rhythm pattern expanded as note data.</p>
+</section>
+<section id="add-on-output-1-3-3">
+<h2>Add-On Output (1.3.3 - )<a class="headerlink" href="#add-on-output-1-3-3" title="Permalink to this headline"></a></h2>
+<img alt="../_images/export_mode_addon_option.png" src="../_images/export_mode_addon_option.png" />
+<p>Calls an external extension addon to convert it. The location of the addon is <strong>/USER DOCUMENT DIR/LovelyComposer/addon/export/</strong>. You can also create your own <a class="reference internal" href="#id-addons-en"><span class="std std-ref">addon.</span></a></p>
+<ul class="simple">
+<li><p><strong>ADDON</strong> … Select an addon in the list box on the left. Select the conversion option provided for each add-on in the list box on the right.</p></li>
+<li><p><strong>INPUT</strong> … Select the file type used for the add-on’s input file. If the input file is specified on the add-on side, the user will not be able to select it. The input file will be generated with the current export settings just before the add-on is executed.</p></li>
+<li><p><strong>FILENAME</strong> … selects the output file name. <strong>F.NAME</strong> is the file name set for the song data (or song number if not set), <strong>No_F.N</strong> is the song number and file name connected by underscores, <strong>No.</strong> is the song number only.</p></li>
+<li><p><strong>COMMAND</strong> … displays the final command to be executed. Commands can also be rewritten directly. The <a class="reference internal" href="../jp/manual.html#id-export-addons-command-vars-jp"><span class="std std-ref">variable</span></a> of the input file name etc. can be used.</p></li>
 </ul>
 </section>
 </section>
@@ -841,8 +868,8 @@ Please make sure that you can open it with the latest version.</p></li>
 <li><p>File write protection setting … Ctrl + Alt + L</p></li>
 </ul>
 </section>
-<section id="gamepad-button-layouts">
-<span id="id-gamepad-button-layouts-en"></span><h1>Gamepad Button Layouts<a class="headerlink" href="#gamepad-button-layouts" title="Permalink to this headline"></a></h1>
+<section id="gamepad-button-layouts-1-3-2">
+<span id="id-gamepad-button-layouts-en"></span><h1>Gamepad Button Layouts (1.3.2 -)<a class="headerlink" href="#gamepad-button-layouts-1-3-2" title="Permalink to this headline"></a></h1>
 <ul class="simple">
 <li><p><strong>D-pad / Left analog stick</strong>  ……  Move the cursor. The default speed can be changed in system settings.</p></li>
 <li><p><strong>A</strong>  ……  Left click</p></li>
@@ -888,9 +915,56 @@ Please make sure that you can open it with the latest version.</p></li>
 </section>
 </section>
 <section id="add-ons">
-<h1>Add-ons<a class="headerlink" href="#add-ons" title="Permalink to this headline"></a></h1>
+<span id="id-addons-en"></span><h1>Add-ons<a class="headerlink" href="#add-ons" title="Permalink to this headline"></a></h1>
 <section id="export-add-ons-ver-1-3-3">
 <h2>Export Add-ons (ver.1.3.3 - )<a class="headerlink" href="#export-add-ons-ver-1-3-3" title="Permalink to this headline"></a></h2>
+<img alt="../_images/export_mode_addon_option.png" src="../_images/export_mode_addon_option.png" />
+<p>A system is provided to automatically execute a user-prepared conversion program by calling it at export time.
+The program is executed by passing arguments to an executable file or script on the command line.
+It can be used for game production, etc., and can also be created by the user with a little work.</p>
+<section id="folder-structure">
+<h3>Folder Structure<a class="headerlink" href="#folder-structure" title="Permalink to this headline"></a></h3>
+<p>An addon is a collection of dedicated configuration files and executables or scripts in a single folder.
+Add-ons are located at <strong>/user document folder/LovelyComposer/addon/export/</strong>.</p>
+<img alt="../_images/export_addon_directory.png" src="../_images/export_addon_directory.png" />
+<p>Each folder corresponds to one add-on.</p>
+<img alt="../_images/export_addon_spec_directory.png" src="../_images/export_addon_spec_directory.png" />
+</section>
+<section id="about-the-configuration-file">
+<h3>About the configuration file<a class="headerlink" href="#about-the-configuration-file" title="Permalink to this headline"></a></h3>
+<p>You must have one configuration text file like the sample below in your add-ons folder named <strong>config.json</strong>.</p>
+<p>… image:: … /img/export_addon_config_example.png</p>
+<ul class="simple">
+<li><p><strong>addon_name</strong> … An arbitrary string representing the add-on name.</p></li>
+<li><p><strong>version</strong> … An arbitrary string representing the version.</p></li>
+<li><p><strong>help</strong> … An arbitrary string used for the description. It will be displayed at the bottom of the screen, etc.</p></li>
+<li><p><strong>bubbles_help</strong> … Arbitrary string used for bubbles pop-up help.</p></li>
+<li><p><strong>options</strong> … One to multiple option selections in an array of objects. Must be an array even if there is only one option.</p></li>
+</ul>
+<p>File paths in the command must be enclosed in quotation marks at the end. ( Characters assigned to variables {i} and {o} include quotation marks, so they are unnecessary. )</p>
+</section>
+<section id="command-variables">
+<span id="id-export-addons-command-vars-en"></span><h3>Command variables<a class="headerlink" href="#command-variables" title="Permalink to this headline"></a></h3>
+<p>The following variables are allowed in <strong>command</strong>.</p>
+<ul class="simple">
+<li><p><strong>{i}</strong> … The input filename is assigned. The full path string, enclosed in quotation marks.</p></li>
+<li><p><strong>{o}</strong> … The output filename is substituted. The full path string, enclosed in quotation marks. The input filename extension is replaced by the one specified in the <strong>output_extension</strong> option.</p></li>
+<li><p><strong>{basename}</strong> … Only the filename without extension is substituted.</p></li>
+<li><p><strong>{addondir}</strong> … The full path to the selected add-on will be substituted.</p></li>
+<li><p><strong>{exportdir}</strong> … The full path of the destination folder will be assigned.</p></li>
+</ul>
+</section>
+<section id="precaution">
+<h3>Precaution<a class="headerlink" href="#precaution" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Please note that only single-byte alphanumeric characters and some symbols are displayed on the application.</p></li>
+<li><p>Add-ons are loaded when Lovely Composer is launched. If you want to update the add-ons and reload them, please restart the application.</p></li>
+<li><p>File paths must be enclosed in quotation marks at the end or they will not work properly. If you use <strong>basename</strong>, <strong>addondir</strong>, etc., please put them in quotes.</p></li>
+<li><p>Details of the error will be output to a log file. Open the <strong>/PROGRAM DIR/log/app_log.log</strong> file by opening it with a text editor. The log will be written to text when the application is terminated.</p></li>
+<li><p>Please also refer to the sample add-ons included in the package.</p></li>
+<li><p>We do not provide any support for each of the included add-ons (we are not responsible for any disadvantages or obligated to improve them). The developer of each add-on also assumes no obligation for any support or liability for any disadvantage.</p></li>
+</ul>
+</section>
 </section>
 </section>
 

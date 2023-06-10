@@ -1004,6 +1004,17 @@ You must have one configuration text file like the sample below in your add-ons 
 
 File paths in the command must be enclosed in quotation marks at the end. ( Characters assigned to variables {i} and {o} include quotation marks, so they are unnecessary. )
 
+Option
+-------------------------------------
+
+* **name** ... Arbitrary string for option name.
+* **command** ... Specifies the command line to execute. Variables can be used (see below). * If you specify the name of the executable file without the extension, a file with .exe appended will be called on Windows, and a file without the extension will be called on Linux.
+* **input_type** ... Select the format of the input file. **audio / midi / raw / origin** Specify one of the following as a string. **origin** is the Lovely Composer's song data format itself, and **raw** is the rhythm pattern expanded into notes and added to it. It is generated with the settings selected on the export screen and used as the input file.
+* **input_audio_format** ... Valid only if **audio** is specified in **input_type**. Specify one of **wav / flac / mp3 / ogg / opus** as a string. Not required.
+* **output_extension** ... Specify the extension of the output file as a string. No period is required.
+
+The file path in the command must be enclosed in quotation marks at the end. (Strings assigned to the variables {i} and {o} need not be enclosed, since they are quoted from the beginning.)
+
 
 .. _id_export_addons_command_vars_en:
 

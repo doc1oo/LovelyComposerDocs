@@ -109,6 +109,7 @@
 <li><a class="reference internal" href="#export-add-ons-ver-1-3-3">Export Add-ons (ver.1.3.3 - )</a><ul>
 <li><a class="reference internal" href="#folder-structure">Folder Structure</a></li>
 <li><a class="reference internal" href="#about-the-configuration-file">About the configuration file</a></li>
+<li><a class="reference internal" href="#option">Option</a></li>
 <li><a class="reference internal" href="#command-variables">Command variables</a></li>
 <li><a class="reference internal" href="#precaution">Precaution</a></li>
 </ul>
@@ -942,6 +943,17 @@ Add-ons are located at <strong>/user document folder/LovelyComposer/addon/export
 <li><p><strong>options</strong> … One to multiple option selections in an array of objects. Must be an array even if there is only one option.</p></li>
 </ul>
 <p>File paths in the command must be enclosed in quotation marks at the end. ( Characters assigned to variables {i} and {o} include quotation marks, so they are unnecessary. )</p>
+</section>
+<section id="option">
+<h3>Option<a class="headerlink" href="#option" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p><strong>name</strong> … Arbitrary string for option name.</p></li>
+<li><p><strong>command</strong> … Specifies the command line to execute. Variables can be used (see below). * If you specify the name of the executable file without the extension, a file with .exe appended will be called on Windows, and a file without the extension will be called on Linux.</p></li>
+<li><p><strong>input_type</strong> … Select the format of the input file. <strong>audio / midi / raw / origin</strong> Specify one of the following as a string. <strong>origin</strong> is the Lovely Composer’s song data format itself, and <strong>raw</strong> is the rhythm pattern expanded into notes and added to it. It is generated with the settings selected on the export screen and used as the input file.</p></li>
+<li><p><strong>input_audio_format</strong> … Valid only if <strong>audio</strong> is specified in <strong>input_type</strong>. Specify one of <strong>wav / flac / mp3 / ogg / opus</strong> as a string. Not required.</p></li>
+<li><p><strong>output_extension</strong> … Specify the extension of the output file as a string. No period is required.</p></li>
+</ul>
+<p>The file path in the command must be enclosed in quotation marks at the end. (Strings assigned to the variables {i} and {o} need not be enclosed, since they are quoted from the beginning.)</p>
 </section>
 <section id="command-variables">
 <span id="id-export-addons-command-vars-en"></span><h3>Command variables<a class="headerlink" href="#command-variables" title="Permalink to this headline"></a></h3>

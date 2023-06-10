@@ -826,6 +826,7 @@ Shortcut Keys
 **General operation**
 
 * Save file ... Ctrl + S
+* Export file ... Ctrl + E
 * Undo ... Ctrl + Z
 * Redo ... Ctrl + Y
 * Copy ... Ctrl + C
@@ -837,7 +838,6 @@ Shortcut Keys
 * Full screen ... Alt + Enter
 * Open online manual of current screen … F1  (ver.1.2.6 or later)
 * Open user guide … F2  (ver.1.2.6 or later)
-* Exit application ... F10
 
 
 .. _id_gamepad_button_layouts_en:

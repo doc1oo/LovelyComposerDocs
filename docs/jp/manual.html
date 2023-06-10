@@ -85,6 +85,8 @@
 <li><a class="reference internal" href="#id38">共通設定</a></li>
 <li><a class="reference internal" href="#wave">Wave出力</a></li>
 <li><a class="reference internal" href="#id39">MIDI出力</a></li>
+<li><a class="reference internal" href="#raw">RAW出力</a></li>
+<li><a class="reference internal" href="#addon">アドオン出力 (ADDON)</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#id40">環境設定ツール</a></li>
@@ -104,7 +106,9 @@
 <li><a class="reference internal" href="#id51">エクスポートアドオン</a><ul>
 <li><a class="reference internal" href="#id52">フォルダ構造</a></li>
 <li><a class="reference internal" href="#id53">設定ファイルについて</a></li>
-<li><a class="reference internal" href="#id54">注意点</a></li>
+<li><a class="reference internal" href="#id54">各オプションについて</a></li>
+<li><a class="reference internal" href="#id-export-addons-command-vars-jp">コマンド変数</a></li>
+<li><a class="reference internal" href="#id56">注意点</a></li>
 </ul>
 </li>
 </ul>
@@ -624,15 +628,19 @@
 </section>
 <section id="id-export-screen-jp">
 <span id="id37"></span><h1>エクスポート画面<a class="headerlink" href="#id-export-screen-jp" title="Permalink to this headline"></a></h1>
-<img alt="../_images/export_mode.png" src="../_images/export_mode.png" />
-<p>曲データを音声ファイルやMIDIファイルとして出力するための画面です。</p>
+<img alt="../_images/export_mode2.png" src="../_images/export_mode2.png" />
+<p>曲データを音声ファイルやMIDIファイル、その他の形式で出力するための画面です。</p>
 <section id="id38">
 <h2>共通設定<a class="headerlink" href="#id38" title="Permalink to this headline"></a></h2>
-<img alt="../_images/export_top_buttons.png" src="../_images/export_top_buttons.png" />
+<img alt="../_images/export_common_settings.png" src="../_images/export_common_settings.png" />
 <ul class="simple">
-<li><p><strong>ALL MUSIC / 1 MUSIC ボタン</strong> … 全曲をファイル出力するか、選択した1曲のみ出力するかを選びます。1 MUSICを選択した場合は、右の曲番号セレクタで対象の曲を選べるようになります。（初期値は作曲画面で選んでいた曲の番号となります。）</p></li>
+<li><p><strong>MUSIC - 1 / ALL ボタン</strong> … 全曲をファイル出力するか、選択した1曲のみ出力するかを選びます。1 MUSICを選択した場合は、右の曲番号セレクタで対象の曲を選べるようになります。（初期値は作曲画面で選んでいた曲の番号となります。）</p></li>
+<li><p><strong>TYPE</strong> … どの種類のファイルとして出力するかを選びます。種類によって画面下部のオプション設定項目が変わります。</p></li>
+<li><p><strong>FOLDER</strong> … エクスポート先のフォルダパスを指定します。左側のフォルダボタンを押すとフォルダ選択ダイアログが開きます。</p></li>
 <li><p><strong>フォルダオープンアイコン</strong> … エクスポート先フォルダをOS側のエクスプローラ等で開きます。</p></li>
 <li><p><strong>AUTOボタン</strong> … 有効時（カラー表示の場合）、エクスポート処理完了時に自動的にエクスポート先フォルダを開きます。</p></li>
+<li><p><strong>ON SAVEボタン</strong> … 有効時、エディット画面で手動セーブ操作をするとセーブ完了後に自動でエクスポートを行います。</p></li>
+<li><p><strong>EXPORTボタン</strong> … 現在の設定でファイル出力を実行します。</p></li>
 </ul>
 </section>
 <section id="wave">
@@ -671,6 +679,21 @@
 <li><p><strong>CONVERT</strong> … AUTOを指定した場合、連続した音符をつなぐ等の処理をしたMIDIデータを出力します。（デフォルト設定）　RAWの場合、Lovely Composerの生データをそのままMIDIデータに置き変えて出力します。</p></li>
 </ul>
 </li>
+</ul>
+</section>
+<section id="raw">
+<h2>RAW出力<a class="headerlink" href="#raw" title="Permalink to this headline"></a></h2>
+<p>Lovely Composer形式のjsonlデータで、かつリズムパターンの音を音符データとして展開したものを出力します。</p>
+</section>
+<section id="addon">
+<h2>アドオン出力 (ADDON)<a class="headerlink" href="#addon" title="Permalink to this headline"></a></h2>
+<img alt="../_images/export_mode_addon_option.png" src="../_images/export_mode_addon_option.png" />
+<p>外部拡張アドオンを呼び出して変換します。アドオンの設置場所は <strong>/ユーザードキュメントフォルダ/LovelyComposer/addon/export/</strong> となります。アドオンは <a class="reference internal" href="#id-addons-jp"><span class="std std-ref">自作することもできます。</span></a></p>
+<ul class="simple">
+<li><p><strong>ADDON</strong> … 左側のリストボックスでアドオンを選択します。右側のリストボックスでアドオンごとに用意された変換オプションを選択します。</p></li>
+<li><p><strong>INPUT</strong> … アドオンの入力ファイルに使われるファイル種類を選択します。アドオン側で入力ファイルが指定されている場合はユーザは選択不可になります。入力ファイルはアドオン実行の直前に現在のエクスポート設定で生成されます。</p></li>
+<li><p><strong>FILENAME</strong> … 出力ファイル名を選択します。 <strong>F.NAME</strong> は曲データに設定されたファイル名（設定されてない場合は曲番号）、 <strong>No_F.N</strong> は曲番号とファイル名をアンダーバーでつないだもの、 <strong>No.</strong> は曲番号のみになります。</p></li>
+<li><p><strong>COMMAND</strong> … 最終的に実行されるコマンドが表示されます。コマンドは直接書き換えることもできます。入力ファイル名等の <a class="reference internal" href="#id-export-addons-command-vars-jp"><span class="std std-ref">変数</span></a> が利用できます。</p></li>
 </ul>
 </section>
 </section>
@@ -739,6 +762,7 @@
 <p><strong>一般的な操作</strong></p>
 <ul class="simple">
 <li><p>ファイルの保存 … Ctrl + S</p></li>
+<li><p>エクスポート … Ctrl + E</p></li>
 <li><p>アンドゥ (元に戻す) … Ctrl + Z</p></li>
 <li><p>リドゥ (進む) … Ctrl + Y</p></li>
 <li><p>コピー … Ctrl + C</p></li>
@@ -750,7 +774,6 @@
 <li><p>フルスクリーン化 … Alt + Enter</p></li>
 <li><p>現在画面の説明書をブラウザ表示 … F1 　(ver.1.2.6以降)</p></li>
 <li><p>公式ガイドをブラウザ表示 … F2 　(ver.1.2.6以降)</p></li>
-<li><p>アプリケーションの終了 … F10</p></li>
 </ul>
 <p><strong>作曲画面</strong></p>
 <ul class="simple">
@@ -845,7 +868,7 @@
 <span id="id50"></span><h1>アドオンについて<a class="headerlink" href="#id-addons-jp" title="Permalink to this headline"></a></h1>
 <section id="id51">
 <h2>エクスポートアドオン<a class="headerlink" href="#id51" title="Permalink to this headline"></a></h2>
-<img alt="../_images/export_addon_screen.png" src="../_images/export_addon_screen.png" />
+<img alt="../_images/export_mode_addon_option.png" src="../_images/export_mode_addon_option.png" />
 <p>ユーザ側で用意した変換プログラム等をエクスポート時に自動で呼び出して実行するしくみです。
 コマンドラインで実行ファイルやスクリプトに引数を渡して実行します。
 ゲーム制作等に活用でき、少しの作業で自作することもできます。</p>
@@ -868,7 +891,9 @@
 <li><p><strong>bubbles_help</strong> … 吹き出しヘルプに使われる任意の文字列です。</p></li>
 <li><p><strong>options</strong> … 1つから複数のオプション選択項目をオブジェクトの配列で設定します。オプションが1つの場合でも配列である必要があります。</p></li>
 </ul>
-<p>各オプションについて</p>
+</section>
+<section id="id54">
+<h3>各オプションについて<a class="headerlink" href="#id54" title="Permalink to this headline"></a></h3>
 <ul class="simple">
 <li><p><strong>name</strong> … オプション名の任意の文字列です。</p></li>
 <li><p><strong>command</strong> … 実行するコマンドラインを指定します。変数が使用できます（後述）。※ 拡張子を除いた実行ファイル名を指定するとWindowsの場合は.exeを追加したファイルが呼ばれ、Linuxの場合は拡張子なしのファイルが呼ばれます</p></li>
@@ -876,6 +901,9 @@
 <li><p><strong>input_audio_format</strong> … <strong>input_type</strong> で <strong>audio</strong> を指定した場合のみ有効な項目で、 <strong>wav / flac / mp3 / ogg / opus</strong> のいずれかを文字列で指定します。必須ではありません。</p></li>
 <li><p><strong>output_extension</strong> … 出力ファイルの拡張子を文字列で指定します。ピリオドは不要です。</p></li>
 </ul>
+</section>
+<section id="id-export-addons-command-vars-jp">
+<span id="id55"></span><h3>コマンド変数<a class="headerlink" href="#id-export-addons-command-vars-jp" title="Permalink to this headline"></a></h3>
 <p><strong>command</strong> には以下の変数が使用できます。</p>
 <ul class="simple">
 <li><p><strong>{i}</strong> … 入力ファイル名が代入されます。引用符で囲まれたフルパス文字列です。</p></li>
@@ -885,14 +913,15 @@
 <li><p><strong>{exportdir}</strong> … エクスポート先のフォルダパスがフルパスで代入されます。</p></li>
 </ul>
 </section>
-<section id="id54">
-<h3>注意点<a class="headerlink" href="#id54" title="Permalink to this headline"></a></h3>
+<section id="id56">
+<h3>注意点<a class="headerlink" href="#id56" title="Permalink to this headline"></a></h3>
 <ul class="simple">
 <li><p>文字列についてはアプリケーション上では半角英数と一部記号しか表示されませんのでご注意ください。</p></li>
 <li><p>アドオンはLovely Composer起動時に読み込まれます。アドオンの内容を更新して再読み込みしたい場合は再起動してください。</p></li>
 <li><p>ファイルパスは最終的に引用符で囲まないと正常に動作しません。 <strong>basename</strong> や <strong>addondir</strong> などを使う場合は引用符で囲んでご使用ください。</p></li>
 <li><p>エラー内容の詳細はログファイルに出力されます。 <strong>/プログラムフォルダ/log/app_log.log</strong> をテキストエディタで開いて参照してください。ログはアプリ終了時にテキストに書き出されます。</p></li>
-<li><p>サンプルアドオンの内容も参考にしてください。</p></li>
+<li><p>同梱されているサンプルアドオンの内容も参考にしてください。</p></li>
+<li><p>同梱の各アドオンについてはサポートをいっさい行いません（いかなる不利益の責任も改善の義務も負いません）。また各アドオンの開発者もいかなるサポートの義務や不利益の責任もいっさい負いません。</p></li>
 </ul>
 </section>
 </section>

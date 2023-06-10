@@ -98,7 +98,17 @@
 </ul>
 </li>
 <li><a class="reference internal" href="#id-shortcut-keys-jp">ショートカットキー</a></li>
-<li><a class="reference internal" href="#id48">仕様</a></li>
+<li><a class="reference internal" href="#id-gamepad-button-layouts-jp">ゲームコントローラー　ボタン配置</a></li>
+<li><a class="reference internal" href="#id49">仕様</a></li>
+<li><a class="reference internal" href="#id-addons-jp">アドオンについて</a><ul>
+<li><a class="reference internal" href="#id51">エクスポートアドオン</a><ul>
+<li><a class="reference internal" href="#id52">フォルダ構造</a></li>
+<li><a class="reference internal" href="#id53">設定ファイルについて</a></li>
+<li><a class="reference internal" href="#id54">注意点</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
         </div>
@@ -792,8 +802,28 @@
 <li><p>ファイルの書き込み禁止設定 … Ctrl + Alt + L</p></li>
 </ul>
 </section>
-<section id="id48">
-<h1>仕様<a class="headerlink" href="#id48" title="Permalink to this headline"></a></h1>
+<section id="id-gamepad-button-layouts-jp">
+<span id="id48"></span><h1>ゲームコントローラー　ボタン配置<a class="headerlink" href="#id-gamepad-button-layouts-jp" title="Permalink to this headline"></a></h1>
+<ul class="simple">
+<li><p><strong>十字キー/左アナログスティック</strong> …… カーソルを移動します。 デフォルトの速度はシステム設定で変更できます。</p></li>
+<li><p><strong>A</strong> …… 左クリック</p></li>
+<li><p><strong>B</strong> …… 右クリック</p></li>
+<li><p><strong>X</strong> …… シフトキー（※ 他のボタンと組み合わせて使用します）</p></li>
+<li><p><strong>Y</strong> …… 曲の再生/停止</p></li>
+<li><p><strong>L1/R1</strong> …… ページ移動</p></li>
+<li><p><strong>L2/R2</strong> …… 押している間のカーソル速度を変更します。 ※音程を正確に入力したい場合は、R2を押しながら入力すると入力を間違えにくくなります。</p></li>
+<li><p><strong>X + Y</strong> …… ページループのオン/オフ</p></li>
+<li><p><strong>X + (L / R)</strong> …… アンドゥ/リドゥ</p></li>
+<li><p><strong>X+(左/右)</strong> …… パーツ選択</p></li>
+<li><p><strong>X+(上/下)</strong> …… ツール選択</p></li>
+<li><p><strong>SELECT + (L/R)</strong> …… 曲の選択</p></li>
+<li><p><strong>SELECT + (X / Y)</strong> …… 編集モード（ノート/ボリューム/パン）を選択</p></li>
+<li><p><strong>SELECT + START + L + R</strong> …… アプリを終了する</p></li>
+<li><p><strong>SELECT + START + X + Y</strong> …… すべてのユーザー設定を初期化します</p></li>
+</ul>
+</section>
+<section id="id49">
+<h1>仕様<a class="headerlink" href="#id49" title="Permalink to this headline"></a></h1>
 <ul class="simple">
 <li><p>パート数:  ユーザー 4パート + コード・リズムパターン　（音色は1音ごとに変更可能）</p></li>
 <li><p>曲の長さ:  32音符 x 256ページ分　(最大1024小節)</p></li>
@@ -810,6 +840,62 @@
 <li><p>古いバージョンで作成したデータは新しいバージョンで開けますが、逆の場合は開けません。（例えばver.1.0系で作成した曲データは、ver.1.1系で同じように読み取ることができます。ただし逆に、1.1で作成されたデータを1.0で開くことはできません。）</p></li>
 <li><p>データ仕様に変更が入ると、2番目のバージョン番号（1.x.0）が変わります。データ仕様に変更が入らないアップデートでは、末尾のバージョン番号が変わります。(1.1.x など)</p></li>
 </ul>
+</section>
+<section id="id-addons-jp">
+<span id="id50"></span><h1>アドオンについて<a class="headerlink" href="#id-addons-jp" title="Permalink to this headline"></a></h1>
+<section id="id51">
+<h2>エクスポートアドオン<a class="headerlink" href="#id51" title="Permalink to this headline"></a></h2>
+<img alt="../_images/export_addon_screen.png" src="../_images/export_addon_screen.png" />
+<p>ユーザ側で用意した変換プログラム等をエクスポート時に自動で呼び出して実行するしくみです。
+コマンドラインで実行ファイルやスクリプトに引数を渡して実行します。
+ゲーム制作等に活用でき、少しの作業で自作することもできます。</p>
+<section id="id52">
+<h3>フォルダ構造<a class="headerlink" href="#id52" title="Permalink to this headline"></a></h3>
+<p>アドオンは設定ファイルと実行ファイルやスクリプトを1つのフォルダにまとめたものです。
+アドオンの設置場所は <strong>/ユーザードキュメントフォルダ/LovelyComposer/addon/export/</strong> となります。</p>
+<img alt="../_images/export_addon_directory.png" src="../_images/export_addon_directory.png" />
+<p>各フォルダが1つのアドオンに対応します。</p>
+<img alt="../_images/export_addon_spec_directory.png" src="../_images/export_addon_spec_directory.png" />
+</section>
+<section id="id53">
+<h3>設定ファイルについて<a class="headerlink" href="#id53" title="Permalink to this headline"></a></h3>
+<p>以下のサンプルのような設定テキストファイルを <strong>config.json</strong> という名前でアドオンフォルダに1つ用意する必要があります。</p>
+<img alt="../_images/export_addon_config_example.png" src="../_images/export_addon_config_example.png" />
+<ul class="simple">
+<li><p><strong>addon_name</strong> … アドオン名を表す任意の文字列です。（ver.1.3.3時点ではアプリ上で表示されません）</p></li>
+<li><p><strong>version</strong> … バージョンを表す任意の文字列でです。（ver.1.3.3時点ではアプリ上で表示されません）</p></li>
+<li><p><strong>help</strong> … 説明文に使われる任意の文字列です。画面下などに表示されます。</p></li>
+<li><p><strong>bubbles_help</strong> … 吹き出しヘルプに使われる任意の文字列です。</p></li>
+<li><p><strong>options</strong> … 1つから複数のオプション選択項目をオブジェクトの配列で設定します。オプションが1つの場合でも配列である必要があります。</p></li>
+</ul>
+<p>各オプションについて</p>
+<ul class="simple">
+<li><p><strong>name</strong> … オプション名の任意の文字列です。</p></li>
+<li><p><strong>command</strong> … 実行するコマンドラインを指定します。変数が使用できます（後述）。※ 拡張子を除いた実行ファイル名を指定するとWindowsの場合は.exeを追加したファイルが呼ばれ、Linuxの場合は拡張子なしのファイルが呼ばれます</p></li>
+<li><p><strong>input_type</strong> … 入力ファイルの形式を選択します。 <strong>audio / midi / raw / origin</strong> のいずれかを文字列で指定します。 <strong>origin</strong> はラブリーコンポーザの曲データ形式そのもので、 <strong>raw</strong> はそれに加えてリズムパターンを音符に展開して追加したものです。エクスポート画面で選択された設定で生成し、それを入力ファイルとして使用します。</p></li>
+<li><p><strong>input_audio_format</strong> … <strong>input_type</strong> で <strong>audio</strong> を指定した場合のみ有効な項目で、 <strong>wav / flac / mp3 / ogg / opus</strong> のいずれかを文字列で指定します。必須ではありません。</p></li>
+<li><p><strong>output_extension</strong> … 出力ファイルの拡張子を文字列で指定します。ピリオドは不要です。</p></li>
+</ul>
+<p><strong>command</strong> には以下の変数が使用できます。</p>
+<ul class="simple">
+<li><p><strong>{i}</strong> … 入力ファイル名が代入されます。引用符で囲まれたフルパス文字列です。</p></li>
+<li><p><strong>{o}</strong> … 出力ファイル名が代入されます。引用符で囲まれたフルパス文字列です。入力ファイル名の拡張子をオプションの <strong>output_extension</strong> で指定したものに置き換えたものになります。</p></li>
+<li><p><strong>{basename}</strong> … 拡張子を除いたファイル名のみが代入されます。</p></li>
+<li><p><strong>{addondir}</strong> … 選択されたアドオンまでのフォルダパスがフルパスで代入されます。</p></li>
+<li><p><strong>{exportdir}</strong> … エクスポート先のフォルダパスがフルパスで代入されます。</p></li>
+</ul>
+</section>
+<section id="id54">
+<h3>注意点<a class="headerlink" href="#id54" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>文字列についてはアプリケーション上では半角英数と一部記号しか表示されませんのでご注意ください。</p></li>
+<li><p>アドオンはLovely Composer起動時に読み込まれます。アドオンの内容を更新して再読み込みしたい場合は再起動してください。</p></li>
+<li><p>ファイルパスは最終的に引用符で囲まないと正常に動作しません。 <strong>basename</strong> や <strong>addondir</strong> などを使う場合は引用符で囲んでご使用ください。</p></li>
+<li><p>エラー内容の詳細はログファイルに出力されます。 <strong>/プログラムフォルダ/log/app_log.log</strong> をテキストエディタで開いて参照してください。ログはアプリ終了時にテキストに書き出されます。</p></li>
+<li><p>サンプルアドオンの内容も参考にしてください。</p></li>
+</ul>
+</section>
+</section>
 </section>
 
 

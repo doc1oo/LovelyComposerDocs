@@ -840,6 +840,28 @@ Shortcut Keys
 * Exit application ... F10
 
 
+.. _id_gamepad_button_layouts_en:
+
+Gamepad Button Layouts
+##############################################################
+
+* **D-pad / Left analog stick**  ......  Move the cursor. The default speed can be changed in system settings.
+* **A**  ......  Left click
+* **B**  ......  Right click
+* **X**  ......  Shift key (used in combination with other buttons)
+* **Y**  ......  Play/stop song
+* **L1/R1**  ......  Move page
+* **L2/R2**  ......  Change cursor speed while pressing. When you want to input the pitch accurately, it is less likely to make a mistake while pressing R2.
+* **X + Y**  ......  page loop on/off
+* **X + (L / R)**  ......  Undo/Redo
+* **X + (left / right)**  ......  Part selection
+* **X + (up / down)**  ......  Tool selection
+* **SELECT + (L / R)**  ......  Song selection
+* **SELECT + (X / Y)**   ......  select edit mode (note/volume/pan)
+* **SELECT + START + L + R**  ......  Quit the app
+* **SELECT + START + X + Y**  ......  Initialize all user settings
+
+
 **Music edit screen**
 
 * Play / Stop ... Space
@@ -909,4 +931,11 @@ Detailed specifications
 * Data created in the old version can be opened in the new version, but not the other way around. (For example, music data created in ver.1.0 series can be read in the same way in ver.1.1 series. However, conversely, data created in 1.1 cannot be opened in 1.0.)
 * Musics created in Pro mode will play in the same way even when Pro mode is OFF.
 * If the data specifications change, the second version number (1.x.0) will change. For updates that do not change the data specifications, the version number at the end will change. (1.1.x etc.)
+
+
+Add-ons
+###################################################################
+
+Export Add-ons
+================================================
 

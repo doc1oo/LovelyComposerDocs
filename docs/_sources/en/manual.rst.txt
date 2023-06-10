@@ -973,7 +973,7 @@ Export Add-ons (ver.1.3.3 - )
 
 .. image:: ../img/export_mode_addon_option.png
 
-A system is provided to automatically execute a user-prepared conversion program by calling it at export time.
+A system is provided to automatically execute a user-prepared file convert program by calling it at export time.
 The program is executed by passing arguments to an executable file or script on the command line.
 It can be used for game production, etc., and can also be created by the user with a little work.
 

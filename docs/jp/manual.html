@@ -844,6 +844,8 @@
 <li><p><strong>SELECT + START + L + R</strong> …… アプリを終了する</p></li>
 <li><p><strong>SELECT + START + X + Y</strong> …… すべてのユーザー設定を初期化します</p></li>
 </ul>
+<p>ABXYボタンの配置は設定で左右切り替え可能です。</p>
+<p>コントローラーの設定を誤って何も操作できなくなった場合には、マウスをつないで設定し直すか、設定を初期化してください。</p>
 </section>
 <section id="id48">
 <h1>仕様<a class="headerlink" href="#id48" title="Permalink to this headline"></a></h1>
@@ -901,6 +903,7 @@
 <li><p><strong>input_audio_format</strong> … <strong>input_type</strong> で <strong>audio</strong> を指定した場合のみ有効な項目で、 <strong>wav / flac / mp3 / ogg / opus</strong> のいずれかを文字列で指定します。必須ではありません。</p></li>
 <li><p><strong>output_extension</strong> … 出力ファイルの拡張子を文字列で指定します。ピリオドは不要です。</p></li>
 </ul>
+<p>コマンド中のファイルパスは最終的に引用符で囲まれる必要があります。</p>
 </section>
 <section id="id-export-addons-command-vars-jp">
 <span id="id53"></span><h3>コマンド変数<a class="headerlink" href="#id-export-addons-command-vars-jp" title="Permalink to this headline"></a></h3>
@@ -921,7 +924,7 @@
 <li><p>ファイルパスは最終的に引用符で囲まないと正常に動作しません。 <strong>basename</strong> や <strong>addondir</strong> などを使う場合は引用符で囲んでご使用ください。</p></li>
 <li><p>エラー内容の詳細はログファイルに出力されます。 <strong>/プログラムフォルダ/log/app_log.log</strong> をテキストエディタで開いて参照してください。ログはアプリ終了時にテキストに書き出されます。</p></li>
 <li><p>同梱されているサンプルアドオンの内容も参考にしてください。</p></li>
-<li><p>同梱の各アドオンについてはサポートをいっさい行いません（いかなる不利益の責任も改善の義務も負いません）。また各アドオンの開発者もいかなるサポートの義務や不利益の責任もいっさい負いません。</p></li>
+<li><p>同梱の各アドオンについてはサポートを一切行いません（いかなる不利益の責任も改善の義務も負いません）。また各アドオンの開発者もいかなるサポートの義務や不利益の責任も一切負いません。</p></li>
 </ul>
 </section>
 </section>

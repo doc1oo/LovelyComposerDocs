@@ -840,26 +840,6 @@ Shortcut Keys
 * Open user guide … F2  (ver.1.2.6 or later)
 
 
-.. _id_gamepad_button_layouts_en:
-
-Gamepad Button Layouts
-##############################################################
-
-* **D-pad / Left analog stick**  ......  Move the cursor. The default speed can be changed in system settings.
-* **A**  ......  Left click
-* **B**  ......  Right click
-* **X**  ......  Shift key (used in combination with other buttons)
-* **Y**  ......  Play/stop song
-* **L1/R1**  ......  Move page
-* **L2/R2**  ......  Change cursor speed while pressing. When you want to input the pitch accurately, it is less likely to make a mistake while pressing R2.
-* **X + Y**  ......  page loop on/off
-* **X + (L / R)**  ......  Undo/Redo
-* **X + (left / right)**  ......  Part selection
-* **X + (up / down)**  ......  Tool selection
-* **SELECT + (L / R)**  ......  Song selection
-* **SELECT + (X / Y)**   ......  select edit mode (note/volume/pan)
-* **SELECT + START + L + R**  ......  Quit the app
-* **SELECT + START + X + Y**  ......  Initialize all user settings
 
 
 **Music edit screen**
@@ -910,6 +890,32 @@ Gamepad Button Layouts
 * File write protection setting ... Ctrl + Alt + L
 
 
+.. _id_gamepad_button_layouts_en:
+
+Gamepad Button Layouts
+##############################################################
+
+* **D-pad / Left analog stick**  ......  Move the cursor. The default speed can be changed in system settings.
+* **A**  ......  Left click
+* **B**  ......  Right click
+* **X**  ......  Shift key (used in combination with other buttons)
+* **Y**  ......  Play/stop song
+* **L1/R1**  ......  Move page
+* **L2/R2**  ......  Change cursor speed while pressing. When you want to input the pitch accurately, it is less likely to make a mistake while pressing R2.
+* **X + Y**  ......  page loop on/off
+* **X + (L / R)**  ......  Undo/Redo
+* **X + (left / right)**  ......  Part selection
+* **X + (up / down)**  ......  Tool selection
+* **SELECT + (L / R)**  ......  Song selection
+* **SELECT + (X / Y)**   ......  select edit mode (note/volume/pan)
+* **SELECT + START + L + R**  ......  Quit the app
+* **SELECT + START + X + Y**  ......  Initialize all user settings
+
+The ABXY button layout can be switched between left and right.
+
+If you can't operate anything because of bad controller settings, please connect mouse and reset settings, or press gamepads initialize key.
+
+
 Specification
 ###################################################################
 
@@ -936,6 +942,6 @@ Detailed specifications
 Add-ons
 ###################################################################
 
-Export Add-ons
+Export Add-ons (ver.1.3.3 - )
 ================================================
 

@@ -757,12 +757,12 @@ RAW export
 Outputs jsonl data in Lovely Composer format with the notes of the rhythm pattern expanded as note data.
 
 
-Add-On Output (1.3.3 - )
+Add-Ons Output (1.3.3 - )
 ==============================================================
 
 .. image:: ../img/export_mode_addon_option.png
 
-Calls an external extension addon to convert it. The location of the addon is **/USER DOCUMENT DIR/LovelyComposer/addon/export/**. You can also create your own :ref:`addon. <id_addons_en>` 
+Calls an external extension add-on to convert it. The location of the add-on is **/USER DOCUMENT DIR/LovelyComposer/addon/export/**. You can also create your own :ref:`add-ons. <id_addons_en>` 
 
 * **ADDON** ... Select an addon in the list box on the left. Select the conversion option provided for each add-on in the list box on the right.
 * **INPUT** ... Select the file type used for the add-on's input file. If the input file is specified on the add-on side, the user will not be able to select it. The input file will be generated with the current export settings just before the add-on is executed.
